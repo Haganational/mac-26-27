@@ -73,7 +73,7 @@ Surfer Sid was born on Oahu to a Samoan-Hawaiian family, moved to Wrightsville B
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -91,3 +91,4 @@ Surfer Sid was born on Oahu to a Samoan-Hawaiian family, moved to Wrightsville B
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/caa/games/401920847.html <!-- post:401920847:preview -->
 - 2026-11-26: W 86-77 vs St. Thomas Tommies. Barometer 70 (buoyant). <!-- g:401920847 -->
 - 2026-11-26: Social recap posted (W 86-77 vs St. Thomas Tommies): https://hardwoodbricks.com/caa/games/401920847.html <!-- post:401920847:recap -->
+- 2026-11-26: Social preview posted: https://hardwoodbricks.com/ivy/games/401924738.html <!-- post:401924738:preview -->

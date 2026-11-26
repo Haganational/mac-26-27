@@ -2402,21 +2402,21 @@
     "key": "colorado-state",
     "name": "Colorado State Rams",
     "abbr": "CSU",
-    "score": 72,
-    "winner": null
+    "score": 77,
+    "winner": true
    },
    "away": {
     "espn_id": "228",
     "key": null,
     "name": "Clemson Tigers",
     "abbr": "CLEM",
-    "score": 70,
-    "winner": null
+    "score": 75,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:23 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920528",
@@ -8384,5 +8384,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T07:37:50+00:00"
+ "live_at": "2026-11-26T08:09:26+00:00"
 }

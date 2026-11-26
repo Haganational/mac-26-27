@@ -73,7 +73,7 @@ Terrence Mabry welded beams in a Birmingham fabrication shop for twelve years, l
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -90,3 +90,4 @@ Terrence Mabry welded beams in a Birmingham fabrication shop for twelve years, l
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/a10/games/401919020.html <!-- post:401919020:preview -->
 - 2026-11-23: L 64-79 vs (neutral) Rhode Island Rams. Barometer 52 (steady). <!-- g:401919020 -->
 - 2026-11-23: Social recap posted (L 64-79 vs Rhode Island Rams): https://hardwoodbricks.com/a10/games/401919020.html <!-- post:401919020:recap -->
+- 2026-11-26: Social preview posted: https://hardwoodbricks.com/american/games/401919021.html <!-- post:401919021:preview -->

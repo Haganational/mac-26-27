@@ -2729,21 +2729,21 @@
     "key": "hawaii",
     "name": "Hawai'i Rainbow Warriors",
     "abbr": "HAW",
-    "score": 72,
-    "winner": null
+    "score": 83,
+    "winner": true
    },
    "away": {
     "espn_id": "2916",
     "key": null,
     "name": "Incarnate Word Cardinals",
     "abbr": "UIW",
-    "score": 69,
-    "winner": null
+    "score": 81,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:06 - OT"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/OT"
   },
   {
    "game_id": "401911523",
@@ -9188,5 +9188,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T07:33:40+00:00"
+ "live_at": "2026-11-26T08:04:16+00:00"
 }

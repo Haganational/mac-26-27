@@ -68,7 +68,7 @@ Lacey Gaspard spent twenty years as the parish extension agent in Lincoln Parish
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -85,3 +85,4 @@ Lacey Gaspard spent twenty years as the parish extension agent in Lincoln Parish
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401925687.html <!-- post:401925687:preview -->
 - 2026-11-25: W 83-41 vs Alcorn State Braves. Barometer 68 (buoyant). <!-- g:401925687 -->
 - 2026-11-25: Social recap posted (W 83-41 vs Alcorn State Braves): https://hardwoodbricks.com/sunbelt/games/401925687.html <!-- post:401925687:recap -->
+- 2026-11-26: Social preview posted: https://hardwoodbricks.com/pac12/games/401928468.html <!-- post:401928468:preview -->

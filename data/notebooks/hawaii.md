@@ -27,9 +27,9 @@ Kaleo Kekoa grew up in Kaimuki, kept bees on his grandfather's lot in Manoa, and
 
 ## Barometer
 
-**48 of 100, steady.** Record 3-2 (0-0 in conference), streak L2, last five WWWLL.
+**54 of 100, steady.** Record 4-2 (0-0 in conference), streak W1, last five WWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Kaleo editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Kaleo editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Kaleo Kekoa grew up in Kaimuki, kept bees on his grandfather's lot in Manoa, and
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 3
+- Social posts on their games: 4
 
 ## Log
 
@@ -82,3 +82,5 @@ Kaleo Kekoa grew up in Kaimuki, kept bees on his grandfather's lot in Manoa, and
 - 2026-11-19: L 63-79 vs (neutral) Washington State Cougars. Barometer 48 (steady). <!-- g:401929004 -->
 - 2026-11-19: Social recap posted (L 63-79 vs Washington State Cougars): https://hardwoodbricks.com/mw/games/401929004.html <!-- post:401929004:recap -->
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/mw/games/401929005.html <!-- post:401929005:preview -->
+- 2026-11-26: W 83-81 vs Incarnate Word Cardinals. Barometer 54 (steady). <!-- g:401929005 -->
+- 2026-11-26: Social recap posted (W 83-81 vs Incarnate Word Cardinals): https://hardwoodbricks.com/mw/games/401929005.html <!-- post:401929005:recap -->
