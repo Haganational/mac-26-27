@@ -2985,7 +2985,7 @@
     "key": null,
     "name": "UTSA Roadrunners",
     "abbr": "UTSA",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -2993,13 +2993,13 @@
     "key": "army",
     "name": "Army Black Knights",
     "abbr": "ARMY",
-    "score": null,
+    "score": 33,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "6:54 - 1st"
   },
   {
    "game_id": "401921224",
@@ -9405,5 +9405,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-26T17:30:48+00:00"
 }
