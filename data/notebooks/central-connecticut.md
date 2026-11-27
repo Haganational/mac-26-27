@@ -67,7 +67,7 @@ Joe Pawlowski edits The New Britain Gazette and believes Central Connecticut is 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,4 @@ Joe Pawlowski edits The New Britain Gazette and believes Central Connecticut is 
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/nec/games/401925751.html <!-- post:401925751:preview -->
 - 2026-11-18: W 98-55 vs Vermont State Lyndon Hornets. Barometer 70 (buoyant). <!-- g:401925751 -->
 - 2026-11-18: Social recap posted (W 98-55 vs Vermont State Lyndon Hornets): https://hardwoodbricks.com/nec/games/401925751.html <!-- post:401925751:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/patriot/games/401921245.html <!-- post:401921245:preview -->

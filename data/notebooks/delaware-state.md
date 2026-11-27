@@ -70,7 +70,7 @@ Alicia Grant edits The Dover Register and brings small-state pride and a big per
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -87,3 +87,4 @@ Alicia Grant edits The Dover Register and brings small-state pride and a big per
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/socon/games/401920976.html <!-- post:401920976:preview -->
 - 2026-11-25: L 66-79 at Chattanooga Mocs. Barometer 38 (testy). <!-- g:401920976 -->
 - 2026-11-25: Social recap posted (L 66-79 vs Chattanooga Mocs): https://hardwoodbricks.com/socon/games/401920976.html <!-- post:401920976:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/caa/games/401921158.html <!-- post:401921158:preview -->

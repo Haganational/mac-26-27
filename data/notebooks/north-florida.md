@@ -71,7 +71,7 @@ Tyler Sato grew up in Atlantic Beach, the son of a Japanese-American surf shop o
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 10
+- Social posts on their games: 9
 
 ## Log
 

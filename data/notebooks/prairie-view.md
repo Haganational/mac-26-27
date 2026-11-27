@@ -65,7 +65,7 @@ Marcus Delane is a civil engineer who spent twenty years designing highway inter
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -80,3 +80,4 @@ Marcus Delane is a civil engineer who spent twenty years designing highway inter
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401920858.html <!-- post:401920858:preview -->
 - 2026-11-25: L 58-64 at Marshall Thundering Herd. Barometer 21 (despondent). <!-- g:401920858 -->
 - 2026-11-25: Social recap posted (L 58-64 vs Marshall Thundering Herd): https://hardwoodbricks.com/sunbelt/games/401920858.html <!-- post:401920858:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/swac/games/401920728.html <!-- post:401920728:preview -->

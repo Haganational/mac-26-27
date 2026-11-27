@@ -70,7 +70,7 @@ Craig Halvorsen grew up in Louisville's Germantown, the son of a church organist
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 11
+- Social posts on their games: 10
 
 ## Log
 

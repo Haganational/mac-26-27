@@ -69,7 +69,7 @@ Jalen Pierce edits The High Point Examiner and reviews Panthers basketball like 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,4 @@ Jalen Pierce edits The High Point Examiner and reviews Panthers basketball like 
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/a10/games/401920414.html <!-- post:401920414:preview -->
 - 2026-11-25: W 75-70 vs (neutral) Duquesne Dukes. Barometer 86 (giddy). <!-- g:401920414 -->
 - 2026-11-25: Social recap posted (W 75-70 vs Duquesne Dukes): https://hardwoodbricks.com/a10/games/401920414.html <!-- post:401920414:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/socon/games/401920415.html <!-- post:401920415:preview -->

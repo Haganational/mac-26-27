@@ -2521,21 +2521,21 @@
     "key": "gonzaga",
     "name": "Gonzaga Bulldogs",
     "abbr": "GONZ",
-    "score": 61,
-    "winner": null
+    "score": 72,
+    "winner": true
    },
    "away": {
     "espn_id": "239",
     "key": null,
     "name": "Baylor Bears",
     "abbr": "BAY",
-    "score": 41,
-    "winner": null
+    "score": 64,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:48 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401929181",
@@ -8411,5 +8411,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-27T06:29:19+00:00"
+ "live_at": "2026-11-27T06:56:37+00:00"
 }

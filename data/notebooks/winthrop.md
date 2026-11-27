@@ -69,7 +69,7 @@ Royce Bynum edits The Rock Hill Courant and treats every Winthrop game like Sund
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,4 @@ Royce Bynum edits The Rock Hill Courant and treats every Winthrop game like Sund
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/bigsouth/games/401913530.html <!-- post:401913530:preview -->
 - 2026-11-24: L 83-133 at Illinois Fighting Illini. Barometer 15 (despondent). <!-- g:401913530 -->
 - 2026-11-24: Social recap posted (L 83-133 vs Illinois Fighting Illini): https://hardwoodbricks.com/bigsouth/games/401913530.html <!-- post:401913530:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/bigsouth/games/401925710.html <!-- post:401925710:preview -->
