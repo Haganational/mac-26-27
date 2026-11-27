@@ -206,7 +206,7 @@ def episode(blocks: list[dict], watch: list[dict] | None, now: datetime) -> dict
     moved = atlarge_movers(watch, day) if watch else []
     if moved:
         segs.append({"kind": "bubble", "rows": moved, "text": "Bubble Watch. " + " ".join(_moved(m) for m in moved[:3])})
-    segs.append({"kind": "outro", "text": "That's The Big Mid. MidMaxx60 runs every morning, and every line, box score and rating "
+    segs.append({"kind": "outro", "text": "That's The Big Mid. Every line, box score and rating "
                  "is at Hardwood Bricks dot com. Keep it mid. Keep it real."})
     return {"date_iso": now.date().isoformat(), "span": span, "segments": segs,
             "words": sum(len(s["text"].split()) for s in segs)}

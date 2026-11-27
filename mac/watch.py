@@ -21,8 +21,8 @@ from .leagues import ALL as LEAGUES
 
 ET = ZoneInfo("America/New_York")
 SHOWS = [
-    {"key": "midmaxx60", "name": "MidMaxx60", "when": "Every morning", "length": "60 seconds",
-     "what": "Last night's results, tonight's lines and our model, read by the anchors of the schools that played."},
+    {"key": "shorts", "name": "Shorts", "when": "As released", "length": "Under a minute",
+     "what": "Cuts from our films and docs, and the stories from the towns we cover."},
     {"key": "bigmid", "name": "The Big Mid", "when": "Every week", "length": "About five minutes",
      "what": "The week in every conference we cover: the upset, the player of the week, the game to circle, and the At-Large Watch."},
 ]
@@ -37,7 +37,7 @@ SEGMENTS = [
 def playlists() -> dict[str, str]:
     """YouTube's own upload playlists for the channel: Shorts (UUSH...) and long videos (UULF...)."""
     cid = site_chrome.YOUTUBE_CHANNEL_ID
-    return {"midmaxx60": "UUSH" + cid[2:], "bigmid": "UULF" + cid[2:]} if cid else {}
+    return {"shorts": "UUSH" + cid[2:], "bigmid": "UULF" + cid[2:]} if cid else {}
 
 
 LATEST = SHARED_DIR / "youtube_latest.json"

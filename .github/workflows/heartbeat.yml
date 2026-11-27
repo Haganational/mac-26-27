@@ -6,8 +6,8 @@ name: Collector heartbeat
 # scores), starts collect.yml, and after ~5h40m starts a fresh copy
 # of itself before the 6-hour job limit. Runner minutes are free on a public repo.
 # The cron below only restarts the loop if it ever stops; the newest heartbeat
-# cancels any older one, so only one runs at a time. It also starts the daily
-# MidMaxx60 video at 13:00 UTC (8 a.m. Eastern), the social cards at 13:30 UTC, and Stories hourly.
+# cancels any older one, so only one runs at a time. It also starts the social cards at
+# 13:30 UTC and Stories hourly. (The daily MidMaxx60 video was discontinued Nov 26, 2026.)
 
 on:
   workflow_dispatch:
@@ -49,10 +49,6 @@ jobs:
             fi
             echo "tick $(date -u +%H:%M)"
             gh workflow run collect.yml --ref main -f mode=tick || echo "dispatch failed, will try next tick"
-            # MidMaxx60's own 8 a.m. ET cron is just as unreliable, so the heartbeat starts it too.
-            if [ "$(date -u +%H:%M)" = "13:00" ]; then
-              gh workflow run midmaxx60.yml --ref main || echo "MidMaxx60 dispatch failed"
-            fi
             # Stories (mac/stories.py) decide for themselves whether a slot or a new item is due.
             if [ "$(date -u +%M)" = "00" ]; then
               gh workflow run stories.yml --ref main -f now=false || echo "Stories dispatch failed"

@@ -40,8 +40,8 @@ import requests
 from . import alert
 from .reels import (GRAPH, PDS, REPO, THREADS, _facets, _ok, _wait, bsky_session, ig_auth, page_token, resolve)
 
-# No Threads here: Threads gets about one automated post a day (the MidMaxx60 video, mac/reels.py)
-# plus the pushes Matthew asks for (Matthew, Nov 20 2026). Add "threads" back to a route to resume.
+# No Threads here: Threads gets about one automated post a day plus the pushes Matthew asks for
+# (Matthew, Nov 20 2026). MidMaxx60 was that one post until it ended Nov 26, 2026. Add "threads" back to a route to resume.
 ROUTES = {
     "potn": ("instagram", "facebook", "bluesky"),
     "bricked": ("facebook", "bluesky"),

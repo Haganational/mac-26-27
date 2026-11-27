@@ -7,14 +7,14 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: "Release tag of the missed show, e.g. midmaxx60-2026-11-21"
+        description: "Release tag of the missed show, e.g. bigmid-2026-11-23"
         required: true
       run_id:
         description: "Optional: the run that rendered it (its artifact also carries the search tags)"
         required: false
       show:
         description: "midmaxx60 or bigmid"
-        default: midmaxx60
+        default: bigmid
 
 permissions:
   contents: read

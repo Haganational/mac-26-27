@@ -12,7 +12,7 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import bigmid, frontscore, tops, weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, local, model, moments, press, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, today, towns, travel, viz
+from . import bigmid, frontscore, tops, weekly, highlights, hub, nba_alumni, power, prep, preview_story, access, analysis, gamer, local, model, moments, press, player_pages, model_view, news, notes, oddsboard, ou_study, players, schedule_view, site_chrome, towns, travel, viz
 from .config import BY_KEY, DATA_DIR, HOME, SEARCH, SITE_BASE, HOME_PATH, LEAGUE, LEAGUES, SEASON_LABEL, SHARED_DIR, SITE_DIR, SITE_NOINDEX, SITE_URL, TEAMS, TEMPLATES_DIR
 from .espn import load_schedule
 from .odds import load_all_rows
@@ -399,7 +399,7 @@ def render_site() -> str:
     env.globals["site_up"] = "../" * LEAGUE.path.count("/")  # from an edition's root back to the site root (anchor pages live there)
     env.globals["bylines"] = bylines()  # masthead staff by name: a dispatch byline gets their face and a masthead link
     env.globals["edition_editor"] = edition_editor()  # the human editor featured on this edition's front page
-    env.globals.update(site_url=SITE_URL, noindex=SITE_NOINDEX, season=SEASON_LABEL, brand=site_chrome.BRAND, site_name=site_chrome.SITE_NAME, floor=site_chrome.FLOOR, twitch=site_chrome.TWITCH_CHANNEL, youtube=site_chrome.YOUTUBE_CHANNEL, youtube_shorts=('UUSH' + site_chrome.YOUTUBE_CHANNEL_ID[2:]) if site_chrome.YOUTUBE_CHANNEL_ID else '', house_ad=site_chrome.AD, tip=site_chrome.TIP, desk_pages=access.LOCKED_PAGES, asset_v=hashlib.sha1((TEMPLATES_DIR / 'static' / 'site.css').read_bytes() + (TEMPLATES_DIR / 'static' / 'nav.js').read_bytes() + (TEMPLATES_DIR / 'static' / 'specs.js').read_bytes() + (TEMPLATES_DIR / 'static' / 'tidy.css').read_bytes() + (TEMPLATES_DIR / 'static' / 'tidy.js').read_bytes()).hexdigest()[:8], notes_repo=notes.REPO, notes_kinds=notes.KINDS, notes_color=notes.COLOR,
+    env.globals.update(site_url=SITE_URL, noindex=SITE_NOINDEX, season=SEASON_LABEL, brand=site_chrome.BRAND, site_name=site_chrome.SITE_NAME, floor=site_chrome.FLOOR, twitch=site_chrome.TWITCH_CHANNEL, youtube=site_chrome.YOUTUBE_CHANNEL, house_ad=site_chrome.AD, tip=site_chrome.TIP, desk_pages=access.LOCKED_PAGES, asset_v=hashlib.sha1((TEMPLATES_DIR / 'static' / 'site.css').read_bytes() + (TEMPLATES_DIR / 'static' / 'nav.js').read_bytes() + (TEMPLATES_DIR / 'static' / 'specs.js').read_bytes() + (TEMPLATES_DIR / 'static' / 'tidy.css').read_bytes() + (TEMPLATES_DIR / 'static' / 'tidy.js').read_bytes()).hexdigest()[:8], notes_repo=notes.REPO, notes_kinds=notes.KINDS, notes_color=notes.COLOR,
                        nav_pages=site_chrome.PAGES, nav_teams=site_chrome.nav_teams(),
                        LG=LEAGUE.short, LG_name=LEAGUE.name, LG_region=LEAGUE.region, LG_key=LEAGUE.key, LG_tourney=LEAGUE.tournament,
                        n_teams=len(TEAMS), feat=LEAGUE.features, theme=LEAGUE.theme, art=f"backdrop-{LEAGUE.key}" if LEAGUE.key != "mac" else "backdrop",
@@ -519,16 +519,12 @@ def render_site() -> str:
     masthead = json.loads(mh_path.read_text()) if mh_path.exists() else {}
     (SITE_DIR / "about.html").write_text(env.get_template("about.html").render(d=data, mh=masthead))
 
-    # MidMaxx60: the 60-second daily script, built only from our own data.
+    # MidMaxx60 was discontinued Nov 26, 2026 (Matthew). Old links (and MAC90's) land on the edition's home.
     ou = ou_study.build()
-    if LEAGUE.has("midmaxx60"):
-        t = today.build(now, data["recent"], data["upcoming"], boxes, data["standings"], dispatches=dispatches, ou=ou)
-        (SITE_DIR / "midmaxx60.json").write_text(json.dumps(t))
-        (SITE_DIR / "midmaxx60.html").write_text(env.get_template("midmaxx60.html").render(d=data, t=t, game_href=game_href))
-        # MAC90 was renamed MidMaxx60 on Nov 14, 2026: keep the old address working.
-        (SITE_DIR / "mac90.html").write_text(
-            '<!doctype html><meta charset="utf-8"><title>MidMaxx60</title><link rel="canonical" href="midmaxx60.html">'
-            '<meta http-equiv="refresh" content="0; url=midmaxx60.html"><a href="midmaxx60.html">MAC90 is now MidMaxx60</a>\n')
+    for old in ("midmaxx60.html", "mac90.html"):
+        (SITE_DIR / old).write_text(
+            '<!doctype html><meta charset="utf-8"><title>Hardwood Bricks</title><link rel="canonical" href="index.html">'
+            '<meta name="robots" content="noindex"><meta http-equiv="refresh" content="0; url=index.html"><a href="index.html">Home</a>\n')
 
     # The Big Mid: this edition's week, for the weekly recap video (python -m mac.bigmid reads every edition's file).
     try:

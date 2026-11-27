@@ -22,7 +22,7 @@ def led(**kw):
 
 def test_library_keeps_verticals_and_timeless_cards():
     keys = {i.key for i in s.items_from(RELS)}
-    assert keys == {"morris-promos/morris-reel-1-crunch-time.mp4", "midmaxx60-2026-11-18/midmaxx60-2026-11-18.mp4",
+    assert keys == {"morris-promos/morris-reel-1-crunch-time.mp4",  # MidMaxx60 releases are skipped (ended Nov 26)
                     "cards-2026-11-18/potn-2026-11-17-1.jpg"}
 
 
@@ -41,7 +41,7 @@ def test_rested_items_avoid_repeats():
 
 def test_new_content_after_ledger_start():
     items = s.items_from(RELS)
-    assert s.pick_new(items, led(), NOW).name == "midmaxx60-2026-11-18.mp4"
+    assert s.pick_new(items, led(), NOW).name == "morris-reel-1-crunch-time.mp4"  # videos first; MidMaxx60 is skipped
     assert s.pick_new(items, led(since="2026-11-18T20:00:00+00:00"), NOW) is None
 
 

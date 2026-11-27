@@ -53,7 +53,7 @@ LEDGER_FILE = "stories.json"
 
 # Release tags that are evergreen material (films, docs, fight songs, statements), vs dated dailies.
 EVERGREEN_MARKS = ("-promos", "teaser", "fightsong", "hb-statement")
-SKIP_TAGS = ("mac90-", "after-dark", "bigmid-", LEDGER_TAG)   # 16:9 or retired shows
+SKIP_TAGS = ("mac90-", "midmaxx60-", "after-dark", "bigmid-", LEDGER_TAG)   # 16:9 or retired shows (MidMaxx60 ended Nov 26, 2026)
 
 
 @dataclass(frozen=True)

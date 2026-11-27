@@ -14,7 +14,7 @@ def test_every_anchor_is_on_the_desk_once():
 
 def test_playlists_are_the_channels_own_upload_lists():
     p = watch.playlists()
-    assert p["midmaxx60"].startswith("UUSH") and p["bigmid"].startswith("UULF") and p["midmaxx60"][4:] == p["bigmid"][4:]
+    assert p["shorts"].startswith("UUSH") and p["bigmid"].startswith("UULF") and p["shorts"][4:] == p["bigmid"][4:]
 
 
 def test_todays_story_is_a_checked_one():
@@ -51,8 +51,8 @@ def test_latest_upload_comes_from_the_feed_and_survives_an_outage(tmp_path, monk
     xml = ("<feed><entry><id>yt:video:abcDEF12345</id><yt:videoId>abcDEF12345</yt:videoId><yt:channelId>UC1</yt:channelId>"
            "<title>MidMaxx60 &amp; friends</title><published>2026-11-14T12:00:00+00:00</published></entry></feed>")
     got = watch.latest(fetch=lambda url: xml)
-    assert got["midmaxx60"] == {"id": "abcDEF12345", "title": "MidMaxx60 & friends", "published": "Sat, Nov 14"}
+    assert got["shorts"] == {"id": "abcDEF12345", "title": "MidMaxx60 & friends", "published": "Sat, Nov 14"}
 
     def down(url):
         raise OSError("feed down")
-    assert watch.latest(fetch=down)["midmaxx60"]["id"] == "abcDEF12345"  # last good poster kept
+    assert watch.latest(fetch=down)["shorts"]["id"] == "abcDEF12345"  # last good poster kept
