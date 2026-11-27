@@ -68,7 +68,7 @@ Magnus Lindstrom is a Cedar Falls hog farmer's son who learned the old Norse sag
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 9
+- Social posts on their games: 8
 
 ## Log
 

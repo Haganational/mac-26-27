@@ -69,7 +69,7 @@ Jace Harmon spent fifteen years hosting a Seattle morning radio show, talking fa
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -88,3 +88,4 @@ Jace Harmon spent fifteen years hosting a Seattle morning radio show, talking fa
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/a10/games/401921663.html <!-- post:401921663:preview -->
 - 2026-11-24: W 76-63 vs (neutral) Loyola Chicago Ramblers. Barometer 76 (buoyant). <!-- g:401921663 -->
 - 2026-11-24: Social recap posted (W 76-63 vs Loyola Chicago Ramblers): https://hardwoodbricks.com/a10/games/401921663.html <!-- post:401921663:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/bigwest/games/401917548.html <!-- post:401917548:preview -->

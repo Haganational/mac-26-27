@@ -70,7 +70,7 @@ Tiffany Park grew up in Irvine's Woodbridge, the daughter of Korean-American sof
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,4 @@ Tiffany Park grew up in Irvine's Woodbridge, the daughter of Korean-American sof
 - 2026-11-22: Social recap posted (L 64-67 vs San Diego Toreros): https://hardwoodbricks.com/bigwest/games/401917538.html <!-- post:401917538:recap -->
 - 2026-11-22: L 68-72 vs (neutral) Loyola Marymount Lions. Barometer 43 (testy). <!-- g:401917540 -->
 - 2026-11-22: Social recap posted (L 68-72 vs Loyola Marymount Lions): https://hardwoodbricks.com/bigwest/games/401917540.html <!-- post:401917540:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/bigwest/games/401917548.html <!-- post:401917548:preview -->

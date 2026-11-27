@@ -66,7 +66,7 @@ Ramon Cisneros grew up in East Bakersfield, the son of farmworkers, and spent tw
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -84,3 +84,4 @@ Ramon Cisneros grew up in East Bakersfield, the son of farmworkers, and spent tw
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920138.html <!-- post:401920138:preview -->
 - 2026-11-26: L 68-70 at Pepperdine Waves. Barometer 53 (steady). <!-- g:401920138 -->
 - 2026-11-26: Social recap posted (L 68-70 vs Pepperdine Waves): https://hardwoodbricks.com/bigwest/games/401920138.html <!-- post:401920138:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920139.html <!-- post:401920139:preview -->
