@@ -3547,7 +3547,7 @@
     "key": "uncw",
     "name": "UNC Wilmington Seahawks",
     "abbr": "UNCW",
-    "score": 10,
+    "score": 31,
     "winner": null
    },
    "away": {
@@ -3555,13 +3555,13 @@
     "key": null,
     "name": "Princeton Tigers",
     "abbr": "PRIN",
-    "score": 15,
+    "score": 28,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "13:53 - 1st"
+   "detail": "1:52 - 1st"
   },
   {
    "game_id": "401920774",
@@ -3588,7 +3588,7 @@
     "key": "hofstra",
     "name": "Hofstra Pride",
     "abbr": "HOF",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -3596,13 +3596,13 @@
     "key": null,
     "name": "Colgate Raiders",
     "abbr": "COLG",
-    "score": null,
+    "score": 11,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:23 - 1st"
   },
   {
    "game_id": "401921185",
@@ -12108,5 +12108,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-27T20:15:41+00:00"
+ "live_at": "2026-11-27T20:42:18+00:00"
 }

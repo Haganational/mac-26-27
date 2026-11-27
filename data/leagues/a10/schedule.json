@@ -4232,7 +4232,7 @@
     "key": null,
     "name": "Bucknell Bison",
     "abbr": "BUCK",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -4240,13 +4240,13 @@
     "key": "la-salle",
     "name": "La Salle Explorers",
     "abbr": "LAS",
-    "score": null,
+    "score": 1,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:18 - 1st"
   },
   {
    "game_id": "401911212",
@@ -13017,5 +13017,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-27T20:37:10+00:00"
 }

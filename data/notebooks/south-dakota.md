@@ -27,9 +27,9 @@ Kayla Two Bulls drove a school bus in Vermillion for twelve years and covers the
 
 ## Barometer
 
-**55 of 100, steady.** Record 4-5 (0-0 in conference), streak W2, last five LWLWW.
+**65 of 100, buoyant.** Record 5-5 (0-0 in conference), streak W3, last five WLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Kayla editorializes: 63% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Kayla editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Kayla Two Bulls drove a school bus in Vermillion for twelve years and covers the
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 9
+- Social posts on their games: 10
 
 ## Log
 
@@ -91,3 +91,5 @@ Kayla Two Bulls drove a school bus in Vermillion for twelve years and covers the
 - 2026-11-25: W 86-50 vs Arkansas-Pine Bluff Golden Lions. Barometer 55 (steady). <!-- g:401929406 -->
 - 2026-11-25: Social recap posted (W 86-50 vs Arkansas-Pine Bluff Golden Lions): https://hardwoodbricks.com/summit/games/401929406.html <!-- post:401929406:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/summit/games/401929407.html <!-- post:401929407:preview -->
+- 2026-11-27: W 99-47 vs Clarke Pride. Barometer 65 (buoyant). <!-- g:401929407 -->
+- 2026-11-27: Social recap posted (W 99-47 vs Clarke Pride): https://hardwoodbricks.com/summit/games/401929407.html <!-- post:401929407:recap -->

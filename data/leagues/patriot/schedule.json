@@ -3031,7 +3031,7 @@
     "key": null,
     "name": "Fairfield Stags",
     "abbr": "FAIR",
-    "score": 51,
+    "score": 68,
     "winner": null
    },
    "away": {
@@ -3039,13 +3039,13 @@
     "key": "navy",
     "name": "Navy Midshipmen",
     "abbr": "NAVY",
-    "score": 37,
+    "score": 51,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "12:37 - 2nd"
+   "detail": "2:47 - 2nd"
   },
   {
    "game_id": "401921417",
@@ -3072,7 +3072,7 @@
     "key": "bucknell",
     "name": "Bucknell Bison",
     "abbr": "BUCK",
-    "score": null,
+    "score": 5,
     "winner": null
    },
    "away": {
@@ -3080,13 +3080,13 @@
     "key": null,
     "name": "La Salle Explorers",
     "abbr": "LAS",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:35 - 1st"
   },
   {
    "game_id": "401920774",
@@ -3113,7 +3113,7 @@
     "key": null,
     "name": "Hofstra Pride",
     "abbr": "HOF",
-    "score": null,
+    "score": 12,
     "winner": null
    },
    "away": {
@@ -3121,13 +3121,13 @@
     "key": "colgate",
     "name": "Colgate Raiders",
     "abbr": "COLG",
-    "score": null,
+    "score": 20,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:37 - 1st"
   },
   {
    "game_id": "401912213",
@@ -9412,5 +9412,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-27T20:22:17+00:00"
+ "live_at": "2026-11-27T20:49:26+00:00"
 }
