@@ -71,7 +71,7 @@ Hector Villalobos grew up in Segundo Barrio, wrestled at 165 pounds in high scho
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 9
+- Social posts on their games: 8
 
 ## Log
 

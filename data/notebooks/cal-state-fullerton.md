@@ -65,7 +65,7 @@ Gina Mendoza grew up in Anaheim, the daughter of a machinist and a seamstress, a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 4
 
 ## Log
 

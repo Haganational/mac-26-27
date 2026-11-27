@@ -66,7 +66,7 @@ Reginald Toney spent thirty-five years as a rocket-engine test technician in Hun
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 6
 
 ## Log
 
