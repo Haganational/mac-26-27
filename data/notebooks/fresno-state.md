@@ -27,9 +27,9 @@ Vic Ortega grew up in Fresno, the son of a raisin-grape picker and a cannery for
 
 ## Barometer
 
-**58 of 100, steady.** Record 4-2 (0-0 in conference), streak W1, last five LWWLW.
+**48 of 100, steady.** Record 4-3 (0-0 in conference), streak L1, last five WWLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Vic editorializes: 65% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Vic editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Vic Ortega grew up in Fresno, the son of a raisin-grape picker and a cannery for
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -87,3 +87,5 @@ Vic Ortega grew up in Fresno, the son of a raisin-grape picker and a cannery for
 - 2026-11-21: W 80-68 vs Alabama State Hornets. Barometer 58 (steady). <!-- g:401925664 -->
 - 2026-11-21: Social recap posted (W 80-68 vs Alabama State Hornets): https://hardwoodbricks.com/pac12/games/401925664.html <!-- post:401925664:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/pac12/games/401929181.html <!-- post:401929181:preview -->
+- 2026-11-27: L 61-81 vs (neutral) South Alabama Jaguars. Barometer 48 (steady). <!-- g:401929181 -->
+- 2026-11-27: Social recap posted (L 61-81 vs South Alabama Jaguars): https://hardwoodbricks.com/pac12/games/401929181.html <!-- post:401929181:recap -->

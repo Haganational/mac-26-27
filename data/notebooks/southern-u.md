@@ -27,9 +27,9 @@ Monique Batiste grew up in Scotlandville, just below the bluff, in a Black Creol
 
 ## Barometer
 
-**32 of 100, testy.** Record 1-6 (0-0 in conference), streak L1, last five LLLWL.
+**28 of 100, despondent.** Record 1-7 (0-0 in conference), streak L2, last five LLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Monique editorializes: 71% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Monique editorializes: 74% of stories right now.
 
 ## School and town
 
@@ -65,7 +65,7 @@ Monique Batiste grew up in Scotlandville, just below the bluff, in a Black Creol
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -81,3 +81,5 @@ Monique Batiste grew up in Scotlandville, just below the bluff, in a Black Creol
 - 2026-11-25: L 72-101 at Nebraska Cornhuskers. Barometer 32 (testy). <!-- g:401926065 -->
 - 2026-11-26: Social recap posted (L 72-101 vs Nebraska Cornhuskers): https://hardwoodbricks.com/swac/games/401926065.html <!-- post:401926065:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/swac/games/401921827.html <!-- post:401921827:preview -->
+- 2026-11-27: L 56-111 at Vanderbilt Commodores. Barometer 28 (despondent). <!-- g:401921827 -->
+- 2026-11-27: Social recap posted (L 56-111 vs Vanderbilt Commodores): https://hardwoodbricks.com/swac/games/401921827.html <!-- post:401921827:recap -->

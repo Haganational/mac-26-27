@@ -3031,21 +3031,21 @@
     "key": null,
     "name": "Fairfield Stags",
     "abbr": "FAIR",
-    "score": 68,
-    "winner": null
+    "score": 75,
+    "winner": true
    },
    "away": {
     "espn_id": "2426",
     "key": "navy",
     "name": "Navy Midshipmen",
     "abbr": "NAVY",
-    "score": 51,
-    "winner": null
+    "score": 59,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:47 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921417",
@@ -3072,7 +3072,7 @@
     "key": "bucknell",
     "name": "Bucknell Bison",
     "abbr": "BUCK",
-    "score": 5,
+    "score": 10,
     "winner": null
    },
    "away": {
@@ -3080,13 +3080,13 @@
     "key": null,
     "name": "La Salle Explorers",
     "abbr": "LAS",
-    "score": 9,
+    "score": 24,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "11:35 - 1st"
+   "detail": "2:46 - 1st"
   },
   {
    "game_id": "401920774",
@@ -3113,7 +3113,7 @@
     "key": null,
     "name": "Hofstra Pride",
     "abbr": "HOF",
-    "score": 12,
+    "score": 23,
     "winner": null
    },
    "away": {
@@ -3121,13 +3121,13 @@
     "key": "colgate",
     "name": "Colgate Raiders",
     "abbr": "COLG",
-    "score": 20,
+    "score": 41,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "11:37 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401912213",
@@ -3158,7 +3158,7 @@
     "key": "american-u",
     "name": "American University Eagles",
     "abbr": "AMER",
-    "score": null,
+    "score": 3,
     "winner": null
    },
    "away": {
@@ -3166,13 +3166,13 @@
     "key": null,
     "name": "Radford Highlanders",
     "abbr": "RAD",
-    "score": null,
+    "score": 6,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:57 - 1st"
   },
   {
    "game_id": "401924845",
@@ -9412,5 +9412,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-27T20:49:26+00:00"
+ "live_at": "2026-11-27T21:17:12+00:00"
 }

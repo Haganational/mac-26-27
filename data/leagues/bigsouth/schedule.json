@@ -2643,7 +2643,7 @@
     "key": null,
     "name": "American University Eagles",
     "abbr": "AMER",
-    "score": null,
+    "score": 3,
     "winner": null
    },
    "away": {
@@ -2651,13 +2651,13 @@
     "key": "radford",
     "name": "Radford Highlanders",
     "abbr": "RAD",
-    "score": null,
+    "score": 6,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:57 - 1st"
   },
   {
    "game_id": "401933055",
@@ -8833,5 +8833,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-27T21:15:30+00:00"
 }

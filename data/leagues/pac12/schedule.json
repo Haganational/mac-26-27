@@ -2562,21 +2562,21 @@
     "key": "fresno-state",
     "name": "Fresno State Bulldogs",
     "abbr": "FRES",
-    "score": 50,
-    "winner": null
+    "score": 61,
+    "winner": false
    },
    "away": {
     "espn_id": "6",
     "key": null,
     "name": "South Alabama Jaguars",
     "abbr": "USA",
-    "score": 67,
-    "winner": null
+    "score": 81,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:33 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928468",
@@ -2607,7 +2607,7 @@
     "key": null,
     "name": "Louisiana Tech Bulldogs",
     "abbr": "LT",
-    "score": 32,
+    "score": 41,
     "winner": null
    },
    "away": {
@@ -2615,13 +2615,13 @@
     "key": "texas-state",
     "name": "Texas State Bobcats",
     "abbr": "TXST",
-    "score": 22,
+    "score": 37,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "4:41 - 1st"
+   "detail": "19:37 - 2nd"
   },
   {
    "game_id": "401927366",
@@ -8458,5 +8458,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-27T20:38:16+00:00"
+ "live_at": "2026-11-27T21:07:14+00:00"
 }

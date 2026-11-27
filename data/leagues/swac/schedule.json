@@ -3396,21 +3396,21 @@
     "key": null,
     "name": "Vanderbilt Commodores",
     "abbr": "VAN",
-    "score": 94,
-    "winner": null
+    "score": 111,
+    "winner": true
    },
    "away": {
     "espn_id": "2582",
     "key": "southern-u",
     "name": "Southern Jaguars",
     "abbr": "SOU",
-    "score": 39,
-    "winner": null
+    "score": 56,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:59 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921818",
@@ -3441,7 +3441,7 @@
     "key": null,
     "name": "Missouri Tigers",
     "abbr": "MIZ",
-    "score": null,
+    "score": 21,
     "winner": null
    },
    "away": {
@@ -3449,13 +3449,13 @@
     "key": "uapb",
     "name": "Arkansas-Pine Bluff Golden Lions",
     "abbr": "UAPB",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:08 - 1st"
   },
   {
    "game_id": "401920310",
@@ -10925,5 +10925,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-27T20:51:21+00:00"
+ "live_at": "2026-11-27T21:18:56+00:00"
 }
