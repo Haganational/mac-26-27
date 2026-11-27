@@ -2480,21 +2480,21 @@
     "key": "utah-state",
     "name": "Utah State Aggies",
     "abbr": "USU",
-    "score": 65,
-    "winner": null
+    "score": 78,
+    "winner": true
    },
    "away": {
     "espn_id": "30",
     "key": null,
     "name": "USC Trojans",
     "abbr": "USC",
-    "score": 66,
-    "winner": null
+    "score": 74,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:35 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920540",
@@ -8411,5 +8411,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-26T23:44:15+00:00"
+ "live_at": "2026-11-27T00:03:58+00:00"
 }

@@ -1,6 +1,6 @@
 # Wes Talbot, The Logan Courier
 
-_Utah State (Pac-12). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-26._
+_Utah State (Pac-12). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-27._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Wes Talbot grew up in Logan, scooped ice cream at the campus creamery through co
 
 ## Barometer
 
-**90 of 100, giddy.** Record 6-0 (0-0 in conference), streak W6, last five WWWWW.
+**89 of 100, giddy.** Record 7-0 (0-0 in conference), streak W7, last five WWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Wes editorializes: 85% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Wes editorializes: 84% of stories right now.
 
 ## School and town
 
@@ -71,7 +71,7 @@ Wes Talbot grew up in Logan, scooped ice cream at the campus creamery through co
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -88,3 +88,5 @@ Wes Talbot grew up in Logan, scooped ice cream at the campus creamery through co
 - 2026-11-25: Social preview posted: https://hardwoodbricks.com/pac12/games/401921673.html <!-- post:401921673:preview -->
 - 2026-11-26: W 93-59 vs (neutral) SMU Mustangs. Barometer 90 (giddy). <!-- g:401918971 -->
 - 2026-11-26: Social recap posted (W 93-59 vs SMU Mustangs): https://hardwoodbricks.com/pac12/games/401918971.html <!-- post:401918971:recap -->
+- 2026-11-26: W 78-74 vs (neutral) USC Trojans. Barometer 89 (giddy). <!-- g:401921673 -->
+- 2026-11-27: Social recap posted (W 78-74 vs USC Trojans): https://hardwoodbricks.com/pac12/games/401921673.html <!-- post:401921673:recap -->

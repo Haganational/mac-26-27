@@ -1,6 +1,6 @@
 # Siobhan Doyle, The Kenmore Clarion
 
-_Boston University (Patriot). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-26._
+_Boston University (Patriot). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-27._
 
 ## Who they are
 
