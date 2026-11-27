@@ -2783,7 +2783,7 @@
     "key": "st-thomas",
     "name": "St. Thomas Tommies",
     "abbr": "STMN",
-    "score": null,
+    "score": 27,
     "winner": null
    },
    "away": {
@@ -2791,13 +2791,13 @@
     "key": null,
     "name": "Liberty Flames",
     "abbr": "LIB",
-    "score": null,
+    "score": 20,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "8:22 - 1st"
   },
   {
    "game_id": "401929407",
@@ -8044,5 +8044,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-27T17:27:19+00:00"
 }
