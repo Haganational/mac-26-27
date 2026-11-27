@@ -66,7 +66,7 @@ Malcolm Reed edits The Shaw Courier and talks about Howard basketball with the p
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 6
 
 ## Log
 

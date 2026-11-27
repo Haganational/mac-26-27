@@ -66,7 +66,7 @@ Jared Goldstein was an insurance data analyst in Hartford until his weekly unsol
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 6
 
 ## Log
 
