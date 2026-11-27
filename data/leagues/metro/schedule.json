@@ -3573,21 +3573,21 @@
     "key": null,
     "name": "Vermont Catamounts",
     "abbr": "UVM",
-    "score": 48,
-    "winner": null
+    "score": 57,
+    "winner": false
    },
    "away": {
     "espn_id": "2771",
     "key": "merrimack",
     "name": "Merrimack Warriors",
     "abbr": "MRMK",
-    "score": 59,
-    "winner": null
+    "score": 75,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "6:15 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921224",
@@ -3623,7 +3623,7 @@
     "key": "fairfield",
     "name": "Fairfield Stags",
     "abbr": "FAIR",
-    "score": 28,
+    "score": 38,
     "winner": null
    },
    "away": {
@@ -3631,13 +3631,13 @@
     "key": null,
     "name": "Navy Midshipmen",
     "abbr": "NAVY",
-    "score": 18,
+    "score": 28,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "4:52 - 1st"
+   "detail": "17:56 - 2nd"
   },
   {
    "game_id": "401924845",
@@ -11360,5 +11360,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-27T19:36:05+00:00"
+ "live_at": "2026-11-27T20:08:41+00:00"
 }

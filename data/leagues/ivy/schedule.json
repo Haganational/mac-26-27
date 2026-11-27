@@ -2534,7 +2534,7 @@
     "key": null,
     "name": "UNC Wilmington Seahawks",
     "abbr": "UNCW",
-    "score": null,
+    "score": 10,
     "winner": null
    },
    "away": {
@@ -2542,13 +2542,13 @@
     "key": "princeton",
     "name": "Princeton Tigers",
     "abbr": "PRIN",
-    "score": null,
+    "score": 15,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:16 - 1st"
   },
   {
    "game_id": "401921185",
@@ -7237,5 +7237,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-27T20:15:07+00:00"
 }

@@ -2937,20 +2937,20 @@
     "name": "Hampton Pirates",
     "abbr": "HAMP",
     "score": 55,
-    "winner": null
+    "winner": false
    },
    "away": {
     "espn_id": "2349",
     "key": "umass-lowell",
     "name": "UMass Lowell River Hawks",
     "abbr": "UML",
-    "score": 70,
-    "winner": null
+    "score": 72,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:26 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401924810",
@@ -3018,7 +3018,7 @@
     "key": null,
     "name": "Le Moyne Dolphins",
     "abbr": "LEM",
-    "score": 32,
+    "score": 41,
     "winner": null
    },
    "away": {
@@ -3026,13 +3026,13 @@
     "key": "maine",
     "name": "Maine Black Bears",
     "abbr": "ME",
-    "score": 34,
+    "score": 48,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "13:46 - 2nd"
   },
   {
    "game_id": "401911212",
@@ -8806,5 +8806,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-27T19:57:40+00:00"
+ "live_at": "2026-11-27T20:21:41+00:00"
 }

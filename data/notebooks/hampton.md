@@ -27,9 +27,9 @@ Capt. Kendra Shaw earned her title on the water, working as a merchant deck offi
 
 ## Barometer
 
-**35 of 100, testy.** Record 1-4 (0-0 in conference), streak L2, last five LLWLL.
+**27 of 100, despondent.** Record 1-5 (0-0 in conference), streak L3, last five LWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Capt. editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Capt. editorializes: 74% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Capt. Kendra Shaw earned her title on the water, working as a merchant deck offi
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -81,3 +81,5 @@ Capt. Kendra Shaw earned her title on the water, working as a merchant deck offi
 - 2026-11-25: Social recap posted (L 59-71 vs Old Dominion Monarchs): https://hardwoodbricks.com/sunbelt/games/401926827.html <!-- post:401926827:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/caa/games/401921416.html <!-- post:401921416:preview -->
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/caa/games/401921414.html <!-- post:401921414:preview -->
+- 2026-11-27: L 55-72 vs (neutral) UMass Lowell River Hawks. Barometer 27 (despondent). <!-- g:401921416 -->
+- 2026-11-27: Social recap posted (L 55-72 vs UMass Lowell River Hawks): https://hardwoodbricks.com/caa/games/401921416.html <!-- post:401921416:recap -->

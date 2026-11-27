@@ -27,9 +27,9 @@ Brooke Tremblay talks fast, roots hard, and has not taken off her headset since 
 
 ## Barometer
 
-**35 of 100, testy.** Record 1-4 (0-0 in conference), streak L2, last five LLWLL.
+**46 of 100, steady.** Record 2-4 (0-0 in conference), streak W1, last five LWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Brooke editorializes: 69% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Brooke editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -63,7 +63,7 @@ Brooke Tremblay talks fast, roots hard, and has not taken off her headset since 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -78,3 +78,5 @@ Brooke Tremblay talks fast, roots hard, and has not taken off her headset since 
 - 2026-11-19: Social recap posted (L 60-65 vs Boston University Terriers): https://hardwoodbricks.com/metro/games/401923401.html <!-- post:401923401:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/metro/games/401924810.html <!-- post:401924810:preview -->
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/metro/games/401924811.html <!-- post:401924811:preview -->
+- 2026-11-27: W 75-57 vs (neutral) Vermont Catamounts. Barometer 46 (steady). <!-- g:401924810 -->
+- 2026-11-27: Social recap posted (W 75-57 vs Vermont Catamounts): https://hardwoodbricks.com/metro/games/401924810.html <!-- post:401924810:recap -->

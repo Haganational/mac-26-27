@@ -3502,21 +3502,21 @@
     "key": "hampton",
     "name": "Hampton Pirates",
     "abbr": "HAMP",
-    "score": 49,
-    "winner": null
+    "score": 55,
+    "winner": false
    },
    "away": {
     "espn_id": "2349",
     "key": null,
     "name": "UMass Lowell River Hawks",
     "abbr": "UML",
-    "score": 63,
-    "winner": null
+    "score": 72,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:28 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401924738",
@@ -3547,7 +3547,7 @@
     "key": "uncw",
     "name": "UNC Wilmington Seahawks",
     "abbr": "UNCW",
-    "score": null,
+    "score": 10,
     "winner": null
    },
    "away": {
@@ -3555,13 +3555,13 @@
     "key": null,
     "name": "Princeton Tigers",
     "abbr": "PRIN",
-    "score": null,
+    "score": 15,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:53 - 1st"
   },
   {
    "game_id": "401920774",
@@ -12108,5 +12108,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-27T19:47:42+00:00"
+ "live_at": "2026-11-27T20:15:41+00:00"
 }
