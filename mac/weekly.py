@@ -125,6 +125,18 @@ PAPERS: dict[str, dict[str, Any]] = {
     "sunbelt": {"name": "The Live Oak *Ledger*", "capital": "Mobile, Ala.", "backup": "Boone, N.C.",
                 "motto": "Porch talk under the Spanish moss.", "style": "oak", "accent": "#4f6b3a", "second": "#8a5a2b",
                 "sidebar": "right", "photo": False, "tone": "cream"},
+    "ivy": {"name": "The *Footnote*", "capital": "Princeton, N.J.", "backup": "Ithaca, N.Y.",
+            "motto": "Annotated, overthought and very well cited.", "style": "footnote", "accent": "#8c1d2c", "second": "#24375e",
+            "sidebar": "left", "photo": False, "tone": "ivory"},
+    "caa": {"name": "The Battery *Brief*", "capital": "Charleston, S.C.", "backup": "Wilmington, N.C.",
+            "motto": "Ports from the harbor wall, in brief.", "style": "battery", "accent": "#21506b", "second": "#b48a3c",
+            "sidebar": "right", "photo": False, "tone": "newsprint"},
+    "cusa": {"name": "The Water Tower *Weekly*", "capital": "Murfreesboro, Tenn.", "backup": "Bowling Green, Ky.",
+             "motto": "Every town's name up on the tower.", "style": "tower", "accent": "#3b6c8c", "second": "#c4862c",
+             "sidebar": "left", "photo": False, "tone": "aged"},
+    "socon": {"name": "The Choo‑Choo *Chronicle*", "capital": "Chattanooga, Tenn.", "backup": "Greenville, S.C.",
+              "motto": "Old league. Mountain towns. Long memories.", "style": "rail", "accent": "#7b2e2a", "second": "#3e4c5a",
+              "sidebar": "right", "photo": False, "tone": "sepia"},
 }
 
 
