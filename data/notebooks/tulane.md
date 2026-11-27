@@ -66,7 +66,7 @@ Beau Thibodeaux worked the fryer at a Magazine Street po'boy shop for fifteen ye
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 7
 
 ## Log
 

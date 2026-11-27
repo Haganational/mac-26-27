@@ -68,7 +68,7 @@ Malcolm Reyes grew up in Riverside's Casa Blanca neighborhood, the son of a citr
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 6
 
 ## Log
 

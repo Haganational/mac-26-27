@@ -66,7 +66,7 @@ Chip Van Doren ran banquets at a hotel near Princeton for years and still treats
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -84,3 +84,4 @@ Chip Van Doren ran banquets at a hotel near Princeton for years and still treats
 - 2026-11-25: W 79-72 vs (neutral) Liberty Flames. Barometer 62 (steady). <!-- g:401924737 -->
 - 2026-11-25: Social recap posted (W 79-72 vs Liberty Flames): https://hardwoodbricks.com/ivy/games/401924737.html <!-- post:401924737:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/ivy/games/401924738.html <!-- post:401924738:preview -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/ivy/games/401920849.html <!-- post:401920849:preview -->

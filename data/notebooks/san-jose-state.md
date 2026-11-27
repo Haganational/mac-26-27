@@ -70,7 +70,7 @@ Priya Deshmukh spent eight years as a release engineer in Sunnyvale before decid
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 9
+- Social posts on their games: 8
 
 ## Log
 

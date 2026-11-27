@@ -71,7 +71,7 @@ Marcus Vance grew up in North Hill, the grandson of a Goodyear tire builder, and
 ## What we've made about them
 
 - Film: *The Magnet in the Nose* (https://youtu.be/IK-7KOKkbv0). Our film on the 1973 Soap Box Derby scandal in Akron, and who the real cheater was.
-- Social posts on their games: 12
+- Social posts on their games: 11
 
 ## Log
 
