@@ -69,7 +69,7 @@ Toya Barnes edits The Durham Courant and roots openly for NC Central, with a rai
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,4 @@ Toya Barnes edits The Durham Courant and roots openly for NC Central, with a rai
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/meac/games/401927353.html <!-- post:401927353:preview -->
 - 2026-11-24: W 105-46 vs Carolina University Bruins. Barometer 47 (steady). <!-- g:401927353 -->
 - 2026-11-24: Social recap posted (W 105-46 vs Carolina University Bruins): https://hardwoodbricks.com/meac/games/401927353.html <!-- post:401927353:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/bigsouth/games/401911395.html <!-- post:401911395:preview -->

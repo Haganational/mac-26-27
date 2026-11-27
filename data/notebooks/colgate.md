@@ -65,7 +65,7 @@ Lauren Cho edits The Hamilton Courant and reports Raiders basketball with the ca
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -81,3 +81,4 @@ Lauren Cho edits The Hamilton Courant and reports Raiders basketball with the ca
 - 2026-11-21: W 87-55 vs Penn State Behrend Lions. Barometer 52 (steady). <!-- g:401920773 -->
 - 2026-11-21: Social recap posted (W 87-55 vs Penn State Behrend Lions): https://hardwoodbricks.com/patriot/games/401920773.html <!-- post:401920773:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/caa/games/401920774.html <!-- post:401920774:preview -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/americaeast/games/401920775.html <!-- post:401920775:preview -->

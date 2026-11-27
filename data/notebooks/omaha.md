@@ -69,7 +69,7 @@ Tess Kowalczyk grew up in South Omaha and worked her way through college as an u
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -87,3 +87,4 @@ Tess Kowalczyk grew up in South Omaha and worked her way through college as an u
 - 2026-11-26: Social recap posted (L 78-80 vs UC Davis Aggies): https://hardwoodbricks.com/mw/games/401911522.html <!-- post:401911522:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/cusa/games/401926783.html <!-- post:401926783:preview -->
 - 2026-11-27: L 62-71 vs (neutral) Pacific Tigers. Barometer 34 (testy). <!-- g:401917546 -->
+- 2026-11-27: Social recap posted (L 62-71 vs Pacific Tigers): https://hardwoodbricks.com/wcc/games/401917546.html <!-- post:401917546:recap -->

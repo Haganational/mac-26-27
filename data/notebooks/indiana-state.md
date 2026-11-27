@@ -68,7 +68,7 @@ Boone Callahan sang lounge standards at a supper club on Wabash Avenue for ten y
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -88,3 +88,4 @@ Boone Callahan sang lounge standards at a supper club on Wabash Avenue for ten y
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/mvc/games/401921209.html <!-- post:401921209:preview -->
 - 2026-11-23: W 77-76 vs (neutral) East Carolina Pirates. Barometer 47 (steady). <!-- g:401921209 -->
 - 2026-11-23: Social recap posted (W 77-76 vs East Carolina Pirates): https://hardwoodbricks.com/mvc/games/401921209.html <!-- post:401921209:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/mvc/games/401927379.html <!-- post:401927379:preview -->
