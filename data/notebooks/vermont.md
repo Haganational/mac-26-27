@@ -27,9 +27,9 @@ Asa Whitcomb grew up on a hill farm outside Burlington and ran a sugarhouse for 
 
 ## Barometer
 
-**49 of 100, steady.** Record 3-4 (0-0 in conference), streak L1, last five LWLWL.
+**41 of 100, testy.** Record 3-5 (0-0 in conference), streak L2, last five WLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Asa editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Asa editorializes: 66% of stories right now.
 
 ## School and town
 
@@ -90,3 +90,4 @@ Asa Whitcomb grew up on a hill farm outside Burlington and ran a sugarhouse for 
 - 2026-11-25: Social recap posted (L 88-98 vs Siena Saints): https://hardwoodbricks.com/metro/games/401920695.html <!-- post:401920695:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/metro/games/401924810.html <!-- post:401924810:preview -->
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/americaeast/games/401920775.html <!-- post:401920775:preview -->
+- 2026-11-27: L 57-75 vs (neutral) Merrimack Warriors. Barometer 41 (testy). <!-- g:401924810 -->
