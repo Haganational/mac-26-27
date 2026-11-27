@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Watch · Hardwood Bricks</title>
-<meta name="description" content="MidMaxx60 every morning and The Big Mid every week: mid-major basketball video from the Hardwood Bricks anchor desk, covering the {{ names }}.">
+<meta name="description" content="Shorts, films and The Big Mid: mid-major basketball video from the Hardwood Bricks anchor desk, covering the {{ names }}.">
 {% if noindex %}<meta name="robots" content="noindex, nofollow">
 {% else %}<meta name="robots" content="max-image-preview:large">
 {% endif %}<link rel="canonical" href="{{ base }}watch.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Hardwood Bricks">
-<meta property="og:title" content="Watch Hardwood Bricks: MidMaxx60 and The Big Mid">
+<meta property="og:title" content="Watch Hardwood Bricks: Shorts, films and The Big Mid">
 <meta property="og:url" content="{{ base }}watch.html">
 <meta property="og:image" content="{{ base }}static/og/site.png">
 <meta name="theme-color" content="#2a1a10">
@@ -84,12 +84,12 @@
 <main class="wt">
   <div class="dateline"><span>{{ today }}</span><span class="tag">The Hardwood Bricks desk</span><span>{{ season }}</span></div>
   <h1>Watch</h1>
-  <p class="dek">Two shows and {{ count }} anchors, each one a voice from a school we cover. The numbers come from the same box scores and lines as the rest of the site.</p>
+  <p class="dek">Shorts, films, The Big Mid and {{ count }} anchors, each one a voice from a school we cover. The numbers come from the same box scores and lines as the rest of the site.</p>
 
   <div class="shows">
     {% for s in shows %}<div class="show">
-      {% if s.list %}<button class="frame {{ 'tall' if s.key == 'midmaxx60' else 'wide' }}{{ ' poster' if s.latest }}" type="button" data-list="{{ s.list }}"{% if s.latest %} data-video="{{ s.latest.id }}"{% endif %} data-title="{{ s.name }}" aria-label="Play the latest {{ s.name }}{% if s.latest %}: {{ s.latest.title }}{% endif %}">
-        {% if s.latest %}<img src="https://i.ytimg.com/vi/{{ s.latest.id }}/{{ 'oar2' if s.key == 'midmaxx60' else 'hqdefault' }}.jpg" alt="" loading="lazy" onerror="if(!this.dataset.f){this.dataset.f=1;this.src='https://i.ytimg.com/vi/{{ s.latest.id }}/hqdefault.jpg'}else{this.remove()}">{% endif %}
+      {% if s.list %}<button class="frame {{ 'tall' if s.key == 'shorts' else 'wide' }}{{ ' poster' if s.latest }}" type="button" data-list="{{ s.list }}"{% if s.latest %} data-video="{{ s.latest.id }}"{% endif %} data-title="{{ s.name }}" aria-label="Play the latest {{ s.name }}{% if s.latest %}: {{ s.latest.title }}{% endif %}">
+        {% if s.latest %}<img src="https://i.ytimg.com/vi/{{ s.latest.id }}/{{ 'oar2' if s.key == 'shorts' else 'hqdefault' }}.jpg" alt="" loading="lazy" onerror="if(!this.dataset.f){this.dataset.f=1;this.src='https://i.ytimg.com/vi/{{ s.latest.id }}/hqdefault.jpg'}else{this.remove()}">{% endif %}
         <span><span class="play" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span><b>{{ s.name }}</b><small>{% if s.latest %}Latest · {{ s.latest.published }}{% else %}{{ s.when }} · {{ s.length }}{% endif %}</small></span>
       </button>{% endif %}
       <h3>{{ s.name }}{% if s.latest %} <a class="hb-plus" hidden href="desk.html?video={{ s.latest.id|urlencode }}&amp;vt={{ (s.name ~ ': ' ~ s.latest.title)|urlencode }}" title="Add a dispatch about this video" aria-label="Add a dispatch about this video">+</a>{% endif %}</h3>

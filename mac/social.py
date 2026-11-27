@@ -17,8 +17,7 @@ and BSKY_APP_PASSWORD (an app password from Bluesky settings, never the account 
 Threads needs THREADS_ACCESS_TOKEN (from a Meta developer app with threads_basic and
 threads_content_publish; the token lasts about 60 days). THREADS_USER_ID is optional and
 defaults to "me", the account the token belongs to. Threads link posts are OFF unless
-THREADS_LINK_POSTS=1 (Matthew, Nov 20 2026: Threads gets about one automated post a day, which is
-the MidMaxx60 video from mac/reels.py, plus the pushes he asks for). Each network
+THREADS_LINK_POSTS=1 (Matthew, Nov 20 2026: Threads gets about one automated post a day, plus the pushes he asks for). Each network
 posts on its own once its secrets are set; with none, this does nothing. SOCIAL_DRY_RUN=1 prints the posts instead of sending them.
 """
 from __future__ import annotations

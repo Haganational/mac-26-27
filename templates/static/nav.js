@@ -193,21 +193,6 @@ document.addEventListener('click', function (e) {
   b.replaceWith(f);
 });
 
-// MidMaxx60 on Home: swap the card for the YouTube Shorts player (latest upload first).
-document.addEventListener('click', function (e) {
-  var b = e.target.closest('[data-yt-list]');
-  if (!b) return;
-  var f = document.createElement('iframe');
-  f.src = 'https://www.youtube-nocookie.com/embed/videoseries?list=' + encodeURIComponent(b.dataset.ytList) + '&autoplay=1&playsinline=1&rel=0';
-  f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
-  f.allowFullscreen = true;
-  f.title = 'MidMaxx60 on YouTube';
-  var card = b.closest('.ytwatch');
-  b.replaceWith(f);
-  // The card sits compact until play, then opens to a full-size vertical player.
-  if (card) { card.classList.add('playing'); card.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); }
-});
-
 // Access code: locked screens ship as AES-GCM ciphertext (mac/access.py). One code opens all
 // of them; it is remembered in this browser so the reader types it once.
 (function () {
