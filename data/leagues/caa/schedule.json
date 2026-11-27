@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27T18:23:52+00:00",
+ "fetched_at": "2026-11-27T23:23:42+00:00",
  "season": 2027,
  "games": [
   {
@@ -3534,11 +3534,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/unc-wilmington-seahawks-mens-basketball-tickets-trask-coliseum-11-27-2026--sports-ncaa-basketball/production/7309046?wsUser=717",
-    "low": 15.0,
-    "since": "2026-11-18T23:13:01Z"
-   },
+   "tickets": null,
    "venue": "Trask Coliseum",
    "venue_city": "Wilmington",
    "venue_state": "NC",
@@ -3606,7 +3602,7 @@
   },
   {
    "game_id": "401921185",
-   "date": "2026-11-27T23:00Z",
+   "date": "2026-11-27T23:40Z",
    "name": "Towson Tigers at Pennsylvania Quakers",
    "short_name": "TOW @ PENN",
    "season_type": "reg",
@@ -3622,7 +3618,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/penn-quakers-mens-basketball-tickets-palestra-11-27-2026--sports-ncaa-basketball/production/7546508?wsUser=717",
-    "low": 25.0,
+    "low": 34.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "The Palestra",
@@ -4418,7 +4414,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/st-marys-gaels-mens-basketball-tickets-university-credit-union-pavilion-12-1-2026--sports-ncaa-basketball/production/7686821?wsUser=717",
-    "low": 30.0,
+    "low": 28.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "University Credit Union Pavilion",
@@ -4558,7 +4554,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/cincinnati-bearcats-mens-basketball-tickets-fifth-third-arena-at-shoemaker-center-12-2-2026--sports-ncaa-basketball/production/7466792?wsUser=717",
-    "low": 6.0,
+    "low": 5.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Fifth Third Arena (OH)",
@@ -12107,6 +12103,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-27T22:51:42+00:00"
+ ]
 }

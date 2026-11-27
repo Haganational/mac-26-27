@@ -27,9 +27,9 @@ Monica Ruiz edits The Tenleytown Mercury and covers the Eagles as the hardest-wo
 
 ## Barometer
 
-**71 of 100, buoyant.** Record 4-2 (0-0 in conference), streak W4, last five LWWWW.
+**76 of 100, buoyant.** Record 5-2 (0-0 in conference), streak W5, last five WWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Monica editorializes: 73% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Monica editorializes: 76% of stories right now.
 
 ## School and town
 
@@ -86,3 +86,4 @@ Monica Ruiz edits The Tenleytown Mercury and covers the Eagles as the hardest-wo
 - 2026-11-22: Social recap posted (W 86-75 vs Towson Tigers): https://hardwoodbricks.com/caa/games/401912212.html <!-- post:401912212:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/bigsouth/games/401912213.html <!-- post:401912213:preview -->
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/americaeast/games/401912214.html <!-- post:401912214:preview -->
+- 2026-11-27: W 64-62 vs Radford Highlanders. Barometer 76 (buoyant). <!-- g:401912213 -->

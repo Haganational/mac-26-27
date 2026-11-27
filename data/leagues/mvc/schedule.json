@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27T18:17:11+00:00",
+ "fetched_at": "2026-11-27T23:15:57+00:00",
  "season": 2027,
  "games": [
   {
@@ -3227,7 +3227,7 @@
     "key": null,
     "name": "Boise State Broncos",
     "abbr": "BOIS",
-    "score": 10,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -3235,13 +3235,13 @@
     "key": "drake",
     "name": "Drake Bulldogs",
     "abbr": "DRKE",
-    "score": 6,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "14:57 - 1st"
+   "detail": "3:50 - 1st"
   },
   {
    "game_id": "401927379",
@@ -3351,7 +3351,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/bradley-braves-mens-basketball-tickets-peoria-civic-center---carver-arena-11-28-2026--sports-ncaa-basketball/production/7588378?wsUser=717",
-    "low": 17.0,
+    "low": 19.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Carver Arena",
@@ -5420,7 +5420,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/basketball-hall-of-fame-classic-tickets-t-mobile-center-12-18-2026--sports-ncaa-basketball/production/6944841?wsUser=717",
-    "low": 23.0,
+    "low": 24.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "T-Mobile Center",
@@ -5780,7 +5780,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kansas-jayhawks-mens-basketball-tickets-allen-fieldhouse-12-22-2026--sports-ncaa-basketball/production/7109834?wsUser=717",
-    "low": 36.0,
+    "low": 37.0,
     "since": "2026-11-18T23:06:45Z"
    },
    "venue": "Allen Fieldhouse",
@@ -9827,6 +9827,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-27T22:42:40+00:00"
+ ]
 }

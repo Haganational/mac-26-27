@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27T18:29:45+00:00",
+ "fetched_at": "2026-11-27T23:30:33+00:00",
  "season": 2027,
  "games": [
   {
@@ -2643,7 +2643,7 @@
     "key": null,
     "name": "American University Eagles",
     "abbr": "AMER",
-    "score": 56,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -2651,13 +2651,13 @@
     "key": "radford",
     "name": "Radford Highlanders",
     "abbr": "RAD",
-    "score": 52,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "7:06 - 2nd"
+   "detail": "0:00 - 2nd"
   },
   {
    "game_id": "401933055",
@@ -2695,10 +2695,10 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:39 - 1st"
   },
   {
    "game_id": "401911380",
@@ -8833,6 +8833,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-27T22:59:38+00:00"
+ ]
 }

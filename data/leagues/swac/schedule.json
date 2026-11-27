@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27T18:34:06+00:00",
+ "fetched_at": "2026-11-27T23:35:36+00:00",
  "season": 2027,
  "games": [
   {
@@ -3383,11 +3383,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/vanderbilt-commodores-mens-basketball-tickets-vanderbilt-memorial-gym-11-27-2026--sports-ncaa-basketball/production/7457175?wsUser=717",
-    "low": 20.0,
-    "since": "2026-11-18T23:22:50Z"
-   },
+   "tickets": null,
    "venue": "Memorial Gymnasium (TN)",
    "venue_city": "Nashville",
    "venue_state": "TN",
@@ -3428,11 +3424,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/missouri-tigers-mens-basketball-tickets-mizzou-arena-11-27-2026--sports-ncaa-basketball/production/7349921?wsUser=717",
-    "low": 10.0,
-    "since": "2026-11-18T23:22:50Z"
-   },
+   "tickets": null,
    "venue": "Mizzou Arena",
    "venue_city": "Columbia",
    "venue_state": "MO",
@@ -3442,7 +3434,7 @@
     "name": "Missouri Tigers",
     "abbr": "MIZ",
     "score": 97,
-    "winner": null
+    "winner": true
    },
    "away": {
     "espn_id": "2029",
@@ -3450,12 +3442,12 @@
     "name": "Arkansas-Pine Bluff Golden Lions",
     "abbr": "UAPB",
     "score": 61,
-    "winner": null
+    "winner": false
    },
-   "status": "STATUS_END_PERIOD",
-   "completed": false,
-   "live": true,
-   "detail": "End of 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920310",
@@ -5685,7 +5677,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oklahoma-sooners-mens-basketball-tickets-lloyd-noble-center-12-17-2026--sports-ncaa-basketball/production/7350103?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:22:50Z"
    },
    "venue": "Lloyd Noble Center",
@@ -10924,6 +10916,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-27T23:05:26+00:00"
+ ]
 }

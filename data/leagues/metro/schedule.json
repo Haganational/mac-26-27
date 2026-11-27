@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27T18:15:14+00:00",
+ "fetched_at": "2026-11-27T23:13:42+00:00",
  "season": 2027,
  "games": [
   {
@@ -3610,11 +3610,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/fairfield-stags-mens-basketball-tickets-leo-d-mahoney-arena-11-27-2026--sports-ncaa-basketball/production/7877442?wsUser=717",
-    "low": 15.0,
-    "since": "2026-11-27T12:07:48Z"
-   },
+   "tickets": null,
    "venue": "Leo D. Mahoney Arena",
    "venue_city": "Fairfield",
    "venue_state": "CT",
@@ -3664,7 +3660,7 @@
     "key": null,
     "name": "Lafayette Leopards",
     "abbr": "LAF",
-    "score": 28,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -3672,13 +3668,13 @@
     "key": "niagara",
     "name": "Niagara Purple Eagles",
     "abbr": "NIA",
-    "score": 24,
+    "score": null,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "5:27 - 1st"
+   "detail": "20:00 - 2nd"
   },
   {
    "game_id": "401920890",
@@ -3698,7 +3694,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/seton-hall-pirates-mens-basketball-tickets-prudential-center-11-28-2026--sports-ncaa-basketball/production/7465787?wsUser=717",
-    "low": 10.0,
+    "low": 11.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "Prudential Center",
@@ -3778,7 +3774,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/george-mason-patriots-mens-basketball-tickets-eaglebank-arena-11-28-2026--sports-ncaa-basketball/production/7627373?wsUser=717",
-    "low": 11.0,
+    "low": 27.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "EagleBank Arena",
@@ -5603,7 +5599,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/fairfield-stags-mens-basketball-tickets-leo-d-mahoney-arena-12-13-2026--sports-ncaa-basketball/production/7877454?wsUser=717",
-    "low": 32.0,
+    "low": 33.0,
     "since": "2026-11-20T12:04:23Z"
    },
    "venue": "Leo D. Mahoney Arena",
@@ -5822,7 +5818,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/georgetown-hoyas-mens-basketball-tickets-capital-one-arena-12-16-2026--sports-ncaa-basketball/production/7217287?wsUser=717",
-    "low": 8.0,
+    "low": 9.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "Capital One Arena",
@@ -11359,6 +11355,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-27T22:40:08+00:00"
+ ]
 }

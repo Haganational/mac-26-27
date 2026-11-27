@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27T18:18:06+00:00",
+ "fetched_at": "2026-11-27T23:17:00+00:00",
  "season": 2027,
  "games": [
   {
@@ -4232,21 +4232,21 @@
     "key": null,
     "name": "Bucknell Bison",
     "abbr": "BUCK",
-    "score": 71,
-    "winner": null
+    "score": 86,
+    "winner": false
    },
    "away": {
     "espn_id": "2325",
     "key": "la-salle",
     "name": "La Salle Explorers",
     "abbr": "LAS",
-    "score": 71,
-    "winner": null
+    "score": 89,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:36 - OT"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/2OT"
   },
   {
    "game_id": "401911212",
@@ -4264,11 +4264,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/george-washington-revolutionaries-mens-basketball-tickets-charles-e-smith-center-11-27-2026--sports-ncaa-basketball/production/7625606?wsUser=717",
-    "low": 7.0,
-    "since": "2026-11-18T23:07:36Z"
-   },
+   "tickets": null,
    "venue": "Charles E. Smith Center",
    "venue_city": "Washington",
    "venue_state": "DC",
@@ -4356,7 +4352,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/george-mason-patriots-mens-basketball-tickets-eaglebank-arena-11-28-2026--sports-ncaa-basketball/production/7627373?wsUser=717",
-    "low": 11.0,
+    "low": 27.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "EagleBank Arena",
@@ -4541,7 +4537,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-nationwide-arena-11-29-2026--sports-ncaa-basketball/production/7397959?wsUser=717",
-    "low": 49.0,
+    "low": 45.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Nationwide Arena",
@@ -4676,7 +4672,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-nationwide-arena-11-29-2026--sports-ncaa-basketball/production/7397959?wsUser=717",
-    "low": 49.0,
+    "low": 45.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Nationwide Arena",
@@ -5362,7 +5358,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/rhode-island-rams-mens-basketball-tickets-ryan-center-12-5-2026--sports-ncaa-basketball/production/7462743?wsUser=717",
-    "low": 40.0,
+    "low": 41.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Thomas M. Ryan Center",
@@ -6940,7 +6936,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/basketball-hall-of-fame-classic-tickets-t-mobile-center-12-18-2026--sports-ncaa-basketball/production/6944841?wsUser=717",
-    "low": 23.0,
+    "low": 24.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "T-Mobile Center",
@@ -9024,7 +9020,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/fordham-rams-mens-basketball-tickets-rose-hill-gym-10-4-2026--sports-ncaa-basketball/production/7187938?wsUser=717",
-    "low": 31.0,
+    "low": 29.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Rose Hill Gym",
@@ -12873,7 +12869,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/st-louis-billikens-mens-basketball-tickets-chaifetz-arena-10-7-2026--sports-ncaa-basketball/production/7188106?wsUser=717",
-    "low": 23.0,
+    "low": 28.0,
     "since": "2026-11-18T23:07:36Z"
    },
    "venue": "Chaifetz Arena",
@@ -13017,6 +13013,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-27T22:43:52+00:00"
+ ]
 }

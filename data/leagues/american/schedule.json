@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27T18:20:56+00:00",
+ "fetched_at": "2026-11-27T23:20:20+00:00",
  "season": 2027,
  "games": [
   {
@@ -3607,8 +3607,8 @@
   {
    "game_id": "401929288",
    "date": "2026-11-27T18:30Z",
-   "name": "Wake Forest Demon Deacons at Memphis Tigers",
-   "short_name": "WAKE VS MEM",
+   "name": "Memphis Tigers at Wake Forest Demon Deacons",
+   "short_name": "MEM VS WAKE",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -3625,18 +3625,18 @@
    "venue_city": "Nassau",
    "venue_state": "Bahamas",
    "home": {
-    "espn_id": "235",
-    "key": "memphis",
-    "name": "Memphis Tigers",
-    "abbr": "MEM",
-    "score": 85,
-    "winner": false
-   },
-   "away": {
     "espn_id": "154",
     "key": null,
     "name": "Wake Forest Demon Deacons",
     "abbr": "WAKE",
+    "score": 85,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "235",
+    "key": "memphis",
+    "name": "Memphis Tigers",
+    "abbr": "MEM",
     "score": 88,
     "winner": true
    },
@@ -3661,11 +3661,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/uab-blazers-mens-basketball-tickets-bartow-arena-11-27-2026--sports-ncaa-basketball/production/7632059?wsUser=717",
-    "low": 15.0,
-    "since": "2026-11-18T23:10:13Z"
-   },
+   "tickets": null,
    "venue": "Bartow Arena",
    "venue_city": "Birmingham",
    "venue_state": "AL",
@@ -3794,7 +3790,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kentucky-wildcats-mens-basketball-tickets-rupp-arena-11-27-2026--sports-ncaa-basketball/production/7468186?wsUser=717",
-    "low": 14.0,
+    "low": 20.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Rupp Arena",
@@ -3880,7 +3876,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-nationwide-arena-11-29-2026--sports-ncaa-basketball/production/7397959?wsUser=717",
-    "low": 49.0,
+    "low": 45.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Nationwide Arena",
@@ -4105,7 +4101,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/unc-charlotte-49ers-mens-basketball-tickets-halton-arena-11-29-2026--sports-ncaa-basketball/production/7790802?wsUser=717",
-    "low": 63.0,
+    "low": 52.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Halton Arena",
@@ -4150,7 +4146,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/dayton-flyers-mens-basketball-tickets-nationwide-arena-11-29-2026--sports-ncaa-basketball/production/7397959?wsUser=717",
-    "low": 49.0,
+    "low": 45.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Nationwide Arena",
@@ -6088,8 +6084,8 @@
   {
    "game_id": "401921421",
    "date": "2026-12-13T22:30Z",
-   "name": "North Texas Mean Green at Texas State Bobcats",
-   "short_name": "UNT VS TXST",
+   "name": "Texas State Bobcats at North Texas Mean Green",
+   "short_name": "TXST VS UNT",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -6110,18 +6106,18 @@
    "venue_city": "Fort Worth",
    "venue_state": "TX",
    "home": {
-    "espn_id": "326",
-    "key": null,
-    "name": "Texas State Bobcats",
-    "abbr": "TXST",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "249",
     "key": "north-texas",
     "name": "North Texas Mean Green",
     "abbr": "UNT",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "326",
+    "key": null,
+    "name": "Texas State Bobcats",
+    "abbr": "TXST",
     "score": null,
     "winner": null
    },
@@ -6176,51 +6172,6 @@
    "detail": ""
   },
   {
-   "game_id": "401929622",
-   "date": "2026-12-15T18:00Z",
-   "name": "Our Lady of the Lake Saints at UTSA Roadrunners",
-   "short_name": "OLLU @ UTSA",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/utsa-roadrunners-mens-basketball-tickets-utsa-convocation-center-12-15-2026--sports-ncaa-basketball/production/7707452?wsUser=717",
-    "low": 35.0,
-    "since": "2026-11-18T23:10:13Z"
-   },
-   "venue": "UTSA Convocation Center",
-   "venue_city": "San Antonio",
-   "venue_state": "TX",
-   "home": {
-    "espn_id": "2636",
-    "key": "utsa",
-    "name": "UTSA Roadrunners",
-    "abbr": "UTSA",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "3158",
-    "key": null,
-    "name": "Our Lady of the Lake Saints",
-    "abbr": "OLLU",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401921195",
    "date": "2026-12-16T00:00Z",
    "name": "Iona Gaels at Charlotte 49ers",
@@ -6257,6 +6208,51 @@
     "key": null,
     "name": "Iona Gaels",
     "abbr": "IONA",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401929622",
+   "date": "2026-12-16T00:30Z",
+   "name": "Our Lady of the Lake Saints at UTSA Roadrunners",
+   "short_name": "OLLU @ UTSA",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/utsa-roadrunners-mens-basketball-tickets-utsa-convocation-center-12-15-2026--sports-ncaa-basketball/production/7707452?wsUser=717",
+    "low": 35.0,
+    "since": "2026-11-18T23:10:13Z"
+   },
+   "venue": "UTSA Convocation Center",
+   "venue_city": "San Antonio",
+   "venue_state": "TX",
+   "home": {
+    "espn_id": "2636",
+    "key": "utsa",
+    "name": "UTSA Roadrunners",
+    "abbr": "UTSA",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "3158",
+    "key": null,
+    "name": "Our Lady of the Lake Saints",
+    "abbr": "OLLU",
     "score": null,
     "winner": null
    },
@@ -12291,6 +12287,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-27T22:13:29+00:00"
+ ]
 }

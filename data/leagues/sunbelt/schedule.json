@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27T18:21:58+00:00",
+ "fetched_at": "2026-11-27T23:21:33+00:00",
  "season": 2027,
  "games": [
   {
@@ -4373,8 +4373,8 @@
   {
    "game_id": "401929181",
    "date": "2026-11-27T19:00Z",
-   "name": "South Alabama Jaguars at Fresno State Bulldogs",
-   "short_name": "USA VS FRES",
+   "name": "Fresno State Bulldogs at South Alabama Jaguars",
+   "short_name": "FRES VS USA",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -4391,18 +4391,18 @@
    "venue_city": "New Orleans",
    "venue_state": "LA",
    "home": {
-    "espn_id": "278",
-    "key": null,
-    "name": "Fresno State Bulldogs",
-    "abbr": "FRES",
-    "score": 61,
-    "winner": false
-   },
-   "away": {
     "espn_id": "6",
     "key": "south-alabama",
     "name": "South Alabama Jaguars",
     "abbr": "USA",
+    "score": 61,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "278",
+    "key": null,
+    "name": "Fresno State Bulldogs",
+    "abbr": "FRES",
     "score": 81,
     "winner": true
    },
@@ -4427,11 +4427,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/louisiana-tech-bulldogs-mens-basketball-tickets-thomas-assembly-center-11-27-2026--sports-ncaa-basketball/production/7667291?wsUser=717",
-    "low": 9.0,
-    "since": "2026-11-18T23:11:12Z"
-   },
+   "tickets": null,
    "venue": "Thomas Assembly Center",
    "venue_city": "Ruston",
    "venue_state": "LA",
@@ -4485,7 +4481,7 @@
     "key": null,
     "name": "Virginia Tech Hokies",
     "abbr": "VT",
-    "score": 34,
+    "score": null,
     "winner": null
    },
    "away": {
@@ -4493,13 +4489,13 @@
     "key": "old-dominion",
     "name": "Old Dominion Monarchs",
     "abbr": "ODU",
-    "score": 27,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "15:41 - 2nd"
   },
   {
    "game_id": "401921031",
@@ -4538,6 +4534,51 @@
     "key": "georgia-southern",
     "name": "Georgia Southern Eagles",
     "abbr": "GASO",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401920859",
+   "date": "2026-11-28T19:00Z",
+   "name": "East Texas A&M Lions at Marshall Thundering Herd",
+   "short_name": "ETAM @ MRSH",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/marshall-thundering-herd-mens-basketball-tickets-cam-henderson-center-11-28-2026--sports-ncaa-basketball/production/7420233?wsUser=717",
+    "low": 16.0,
+    "since": "2026-11-18T23:11:12Z"
+   },
+   "venue": "Cam Henderson Center",
+   "venue_city": "Huntington",
+   "venue_state": "WV",
+   "home": {
+    "espn_id": "276",
+    "key": "marshall",
+    "name": "Marshall Thundering Herd",
+    "abbr": "MRSH",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2837",
+    "key": null,
+    "name": "East Texas A&M Lions",
+    "abbr": "ETAM",
     "score": null,
     "winner": null
    },
@@ -4648,7 +4689,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/louisiana-ragin-cajuns-mens-basketball-tickets-cajundome-11-28-2026--sports-ncaa-basketball/production/7289378?wsUser=717",
-    "low": 36.0,
+    "low": 41.0,
     "since": "2026-11-18T23:11:12Z"
    },
    "venue": "Cajundome",
@@ -4667,51 +4708,6 @@
     "key": null,
     "name": "McNeese Cowboys",
     "abbr": "MCN",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
-   "game_id": "401920859",
-   "date": "2026-11-28T21:00Z",
-   "name": "East Texas A&M Lions at Marshall Thundering Herd",
-   "short_name": "ETAM @ MRSH",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/marshall-thundering-herd-mens-basketball-tickets-cam-henderson-center-11-28-2026--sports-ncaa-basketball/production/7420233?wsUser=717",
-    "low": 16.0,
-    "since": "2026-11-18T23:11:12Z"
-   },
-   "venue": "Cam Henderson Center",
-   "venue_city": "Huntington",
-   "venue_state": "WV",
-   "home": {
-    "espn_id": "276",
-    "key": "marshall",
-    "name": "Marshall Thundering Herd",
-    "abbr": "MRSH",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2837",
-    "key": null,
-    "name": "East Texas A&M Lions",
-    "abbr": "ETAM",
     "score": null,
     "winner": null
    },
@@ -12606,6 +12602,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-27T22:49:09+00:00"
+ ]
 }

@@ -27,9 +27,9 @@ Curtis Delchamps grew up on Mobile Bay's Eastern Shore and spent fifteen years r
 
 ## Barometer
 
-**69 of 100, buoyant.** Record 6-4 (0-0 in conference), streak W3, last five WLWWW.
+**51 of 100, steady.** Record 5-5 (0-0 in conference), streak L1, last five WLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Curtis editorializes: 72% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Curtis editorializes: 61% of stories right now.
 
 ## School and town
 

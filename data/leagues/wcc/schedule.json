@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27T18:20:05+00:00",
+ "fetched_at": "2026-11-27T23:19:19+00:00",
  "season": 2027,
  "games": [
   {
@@ -3145,11 +3145,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/rady-childrens-invitational-tickets-jenny-craig-pavilion-11-27-2026--sports-ncaa-basketball/production/6821061?wsUser=717",
-    "low": 99.0,
-    "since": "2026-11-27T12:13:44Z"
-   },
+   "tickets": null,
    "venue": "Jenny Craig Pavilion",
    "venue_city": "San Diego",
    "venue_state": "CA",
@@ -3158,7 +3154,7 @@
     "key": "saint-marys",
     "name": "Saint Mary's Gaels",
     "abbr": "SMC",
-    "score": 27,
+    "score": 35,
     "winner": null
    },
    "away": {
@@ -3166,13 +3162,13 @@
     "key": null,
     "name": "Texas Longhorns",
     "abbr": "TEX",
-    "score": 18,
+    "score": 27,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "7:37 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401911524",
@@ -3354,7 +3350,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/seattle-university-redhawks-mens-basketball-tickets-seattle-university-redhawk-center-11-28-2026--sports-ncaa-basketball/production/7662428?wsUser=717",
-    "low": 36.0,
+    "low": 34.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Redhawk Center",
@@ -3714,7 +3710,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/st-marys-gaels-mens-basketball-tickets-university-credit-union-pavilion-12-1-2026--sports-ncaa-basketball/production/7686821?wsUser=717",
-    "low": 30.0,
+    "low": 28.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "University Credit Union Pavilion",
@@ -4295,7 +4291,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/san-jose-state-spartans-mens-basketball-tickets-provident-credit-union-event-center-12-5-2026--sports-ncaa-basketball/production/7785760?wsUser=717",
-    "low": 47.0,
+    "low": 60.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Provident Credit Union Event Center",
@@ -6504,7 +6500,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-12-29-2026--sports-ncaa-basketball/production/7519465?wsUser=717",
-    "low": 16.0,
+    "low": 15.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Gersten Pavilion",
@@ -6549,7 +6545,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/st-marys-gaels-mens-basketball-tickets-university-credit-union-pavilion-12-29-2026--sports-ncaa-basketball/production/7686926?wsUser=717",
-    "low": 127.0,
+    "low": 128.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "University Credit Union Pavilion",
@@ -7136,7 +7132,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-1-12-2027--sports-ncaa-basketball/production/7519479?wsUser=717",
-    "low": 15.0,
+    "low": 11.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "Gersten Pavilion",
@@ -9725,6 +9721,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-27T22:46:36+00:00"
+ ]
 }

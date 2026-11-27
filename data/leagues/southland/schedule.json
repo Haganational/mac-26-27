@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27T18:27:28+00:00",
+ "fetched_at": "2026-11-27T23:27:53+00:00",
  "season": 2027,
  "games": [
   {
@@ -3163,6 +3163,51 @@
    "detail": "Final/OT"
   },
   {
+   "game_id": "401920859",
+   "date": "2026-11-28T19:00Z",
+   "name": "East Texas A&M Lions at Marshall Thundering Herd",
+   "short_name": "ETAM @ MRSH",
+   "season_type": "reg",
+   "neutral_site": false,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN+",
+     "kind": "Streaming",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/marshall-thundering-herd-mens-basketball-tickets-cam-henderson-center-11-28-2026--sports-ncaa-basketball/production/7420233?wsUser=717",
+    "low": 16.0,
+    "since": "2026-11-18T23:16:26Z"
+   },
+   "venue": "Cam Henderson Center",
+   "venue_city": "Huntington",
+   "venue_state": "WV",
+   "home": {
+    "espn_id": "276",
+    "key": null,
+    "name": "Marshall Thundering Herd",
+    "abbr": "MRSH",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "2837",
+    "key": "east-texas-am",
+    "name": "East Texas A&M Lions",
+    "abbr": "ETAM",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
    "game_id": "401924913",
    "date": "2026-11-28T20:00Z",
    "name": "UT Rio Grande Valley Vaqueros at UNLV Rebels",
@@ -3208,51 +3253,6 @@
    "detail": ""
   },
   {
-   "game_id": "401920859",
-   "date": "2026-11-28T21:00Z",
-   "name": "East Texas A&M Lions at Marshall Thundering Herd",
-   "short_name": "ETAM @ MRSH",
-   "season_type": "reg",
-   "neutral_site": false,
-   "conference_game": false,
-   "time_tba": false,
-   "broadcasts": [
-    {
-     "name": "ESPN+",
-     "kind": "Streaming",
-     "market": "National"
-    }
-   ],
-   "tickets": {
-    "url": "https://www.vividseats.com/marshall-thundering-herd-mens-basketball-tickets-cam-henderson-center-11-28-2026--sports-ncaa-basketball/production/7420233?wsUser=717",
-    "low": 16.0,
-    "since": "2026-11-18T23:16:26Z"
-   },
-   "venue": "Cam Henderson Center",
-   "venue_city": "Huntington",
-   "venue_state": "WV",
-   "home": {
-    "espn_id": "276",
-    "key": null,
-    "name": "Marshall Thundering Herd",
-    "abbr": "MRSH",
-    "score": null,
-    "winner": null
-   },
-   "away": {
-    "espn_id": "2837",
-    "key": "east-texas-am",
-    "name": "East Texas A&M Lions",
-    "abbr": "ETAM",
-    "score": null,
-    "winner": null
-   },
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "live": false,
-   "detail": ""
-  },
-  {
    "game_id": "401925033",
    "date": "2026-11-28T21:00Z",
    "name": "McNeese Cowboys at Louisiana Ragin' Cajuns",
@@ -3270,7 +3270,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/louisiana-ragin-cajuns-mens-basketball-tickets-cajundome-11-28-2026--sports-ncaa-basketball/production/7289378?wsUser=717",
-    "low": 36.0,
+    "low": 41.0,
     "since": "2026-11-18T23:16:26Z"
    },
    "venue": "Cajundome",
@@ -3530,7 +3530,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/houston-christian-huskies-mens-basketball-tickets-sharp-gym-11-30-2026--sports-ncaa-basketball/production/7935859?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-27T23:27:53Z"
+   },
    "venue": "Sharp Gymnasium",
    "venue_city": "Houston",
    "venue_state": "TX",
@@ -5121,7 +5125,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/houston-christian-huskies-mens-basketball-tickets-sharp-gym-12-17-2026--sports-ncaa-basketball/production/7935865?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-27T23:27:53Z"
+   },
    "venue": "Sharp Gymnasium",
    "venue_city": "Houston",
    "venue_state": "TX",
@@ -5162,7 +5170,11 @@
      "market": "National"
     }
    ],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/houston-christian-huskies-mens-basketball-tickets-sharp-gym-12-19-2026--sports-ncaa-basketball/production/7935879?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-27T23:27:53Z"
+   },
    "venue": "Sharp Gymnasium",
    "venue_city": "Houston",
    "venue_state": "TX",
@@ -6120,7 +6132,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/houston-christian-huskies-mens-basketball-tickets-sharp-gym-1-2-2027--sports-ncaa-basketball/production/7935881?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-27T23:27:53Z"
+   },
    "venue": "Sharp Gymnasium",
    "venue_city": "Houston",
    "venue_state": "TX",
@@ -6576,7 +6592,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/houston-christian-huskies-mens-basketball-tickets-sharp-gym-1-9-2027--sports-ncaa-basketball/production/7935931?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-27T23:27:53Z"
+   },
    "venue": "Sharp Gymnasium",
    "venue_city": "Houston",
    "venue_state": "TX",
@@ -6981,7 +7001,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/houston-christian-huskies-mens-basketball-tickets-sharp-gym-1-11-2027--sports-ncaa-basketball/production/7935935?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-27T23:27:53Z"
+   },
    "venue": "Sharp Gymnasium",
    "venue_city": "Houston",
    "venue_state": "TX",
@@ -7484,7 +7508,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/houston-christian-huskies-mens-basketball-tickets-sharp-gym-1-23-2027--sports-ncaa-basketball/production/7935939?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-27T23:27:53Z"
+   },
    "venue": "Sharp Gymnasium",
    "venue_city": "Houston",
    "venue_state": "TX",
@@ -7897,7 +7925,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/houston-christian-huskies-mens-basketball-tickets-sharp-gym-1-26-2027--sports-ncaa-basketball/production/7935945?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-27T23:27:53Z"
+   },
    "venue": "Sharp Gymnasium",
    "venue_city": "Houston",
    "venue_state": "TX",
@@ -8396,7 +8428,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/houston-christian-huskies-mens-basketball-tickets-sharp-gym-2-6-2027--sports-ncaa-basketball/production/7935951?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-27T23:27:53Z"
+   },
    "venue": "Sharp Gymnasium",
    "venue_city": "Houston",
    "venue_state": "TX",
@@ -8774,7 +8810,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/houston-christian-huskies-mens-basketball-tickets-sharp-gym-2-8-2027--sports-ncaa-basketball/production/7935958?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-27T23:27:53Z"
+   },
    "venue": "Sharp Gymnasium",
    "venue_city": "Houston",
    "venue_state": "TX",
@@ -9491,7 +9531,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/houston-christian-huskies-mens-basketball-tickets-sharp-gym-2-20-2027--sports-ncaa-basketball/production/7935960?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-27T23:27:53Z"
+   },
    "venue": "Sharp Gymnasium",
    "venue_city": "Houston",
    "venue_state": "TX",
@@ -9674,7 +9718,11 @@
    "conference_game": true,
    "time_tba": false,
    "broadcasts": [],
-   "tickets": null,
+   "tickets": {
+    "url": "https://www.vividseats.com/houston-christian-huskies-mens-basketball-tickets-sharp-gym-2-22-2027--sports-ncaa-basketball/production/7935966?wsUser=717",
+    "low": 26.0,
+    "since": "2026-11-27T23:27:53Z"
+   },
    "venue": "Sharp Gymnasium",
    "venue_city": "Houston",
    "venue_state": "TX",
