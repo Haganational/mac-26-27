@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27T12:09:05+00:00",
+ "fetched_at": "2026-11-27T18:16:16+00:00",
  "season": 2027,
  "games": [
   {
@@ -2931,7 +2931,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "BallerTV",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Gilbert Arena",
    "venue_city": "Thousand Oaks",
@@ -3245,7 +3251,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/uc-san-diego-tritons-mens-basketball-tickets-liontree-arena-11-28-2026--sports-ncaa-basketball/production/7603596?wsUser=717",
-    "low": 33.0,
+    "low": 27.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "LionTree Arena",
@@ -4866,7 +4872,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/loyola-marymount-lions-mens-basketball-tickets-gersten-pavilion-12-19-2026--sports-ncaa-basketball/production/7519453?wsUser=717",
-    "low": 17.0,
+    "low": 15.0,
     "since": "2026-11-18T23:05:53Z"
    },
    "venue": "Gersten Pavilion",

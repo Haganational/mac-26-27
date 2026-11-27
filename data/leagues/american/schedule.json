@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27T12:14:46+00:00",
+ "fetched_at": "2026-11-27T18:20:56+00:00",
  "season": 2027,
  "games": [
   {
@@ -3613,7 +3613,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ACC Network",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Imperial Arena",
    "venue_city": "Nassau",
@@ -3788,7 +3794,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/kentucky-wildcats-mens-basketball-tickets-rupp-arena-11-27-2026--sports-ncaa-basketball/production/7468186?wsUser=717",
-    "low": 15.0,
+    "low": 14.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Rupp Arena",
@@ -5036,7 +5042,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wichita-state-shockers-mens-basketball-tickets-charles-koch-arena-12-5-2026--sports-ncaa-basketball/production/7065864?wsUser=717",
-    "low": 54.0,
+    "low": 49.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Charles Koch Arena",
@@ -6142,7 +6148,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wichita-state-shockers-mens-basketball-tickets-charles-koch-arena-12-14-2026--sports-ncaa-basketball/production/7519351?wsUser=717",
-    "low": 39.0,
+    "low": 32.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Charles Koch Arena",
@@ -7485,7 +7491,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/princeton-tigers-mens-basketball-tickets-jadwin-gymnasium-12-22-2026--sports-ncaa-basketball/production/7616996?wsUser=717",
-    "low": 26.0,
+    "low": 24.0,
     "since": "2026-11-18T23:10:13Z"
    },
    "venue": "Jadwin Gymnasium",

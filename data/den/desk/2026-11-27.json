@@ -64,18 +64,6 @@
  },
  "homer": [
   {
-   "abbr": "STMN",
-   "game_id": "401920848",
-   "key": "st-thomas",
-   "kind": "homer",
-   "short": "St. Thomas",
-   "side": "home",
-   "team_id": "2900",
-   "tip": "2026-11-27T17:00Z",
-   "why": "Homer pick.",
-   "worth": 49
-  },
-  {
    "abbr": "LIB",
    "game_id": "401920848",
    "key": "liberty",
@@ -88,16 +76,16 @@
    "worth": 51
   },
   {
-   "abbr": "UML",
-   "game_id": "401921416",
-   "key": "umass-lowell",
+   "abbr": "STMN",
+   "game_id": "401920848",
+   "key": "st-thomas",
    "kind": "homer",
-   "short": "UMass Lowell",
+   "short": "St. Thomas",
    "side": "home",
-   "team_id": "2349",
-   "tip": "2026-11-27T18:00Z",
+   "team_id": "2900",
+   "tip": "2026-11-27T17:00Z",
    "why": "Homer pick.",
-   "worth": 47
+   "worth": 49
   },
   {
    "abbr": "HAMP",
@@ -112,16 +100,16 @@
    "worth": 53
   },
   {
-   "abbr": "MRMK",
-   "game_id": "401924810",
-   "key": "merrimack",
+   "abbr": "UML",
+   "game_id": "401921416",
+   "key": "umass-lowell",
    "kind": "homer",
-   "short": "Merrimack",
+   "short": "UMass Lowell",
    "side": "home",
-   "team_id": "2771",
+   "team_id": "2349",
    "tip": "2026-11-27T18:00Z",
    "why": "Homer pick.",
-   "worth": 54
+   "worth": 47
   },
   {
    "abbr": "UVM",
@@ -134,6 +122,18 @@
    "tip": "2026-11-27T18:00Z",
    "why": "Homer pick.",
    "worth": 46
+  },
+  {
+   "abbr": "MRMK",
+   "game_id": "401924810",
+   "key": "merrimack",
+   "kind": "homer",
+   "short": "Merrimack",
+   "side": "home",
+   "team_id": "2771",
+   "tip": "2026-11-27T18:00Z",
+   "why": "Homer pick.",
+   "worth": 54
   },
   {
    "abbr": "MEM",
@@ -301,7 +301,7 @@
    "team_id": "2275",
    "tip": "2026-11-27T20:30Z",
    "why": "Homer pick.",
-   "worth": 45
+   "worth": 46
   },
   {
    "abbr": "COLG",
@@ -313,7 +313,7 @@
    "team_id": "2142",
    "tip": "2026-11-27T20:30Z",
    "why": "Homer pick.",
-   "worth": 55
+   "worth": 54
   },
   {
    "abbr": "BUCK",
@@ -733,7 +733,7 @@
    "team_id": "2250",
    "tip": "2026-11-28T04:00Z",
    "why": "Homer pick.",
-   "worth": 32
+   "worth": 31
   },
   {
    "abbr": "SDSU",
@@ -741,11 +741,11 @@
    "key": "san-diego-state",
    "kind": "homer",
    "short": "San Diego St",
-   "side": "home",
+   "side": "away",
    "team_id": "21",
    "tip": "2026-11-28T04:30Z",
    "why": "Homer pick.",
-   "worth": 75
+   "worth": 76
   }
  ]
 }

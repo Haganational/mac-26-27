@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27T12:28:28+00:00",
+ "fetched_at": "2026-11-27T18:31:54+00:00",
  "season": 2027,
  "games": [
   {
@@ -3224,7 +3224,13 @@
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "BallerTV",
+     "kind": "Streaming",
+     "market": "Home"
+    }
+   ],
    "tickets": null,
    "venue": "Gilbert Arena",
    "venue_city": "Thousand Oaks",
@@ -4287,7 +4293,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/colgate-raiders-mens-basketball-tickets-cotterell-court-12-5-2026--sports-ncaa-basketball/production/7628270?wsUser=717",
-    "low": 23.0,
+    "low": 24.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Cotterell Court",
@@ -4472,7 +4478,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ucf-knights-mens-basketball-tickets-addition-financial-arena-12-6-2026--sports-ncaa-basketball/production/7483124?wsUser=717",
-    "low": 6.0,
+    "low": 5.0,
     "since": "2026-11-18T23:20:39Z"
    },
    "venue": "Addition Financial Arena",

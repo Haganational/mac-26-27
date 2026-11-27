@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27T12:07:48+00:00",
+ "fetched_at": "2026-11-27T18:15:14+00:00",
  "season": 2027,
  "games": [
   {
@@ -3551,8 +3551,8 @@
   {
    "game_id": "401924810",
    "date": "2026-11-27T18:00Z",
-   "name": "Vermont Catamounts at Merrimack Warriors",
-   "short_name": "UVM VS MRMK",
+   "name": "Merrimack Warriors at Vermont Catamounts",
+   "short_name": "MRMK VS UVM",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -3569,14 +3569,6 @@
    "venue_city": "Hempstead",
    "venue_state": "NY",
    "home": {
-    "espn_id": "2771",
-    "key": "merrimack",
-    "name": "Merrimack Warriors",
-    "abbr": "MRMK",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "261",
     "key": null,
     "name": "Vermont Catamounts",
@@ -3584,10 +3576,18 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "away": {
+    "espn_id": "2771",
+    "key": "merrimack",
+    "name": "Merrimack Warriors",
+    "abbr": "MRMK",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:05 - 1st"
   },
   {
    "game_id": "401921224",
@@ -3698,7 +3698,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/seton-hall-pirates-mens-basketball-tickets-prudential-center-11-28-2026--sports-ncaa-basketball/production/7465787?wsUser=717",
-    "low": 13.0,
+    "low": 10.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "Prudential Center",
@@ -3778,7 +3778,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/george-mason-patriots-mens-basketball-tickets-eaglebank-arena-11-28-2026--sports-ncaa-basketball/production/7627373?wsUser=717",
-    "low": 10.0,
+    "low": 11.0,
     "since": "2026-11-18T23:04:51Z"
    },
    "venue": "EagleBank Arena",

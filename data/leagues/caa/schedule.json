@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27T12:18:24+00:00",
+ "fetched_at": "2026-11-27T18:23:52+00:00",
  "season": 2027,
  "games": [
   {
@@ -3480,8 +3480,8 @@
   {
    "game_id": "401921416",
    "date": "2026-11-27T18:00Z",
-   "name": "Hampton Pirates at UMass Lowell River Hawks",
-   "short_name": "HAMP VS UML",
+   "name": "UMass Lowell River Hawks at Hampton Pirates",
+   "short_name": "UML VS HAMP",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -3498,14 +3498,6 @@
    "venue_city": "Washington",
    "venue_state": "DC",
    "home": {
-    "espn_id": "2349",
-    "key": null,
-    "name": "UMass Lowell River Hawks",
-    "abbr": "UML",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2261",
     "key": "hampton",
     "name": "Hampton Pirates",
@@ -3513,10 +3505,18 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "away": {
+    "espn_id": "2349",
+    "key": null,
+    "name": "UMass Lowell River Hawks",
+    "abbr": "UML",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "13:49 - 1st"
   },
   {
    "game_id": "401924738",
@@ -3622,7 +3622,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/penn-quakers-mens-basketball-tickets-palestra-11-27-2026--sports-ncaa-basketball/production/7546508?wsUser=717",
-    "low": 24.0,
+    "low": 25.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "The Palestra",
@@ -3712,7 +3712,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/north-carolina-state-wolfpack-mens-basketball-tickets-lenovo-center-11-28-2026--sports-ncaa-basketball/production/7538351?wsUser=717",
-    "low": 9.0,
+    "low": 8.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Lenovo Center",
@@ -4107,7 +4107,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/charleston-cougars-mens-basketball-tickets-td-arena-11-29-2026--sports-ncaa-basketball/production/7746323?wsUser=717",
-    "low": 20.0,
+    "low": 19.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "TD Arena",
@@ -4238,7 +4238,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/james-madison-dukes-mens-basketball-tickets-atlantic-union-bank-center-11-29-2026--sports-ncaa-basketball/production/7403501?wsUser=717",
-    "low": 14.0,
+    "low": 10.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Atlantic Union Bank Center",
@@ -5258,7 +5258,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/ole-miss-rebels-mens-basketball-tickets-the-sandy-and-john-black-pavilion-at-ole-miss-12-7-2026--sports-ncaa-basketball/production/7600224?wsUser=717",
-    "low": 11.0,
+    "low": 9.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "The Sandy and John Black Pavilion at Ole Miss",
@@ -6302,7 +6302,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/duke-blue-devils-mens-basketball-tickets-cameron-indoor-stadium-12-15-2026--sports-ncaa-basketball/production/7401253?wsUser=717",
-    "low": 77.0,
+    "low": 88.0,
     "since": "2026-11-18T23:13:01Z"
    },
    "venue": "Cameron Indoor Stadium",

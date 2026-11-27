@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27T12:12:49+00:00",
+ "fetched_at": "2026-11-27T18:19:20+00:00",
  "season": 2027,
  "games": [
   {
@@ -2753,8 +2753,8 @@
   {
    "game_id": "401920535",
    "date": "2026-11-28T04:30Z",
-   "name": "Texas Tech Red Raiders at San Diego State Aztecs",
-   "short_name": "TTU VS SDSU",
+   "name": "San Diego State Aztecs at Texas Tech Red Raiders",
+   "short_name": "SDSU VS TTU",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2764,11 +2764,6 @@
      "name": "ESPN2",
      "kind": "TV",
      "market": "National"
-    },
-    {
-     "name": "ESPN",
-     "kind": "TV",
-     "market": "National"
     }
    ],
    "tickets": null,
@@ -2776,18 +2771,18 @@
    "venue_city": "Las Vegas",
    "venue_state": "NV",
    "home": {
-    "espn_id": "21",
-    "key": "san-diego-state",
-    "name": "San Diego State Aztecs",
-    "abbr": "SDSU",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2641",
     "key": null,
     "name": "Texas Tech Red Raiders",
     "abbr": "TTU",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "21",
+    "key": "san-diego-state",
+    "name": "San Diego State Aztecs",
+    "abbr": "SDSU",
     "score": null,
     "winner": null
    },
@@ -2900,7 +2895,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/new-mexico-lobos-mens-basketball-tickets-the-pit---university-arena-11-29-2026--sports-ncaa-basketball/production/7001636?wsUser=717",
-    "low": 23.0,
+    "low": 19.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "The Pit",
@@ -3518,7 +3513,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/wichita-state-shockers-mens-basketball-tickets-charles-koch-arena-12-5-2026--sports-ncaa-basketball/production/7065864?wsUser=717",
-    "low": 54.0,
+    "low": 49.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Charles Koch Arena",
@@ -5811,7 +5806,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/boise-state-broncos-mens-basketball-tickets-extramile-arena-1-9-2027--sports-ncaa-basketball/production/7631364?wsUser=717",
-    "low": 15.0,
+    "low": 16.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "ExtraMile Arena",

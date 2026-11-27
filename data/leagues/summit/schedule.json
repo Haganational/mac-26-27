@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27T12:24:02+00:00",
+ "fetched_at": "2026-11-27T18:28:22+00:00",
  "season": 2027,
  "games": [
   {
@@ -2767,8 +2767,8 @@
   {
    "game_id": "401920848",
    "date": "2026-11-27T17:00Z",
-   "name": "Liberty Flames at St. Thomas Tommies",
-   "short_name": "LIB VS STMN",
+   "name": "St. Thomas Tommies at Liberty Flames",
+   "short_name": "STMN VS LIB",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2779,25 +2779,25 @@
    "venue_city": "Wilmington",
    "venue_state": "NC",
    "home": {
-    "espn_id": "2900",
-    "key": "st-thomas",
-    "name": "St. Thomas Tommies",
-    "abbr": "STMN",
-    "score": 41,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2335",
     "key": null,
     "name": "Liberty Flames",
     "abbr": "LIB",
-    "score": 26,
+    "score": null,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "away": {
+    "espn_id": "2900",
+    "key": "st-thomas",
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "7:28 - 2nd"
   },
   {
    "game_id": "401929407",
@@ -3432,7 +3432,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/nebraska-omaha-mavericks-mens-basketball-tickets-baxter-arena-12-1-2026--sports-ncaa-basketball/production/7649870?wsUser=717",
-    "low": 20.0,
+    "low": 18.0,
     "since": "2026-11-18T23:17:16Z"
    },
    "venue": "Baxter Arena",
@@ -3853,7 +3853,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/arkansas-razorbacks-mens-basketball-tickets-simmons-bank-arena-12-5-2026--sports-ncaa-basketball/production/7575777?wsUser=717",
-    "low": 48.0,
+    "low": 46.0,
     "since": "2026-11-18T23:17:16Z"
    },
    "venue": "Simmons Bank Arena",
@@ -4787,7 +4787,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oklahoma-state-cowboys-mens-basketball-tickets-gallagher-iba-arena-12-16-2026--sports-ncaa-basketball/production/7457400?wsUser=717",
-    "low": 15.0,
+    "low": 11.0,
     "since": "2026-11-18T23:17:16Z"
    },
    "venue": "Gallagher-Iba Arena",
@@ -8044,6 +8044,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-27T17:59:18+00:00"
+ ]
 }

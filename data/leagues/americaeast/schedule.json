@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27T12:27:32+00:00",
+ "fetched_at": "2026-11-27T18:31:09+00:00",
  "season": 2027,
  "games": [
   {
@@ -2914,8 +2914,8 @@
   {
    "game_id": "401921416",
    "date": "2026-11-27T18:00Z",
-   "name": "Hampton Pirates at UMass Lowell River Hawks",
-   "short_name": "HAMP VS UML",
+   "name": "UMass Lowell River Hawks at Hampton Pirates",
+   "short_name": "UML VS HAMP",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2932,14 +2932,6 @@
    "venue_city": "Washington",
    "venue_state": "DC",
    "home": {
-    "espn_id": "2349",
-    "key": "umass-lowell",
-    "name": "UMass Lowell River Hawks",
-    "abbr": "UML",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "2261",
     "key": null,
     "name": "Hampton Pirates",
@@ -2947,16 +2939,24 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "away": {
+    "espn_id": "2349",
+    "key": "umass-lowell",
+    "name": "UMass Lowell River Hawks",
+    "abbr": "UML",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:37 - 1st"
   },
   {
    "game_id": "401924810",
    "date": "2026-11-27T18:00Z",
-   "name": "Vermont Catamounts at Merrimack Warriors",
-   "short_name": "UVM VS MRMK",
+   "name": "Merrimack Warriors at Vermont Catamounts",
+   "short_name": "MRMK VS UVM",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2973,14 +2973,6 @@
    "venue_city": "Hempstead",
    "venue_state": "NY",
    "home": {
-    "espn_id": "2771",
-    "key": null,
-    "name": "Merrimack Warriors",
-    "abbr": "MRMK",
-    "score": null,
-    "winner": null
-   },
-   "away": {
     "espn_id": "261",
     "key": "vermont",
     "name": "Vermont Catamounts",
@@ -2988,10 +2980,18 @@
     "score": null,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "away": {
+    "espn_id": "2771",
+    "key": null,
+    "name": "Merrimack Warriors",
+    "abbr": "MRMK",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "4:41 - 1st"
   },
   {
    "game_id": "401919786",
@@ -3052,7 +3052,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/george-washington-revolutionaries-mens-basketball-tickets-charles-e-smith-center-11-27-2026--sports-ncaa-basketball/production/7625606?wsUser=717",
-    "low": 8.0,
+    "low": 7.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Charles E. Smith Center",
@@ -4513,7 +4513,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/depaul-blue-demons-mens-basketball-tickets-wintrust-arena-12-8-2026--sports-ncaa-basketball/production/7258842?wsUser=717",
-    "low": 7.0,
+    "low": 6.0,
     "since": "2026-11-18T23:19:56Z"
    },
    "venue": "Wintrust Arena",
