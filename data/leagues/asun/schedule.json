@@ -2619,21 +2619,21 @@
     "key": null,
     "name": "Butler Bulldogs",
     "abbr": "BTLR",
-    "score": 70,
-    "winner": null
+    "score": 92,
+    "winner": true
    },
    "away": {
     "espn_id": "91",
     "key": "bellarmine",
     "name": "Bellarmine Knights",
     "abbr": "BELL",
-    "score": 38,
-    "winner": null
+    "score": 56,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "7:36 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401922224",
@@ -8235,5 +8235,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-27T21:32:19+00:00"
+ "live_at": "2026-11-27T22:02:45+00:00"
 }

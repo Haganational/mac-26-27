@@ -27,9 +27,9 @@ Surfer Sid was born on Oahu to a Samoan-Hawaiian family, moved to Wrightsville B
 
 ## Barometer
 
-**70 of 100, buoyant.** Record 6-1 (0-0 in conference), streak W2, last five WWLWW.
+**74 of 100, buoyant.** Record 7-1 (0-0 in conference), streak W3, last five WLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Surfer editorializes: 72% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Surfer editorializes: 75% of stories right now.
 
 ## School and town
 
@@ -73,7 +73,7 @@ Surfer Sid was born on Oahu to a Samoan-Hawaiian family, moved to Wrightsville B
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -93,3 +93,5 @@ Surfer Sid was born on Oahu to a Samoan-Hawaiian family, moved to Wrightsville B
 - 2026-11-26: Social recap posted (W 86-77 vs St. Thomas Tommies): https://hardwoodbricks.com/caa/games/401920847.html <!-- post:401920847:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/ivy/games/401924738.html <!-- post:401924738:preview -->
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/caa/games/401926796.html <!-- post:401926796:preview -->
+- 2026-11-27: W 68-66 vs Princeton Tigers. Barometer 74 (buoyant). <!-- g:401924738 -->
+- 2026-11-27: Social recap posted (W 68-66 vs Princeton Tigers): https://hardwoodbricks.com/ivy/games/401924738.html <!-- post:401924738:recap -->

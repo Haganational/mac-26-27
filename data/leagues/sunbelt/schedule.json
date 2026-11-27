@@ -4440,21 +4440,21 @@
     "key": "louisiana-tech",
     "name": "Louisiana Tech Bulldogs",
     "abbr": "LT",
-    "score": 59,
-    "winner": null
+    "score": 70,
+    "winner": false
    },
    "away": {
     "espn_id": "326",
     "key": null,
     "name": "Texas State Bobcats",
     "abbr": "TXST",
-    "score": 63,
-    "winner": null
+    "score": 78,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "8:19 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920382",
@@ -4485,7 +4485,7 @@
     "key": null,
     "name": "Virginia Tech Hokies",
     "abbr": "VT",
-    "score": null,
+    "score": 13,
     "winner": null
    },
    "away": {
@@ -4493,13 +4493,13 @@
     "key": "old-dominion",
     "name": "Old Dominion Monarchs",
     "abbr": "ODU",
-    "score": null,
+    "score": 15,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:02 - 1st"
   },
   {
    "game_id": "401921031",
@@ -12607,5 +12607,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-27T21:40:23+00:00"
+ "live_at": "2026-11-27T22:14:53+00:00"
 }

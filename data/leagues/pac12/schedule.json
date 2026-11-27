@@ -2607,21 +2607,21 @@
     "key": null,
     "name": "Louisiana Tech Bulldogs",
     "abbr": "LT",
-    "score": 59,
-    "winner": null
+    "score": 70,
+    "winner": false
    },
    "away": {
     "espn_id": "326",
     "key": "texas-state",
     "name": "Texas State Bobcats",
     "abbr": "TXST",
-    "score": 61,
-    "winner": null
+    "score": 78,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "8:56 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401927366",
@@ -8458,5 +8458,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-27T21:38:03+00:00"
+ "live_at": "2026-11-27T22:11:24+00:00"
 }

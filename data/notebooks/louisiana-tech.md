@@ -27,9 +27,9 @@ Lacey Gaspard spent twenty years as the parish extension agent in Lincoln Parish
 
 ## Barometer
 
-**68 of 100, buoyant.** Record 5-2 (0-0 in conference), streak W3, last five LLWWW.
+**56 of 100, steady.** Record 5-3 (0-0 in conference), streak L1, last five LWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Lacey editorializes: 71% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Lacey editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Lacey Gaspard spent twenty years as the parish extension agent in Lincoln Parish
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -86,3 +86,5 @@ Lacey Gaspard spent twenty years as the parish extension agent in Lincoln Parish
 - 2026-11-25: W 83-41 vs Alcorn State Braves. Barometer 68 (buoyant). <!-- g:401925687 -->
 - 2026-11-25: Social recap posted (W 83-41 vs Alcorn State Braves): https://hardwoodbricks.com/sunbelt/games/401925687.html <!-- post:401925687:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/pac12/games/401928468.html <!-- post:401928468:preview -->
+- 2026-11-27: L 70-78 vs Texas State Bobcats. Barometer 56 (steady). <!-- g:401928468 -->
+- 2026-11-27: Social recap posted (L 70-78 vs Texas State Bobcats): https://hardwoodbricks.com/pac12/games/401928468.html <!-- post:401928468:recap -->

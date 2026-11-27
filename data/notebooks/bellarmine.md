@@ -27,9 +27,9 @@ Craig Halvorsen grew up in Louisville's Germantown, the son of a church organist
 
 ## Barometer
 
-**61 of 100, steady.** Record 4-5 (0-0 in conference), streak W3, last five LLWWW.
+**48 of 100, steady.** Record 4-6 (0-0 in conference), streak L1, last five LWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Craig editorializes: 67% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Craig editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Craig Halvorsen grew up in Louisville's Germantown, the son of a church organist
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 10
+- Social posts on their games: 11
 
 ## Log
 
@@ -95,3 +95,5 @@ Craig Halvorsen grew up in Louisville's Germantown, the son of a church organist
 - 2026-11-26: W 66-52 at Northern Kentucky Norse. Barometer 61 (steady). <!-- g:401921108 -->
 - 2026-11-26: Social recap posted (W 66-52 vs Northern Kentucky Norse): https://hardwoodbricks.com/asun/games/401921108.html <!-- post:401921108:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/asun/games/401902282.html <!-- post:401902282:preview -->
+- 2026-11-27: L 56-92 at Butler Bulldogs. Barometer 48 (steady). <!-- g:401902282 -->
+- 2026-11-27: Social recap posted (L 56-92 vs Butler Bulldogs): https://hardwoodbricks.com/asun/games/401902282.html <!-- post:401902282:recap -->

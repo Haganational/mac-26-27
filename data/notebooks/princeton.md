@@ -27,9 +27,9 @@ Chip Van Doren ran banquets at a hotel near Princeton for years and still treats
 
 ## Barometer
 
-**62 of 100, steady.** Record 5-2 (0-0 in conference), streak W2, last five LWLWW.
+**54 of 100, steady.** Record 5-3 (0-0 in conference), streak L1, last five WLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Chip editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Chip editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Chip Van Doren ran banquets at a hotel near Princeton for years and still treats
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -85,3 +85,5 @@ Chip Van Doren ran banquets at a hotel near Princeton for years and still treats
 - 2026-11-25: Social recap posted (W 79-72 vs Liberty Flames): https://hardwoodbricks.com/ivy/games/401924737.html <!-- post:401924737:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/ivy/games/401924738.html <!-- post:401924738:preview -->
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/ivy/games/401920849.html <!-- post:401920849:preview -->
+- 2026-11-27: L 66-68 at UNC Wilmington Seahawks. Barometer 54 (steady). <!-- g:401924738 -->
+- 2026-11-27: Social recap posted (L 66-68 vs UNC Wilmington Seahawks): https://hardwoodbricks.com/ivy/games/401924738.html <!-- post:401924738:recap -->

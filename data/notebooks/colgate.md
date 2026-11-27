@@ -27,9 +27,9 @@ Lauren Cho edits The Hamilton Courant and reports Raiders basketball with the ca
 
 ## Barometer
 
-**52 of 100, steady.** Record 2-4 (0-0 in conference), streak W2, last five LLLWW.
+**63 of 100, steady.** Record 3-4 (0-0 in conference), streak W3, last five LLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Lauren editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Lauren editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -82,3 +82,4 @@ Lauren Cho edits The Hamilton Courant and reports Raiders basketball with the ca
 - 2026-11-21: Social recap posted (W 87-55 vs Penn State Behrend Lions): https://hardwoodbricks.com/patriot/games/401920773.html <!-- post:401920773:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/caa/games/401920774.html <!-- post:401920774:preview -->
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/americaeast/games/401920775.html <!-- post:401920775:preview -->
+- 2026-11-27: W 75-49 at Hofstra Pride. Barometer 63 (steady). <!-- g:401920774 -->
