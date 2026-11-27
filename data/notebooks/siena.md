@@ -64,7 +64,7 @@ Sean McDonough Jr. hosted pub trivia in Albany so long-windedly that a regular w
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -83,3 +83,4 @@ Sean McDonough Jr. hosted pub trivia in Albany so long-windedly that a regular w
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/metro/games/401920695.html <!-- post:401920695:preview -->
 - 2026-11-25: W 98-88 vs Vermont Catamounts. Barometer 63 (steady). <!-- g:401920695 -->
 - 2026-11-25: Social recap posted (W 98-88 vs Vermont Catamounts): https://hardwoodbricks.com/metro/games/401920695.html <!-- post:401920695:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/metro/games/401920890.html <!-- post:401920890:preview -->
