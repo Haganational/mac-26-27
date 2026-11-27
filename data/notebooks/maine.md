@@ -66,7 +66,7 @@ Hollis Grant plowed roads for the state and ran a hardware store in Old Town, an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -82,3 +82,4 @@ Hollis Grant plowed roads for the state and ran a hardware store in Old Town, an
 - 2026-11-21: L 44-76 at Massachusetts Minutemen. Barometer 37 (testy). <!-- g:401911023 -->
 - 2026-11-22: Social recap posted (L 44-76 vs Massachusetts Minutemen): https://hardwoodbricks.com/games/401911023.html <!-- post:401911023:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/americaeast/games/401919786.html <!-- post:401919786:preview -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/americaeast/games/401923305.html <!-- post:401923305:preview -->
