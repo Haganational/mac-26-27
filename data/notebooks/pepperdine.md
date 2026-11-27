@@ -71,7 +71,7 @@ Brody Haskins was a Malibu lifeguard for twenty summers and taught surf lessons 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 9
+- Social posts on their games: 10
 
 ## Log
 
@@ -92,3 +92,4 @@ Brody Haskins was a Malibu lifeguard for twenty summers and taught surf lessons 
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920138.html <!-- post:401920138:preview -->
 - 2026-11-26: W 70-68 vs Cal State Bakersfield Roadrunners. Barometer 68 (buoyant). <!-- g:401920138 -->
 - 2026-11-26: Social recap posted (W 70-68 vs Cal State Bakersfield Roadrunners): https://hardwoodbricks.com/bigwest/games/401920138.html <!-- post:401920138:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/wcc/games/401926757.html <!-- post:401926757:preview -->

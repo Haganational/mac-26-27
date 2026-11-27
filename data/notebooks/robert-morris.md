@@ -69,7 +69,7 @@ Lauren McAllister grew up in Coraopolis and spent fifteen years as a high school
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -89,3 +89,4 @@ Lauren McAllister grew up in Coraopolis and spent fifteen years as a high school
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/horizon/games/401925014.html <!-- post:401925014:preview -->
 - 2026-11-24: L 62-87 vs (neutral) Lamar Cardinals. Barometer 38 (testy). <!-- g:401925014 -->
 - 2026-11-25: Social recap posted (L 62-87 vs Lamar Cardinals): https://hardwoodbricks.com/horizon/games/401925014.html <!-- post:401925014:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/horizon/games/401927389.html <!-- post:401927389:preview -->

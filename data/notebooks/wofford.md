@@ -69,7 +69,7 @@ Tucker Boyd sells irrigation systems to peach growers across the Upstate, and he
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -89,3 +89,4 @@ Tucker Boyd sells irrigation systems to peach growers across the Upstate, and he
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/asun/games/401922231.html <!-- post:401922231:preview -->
 - 2026-11-24: W 86-77 vs Queens University Royals. Barometer 66 (buoyant). <!-- g:401922231 -->
 - 2026-11-25: Social recap posted (W 86-77 vs Queens University Royals): https://hardwoodbricks.com/asun/games/401922231.html <!-- post:401922231:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/horizon/games/401926212.html <!-- post:401926212:preview -->
