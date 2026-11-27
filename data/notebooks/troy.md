@@ -67,7 +67,7 @@ Earl Weatherby directed high school marching bands across the Wiregrass for thir
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -84,3 +84,4 @@ Earl Weatherby directed high school marching bands across the Wiregrass for thir
 - 2026-11-22: Social recap posted (W 77-72 vs Valparaiso Beacons): https://hardwoodbricks.com/mvc/games/401928998.html <!-- post:401928998:recap -->
 - 2026-11-22: W 78-77 vs (neutral) Nicholls Colonels. Barometer 48 (steady). <!-- g:401925066 -->
 - 2026-11-22: Social recap posted (W 78-77 vs Nicholls Colonels): https://hardwoodbricks.com/sunbelt/games/401925066.html <!-- post:401925066:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401920977.html <!-- post:401920977:preview -->

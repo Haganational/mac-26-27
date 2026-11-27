@@ -70,7 +70,7 @@ Fern Whitaker edits The Asheville Dispatch and reviews Bulldogs basketball like 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -88,3 +88,4 @@ Fern Whitaker edits The Asheville Dispatch and reviews Bulldogs basketball like 
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/bigsouth/games/401909699.html <!-- post:401909699:preview -->
 - 2026-11-25: L 61-97 at Florida State Seminoles. Barometer 25 (despondent). <!-- g:401909699 -->
 - 2026-11-25: Social recap posted (L 61-97 vs Florida State Seminoles): https://hardwoodbricks.com/bigsouth/games/401909699.html <!-- post:401909699:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401921031.html <!-- post:401921031:preview -->

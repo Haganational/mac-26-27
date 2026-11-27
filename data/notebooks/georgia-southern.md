@@ -69,7 +69,7 @@ Luke Bramlett spent ten years as a pest-control technician in Bulloch County, wh
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -89,3 +89,4 @@ Luke Bramlett spent ten years as a pest-control technician in Bulloch County, wh
 - 2026-11-24: Social recap posted (W 84-79 vs Northern Kentucky Norse): https://hardwoodbricks.com/horizon/games/401921029.html <!-- post:401921029:recap -->
 - 2026-11-25: L 67-82 vs (neutral) Bellarmine Knights. Barometer 43 (testy). <!-- g:401921030 -->
 - 2026-11-25: Social recap posted (L 67-82 vs Bellarmine Knights): https://hardwoodbricks.com/asun/games/401921030.html <!-- post:401921030:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401921031.html <!-- post:401921031:preview -->

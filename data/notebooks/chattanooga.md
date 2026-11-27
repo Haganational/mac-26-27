@@ -69,7 +69,7 @@ Rhett Caldwell spent eighteen years as a conductor on a vintage excursion railro
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,4 @@ Rhett Caldwell spent eighteen years as a conductor on a vintage excursion railro
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/socon/games/401920976.html <!-- post:401920976:preview -->
 - 2026-11-25: W 79-66 vs Delaware State Hornets. Barometer 59 (steady). <!-- g:401920976 -->
 - 2026-11-25: Social recap posted (W 79-66 vs Delaware State Hornets): https://hardwoodbricks.com/socon/games/401920976.html <!-- post:401920976:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401920977.html <!-- post:401920977:preview -->

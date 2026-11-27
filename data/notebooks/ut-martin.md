@@ -70,7 +70,7 @@ Buck Tolley edits The Martin Argus and believes every Skyhawks win belongs on a 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -90,3 +90,4 @@ Buck Tolley edits The Martin Argus and believes every Skyhawks win belongs on a 
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/american/games/401921210.html <!-- post:401921210:preview -->
 - 2026-11-23: W 90-81 vs (neutral) Temple Owls. Barometer 63 (steady). <!-- g:401921210 -->
 - 2026-11-24: Social recap posted (W 90-81 vs Temple Owls): https://hardwoodbricks.com/american/games/401921210.html <!-- post:401921210:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/ovc/games/401926734.html <!-- post:401926734:preview -->

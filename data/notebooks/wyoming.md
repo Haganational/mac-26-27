@@ -68,7 +68,7 @@ Darlene Pickett ran cattle outside Laramie for forty years, raised three kids an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 7
 
 ## Log
 
