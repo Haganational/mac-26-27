@@ -68,7 +68,7 @@ Grady Pinckney supervised a textile mill shift in Greenville for twenty years an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -88,3 +88,4 @@ Grady Pinckney supervised a textile mill shift in Greenville for twenty years an
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/caa/games/401921142.html <!-- post:401921142:preview -->
 - 2026-11-24: W 82-60 vs Elon Phoenix. Barometer 77 (buoyant). <!-- g:401921142 -->
 - 2026-11-25: Social recap posted (W 82-60 vs Elon Phoenix): https://hardwoodbricks.com/caa/games/401921142.html <!-- post:401921142:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/socon/games/401917954.html <!-- post:401917954:preview -->

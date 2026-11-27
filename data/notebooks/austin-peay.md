@@ -56,7 +56,7 @@ Shelby Ray grew up in Clarksville, worked as a county election clerk for ten yea
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -70,3 +70,4 @@ Shelby Ray grew up in Clarksville, worked as a county election clerk for ten yea
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/southland/games/401917953.html <!-- post:401917953:preview -->
 - 2026-11-21: L 73-79 vs UT Rio Grande Valley Vaqueros. Barometer 50 (steady). <!-- g:401917953 -->
 - 2026-11-21: Social recap posted (L 73-79 vs UT Rio Grande Valley Vaqueros): https://hardwoodbricks.com/southland/games/401917953.html <!-- post:401917953:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/socon/games/401917954.html <!-- post:401917954:preview -->

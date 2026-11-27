@@ -68,7 +68,7 @@ Tessa Morales grew up in Toledo's Old South End and is the first in her family t
 ## What we've made about them
 
 - Film: *A Hundred Dollars to Fumble* (https://youtu.be/S7vx_vBG8qk). Our film on Toledo's point-shaving scandal of the mid-2000s, and the betting business that followed it.
-- Social posts on their games: 5
+- Social posts on their games: 4
 
 ## Log
 

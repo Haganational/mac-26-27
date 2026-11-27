@@ -73,7 +73,7 @@ Remy Fontenot repairs accordions for a living and plays rubboard in a zydeco ban
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -89,3 +89,4 @@ Remy Fontenot repairs accordions for a living and plays rubboard in a zydeco ban
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401929456.html <!-- post:401929456:preview -->
 - 2026-11-25: W 91-24 vs Louisiana Christian Wildcats. Barometer 45 (steady). <!-- g:401929456 -->
 - 2026-11-25: Social recap posted (W 91-24 vs Louisiana Christian Wildcats): https://hardwoodbricks.com/sunbelt/games/401929456.html <!-- post:401929456:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401925033.html <!-- post:401925033:preview -->

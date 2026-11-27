@@ -65,7 +65,7 @@ Skipper Callahan captained a Long Island Sound ferry for decades and spent his s
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -81,3 +81,4 @@ Skipper Callahan captained a Long Island Sound ferry for decades and spent his s
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/caa/games/401926835.html <!-- post:401926835:preview -->
 - 2026-11-25: W 69-63 vs Lindenwood Lions. Barometer 67 (buoyant). <!-- g:401926835 -->
 - 2026-11-25: Social recap posted (W 69-63 vs Lindenwood Lions): https://hardwoodbricks.com/caa/games/401926835.html <!-- post:401926835:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/caa/games/401920906.html <!-- post:401920906:preview -->

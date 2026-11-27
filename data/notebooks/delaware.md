@@ -67,7 +67,7 @@ Hank Sorensen sold poultry feed up and down the Delmarva Peninsula for twenty-ei
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -85,3 +85,4 @@ Hank Sorensen sold poultry feed up and down the Delmarva Peninsula for twenty-ei
 - 2026-11-21: Social preview posted: https://hardwoodbricks.com/cusa/games/401920905.html <!-- post:401920905:preview -->
 - 2026-11-23: L 48-85 at UCLA Bruins. Barometer 52 (steady). <!-- g:401920905 -->
 - 2026-11-23: Social recap posted (L 48-85 vs UCLA Bruins): https://hardwoodbricks.com/cusa/games/401920905.html <!-- post:401920905:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/caa/games/401920906.html <!-- post:401920906:preview -->

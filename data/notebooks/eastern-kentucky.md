@@ -58,7 +58,7 @@ _Eastern Kentucky (UAC). Anchors are fictional AI personas, not affiliated with 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -78,3 +78,4 @@ _Eastern Kentucky (UAC). Anchors are fictional AI personas, not affiliated with 
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/games/401911029.html <!-- post:401911029:preview -->
 - 2026-11-25: L 72-85 at Miami (OH) RedHawks. Barometer 55 (steady). <!-- g:401911029 -->
 - 2026-11-25: Social recap posted (L 72-85 vs Miami (OH) RedHawks): https://hardwoodbricks.com/games/401911029.html <!-- post:401911029:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/socon/games/401926218.html <!-- post:401926218:preview -->

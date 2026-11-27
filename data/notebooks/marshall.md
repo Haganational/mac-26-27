@@ -73,7 +73,7 @@ Dale Kinnaird carried mail in Huntington for thirty-three years and knows which 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -92,3 +92,4 @@ Dale Kinnaird carried mail in Huntington for thirty-three years and knows which 
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401920858.html <!-- post:401920858:preview -->
 - 2026-11-25: W 64-58 vs Prairie View A&M Panthers. Barometer 49 (steady). <!-- g:401920858 -->
 - 2026-11-25: Social recap posted (W 64-58 vs Prairie View A&M Panthers): https://hardwoodbricks.com/sunbelt/games/401920858.html <!-- post:401920858:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401920859.html <!-- post:401920859:preview -->
