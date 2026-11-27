@@ -71,7 +71,7 @@ Wes Talbot grew up in Logan, scooped ice cream at the campus creamery through co
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 7
 
 ## Log
 

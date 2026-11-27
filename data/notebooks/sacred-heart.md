@@ -65,7 +65,7 @@ Tommy DiNapoli was a personal trainer in Bridgeport who posted Sacred Heart reac
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 5
 
 ## Log
 

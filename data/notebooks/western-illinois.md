@@ -68,7 +68,7 @@ Jess Rademacher edits The Macomb Examiner and will tell you, correctly, that Mac
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 10
+- Social posts on their games: 9
 
 ## Log
 

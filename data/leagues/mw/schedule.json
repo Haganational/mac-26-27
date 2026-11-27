@@ -2762,7 +2762,7 @@
     "key": "uc-davis",
     "name": "UC Davis Aggies",
     "abbr": "UCD",
-    "score": null,
+    "score": 17,
     "winner": null
    },
    "away": {
@@ -2770,13 +2770,13 @@
     "key": null,
     "name": "Jacksonville State Gamecocks",
     "abbr": "JXST",
-    "score": null,
+    "score": 14,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "6:51 - 1st"
   },
   {
    "game_id": "401911524",
@@ -9179,5 +9179,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-27T01:29:44+00:00"
 }

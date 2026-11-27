@@ -64,7 +64,7 @@ Evan Gallagher wrestled in high school, taught middle school gym for years, and 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 5
 
 ## Log
 
