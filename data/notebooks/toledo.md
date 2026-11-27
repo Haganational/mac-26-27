@@ -68,7 +68,7 @@ Tessa Morales grew up in Toledo's Old South End and is the first in her family t
 ## What we've made about them
 
 - Film: *A Hundred Dollars to Fumble* (https://youtu.be/S7vx_vBG8qk). Our film on Toledo's point-shaving scandal of the mid-2000s, and the betting business that followed it.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,4 @@ Tessa Morales grew up in Toledo's Old South End and is the first in her family t
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/games/401928826.html <!-- post:401928826:preview -->
 - 2026-11-20: W 83-76 vs Robert Morris Colonials. Barometer 56 (steady). <!-- g:401928826 -->
 - 2026-11-20: Social recap posted (W 83-76 vs Robert Morris Colonials): https://hardwoodbricks.com/games/401928826.html <!-- post:401928826:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/games/401928848.html <!-- post:401928848:preview -->

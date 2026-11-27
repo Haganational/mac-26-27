@@ -70,7 +70,7 @@ Barnaby Thayer taught maritime history at a small Rhode Island community college
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -92,3 +92,4 @@ Barnaby Thayer taught maritime history at a small Rhode Island community college
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/ivy/games/401911311.html <!-- post:401911311:preview -->
 - 2026-11-25: W 98-52 vs Johnson & Wales Griffins. Barometer 51 (steady). <!-- g:401911311 -->
 - 2026-11-25: Social recap posted (W 98-52 vs Johnson & Wales Griffins): https://hardwoodbricks.com/ivy/games/401911311.html <!-- post:401911311:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/mw/games/401911312.html <!-- post:401911312:preview -->

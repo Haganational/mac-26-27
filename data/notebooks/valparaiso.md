@@ -69,7 +69,7 @@ Greta Von Berg grew up on a dairy farm outside Valparaiso and spent thirty years
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -85,3 +85,4 @@ Greta Von Berg grew up on a dairy farm outside Valparaiso and spent thirty years
 - 2026-11-22: Social recap posted (L 72-77 vs Troy Trojans): https://hardwoodbricks.com/mvc/games/401928998.html <!-- post:401928998:recap -->
 - 2026-11-22: L 89-99 vs (neutral) Southern Miss Golden Eagles. Barometer 55 (steady). <!-- g:401928999 -->
 - 2026-11-23: Social recap posted (L 89-99 vs Southern Miss Golden Eagles): https://hardwoodbricks.com/mvc/games/401928999.html <!-- post:401928999:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/games/401928848.html <!-- post:401928848:preview -->

@@ -66,7 +66,7 @@ Diego Cantu grew up in Edinburg, worked twelve years as a high school counselor 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -80,3 +80,4 @@ Diego Cantu grew up in Edinburg, worked twelve years as a high school counselor 
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/southland/games/401917953.html <!-- post:401917953:preview -->
 - 2026-11-21: W 79-73 at Austin Peay Governors. Barometer 61 (steady). <!-- g:401917953 -->
 - 2026-11-21: Social recap posted (W 79-73 vs Austin Peay Governors): https://hardwoodbricks.com/southland/games/401917953.html <!-- post:401917953:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/mw/games/401924913.html <!-- post:401924913:preview -->

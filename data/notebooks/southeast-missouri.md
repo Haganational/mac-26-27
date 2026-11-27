@@ -69,7 +69,7 @@ Bonnie Kasten edits The Cape Girardeau Chronicle and checks the Mississippi Rive
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,4 @@ Bonnie Kasten edits The Cape Girardeau Chronicle and checks the Mississippi Rive
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/horizon/games/401926154.html <!-- post:401926154:preview -->
 - 2026-11-25: L 75-80 vs Purdue Fort Wayne Mastodons. Barometer 41 (testy). <!-- g:401926154 -->
 - 2026-11-25: Social recap posted (L 75-80 vs Purdue Fort Wayne Mastodons): https://hardwoodbricks.com/horizon/games/401926154.html <!-- post:401926154:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/summit/games/401921009.html <!-- post:401921009:preview -->

@@ -70,7 +70,7 @@ Augustus Pike ran the ring-toss booth at Colorado county fairs for twenty years 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -88,3 +88,4 @@ Augustus Pike ran the ring-toss booth at Colorado county fairs for twenty years 
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/wcc/games/401909788.html <!-- post:401909788:preview -->
 - 2026-11-24: L 67-84 at Kansas Jayhawks. Barometer 34 (testy). <!-- g:401909788 -->
 - 2026-11-24: Social recap posted (L 67-84 vs Kansas Jayhawks): https://hardwoodbricks.com/wcc/games/401909788.html <!-- post:401909788:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/wcc/games/401926229.html <!-- post:401926229:preview -->

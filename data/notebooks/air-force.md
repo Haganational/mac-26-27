@@ -70,7 +70,7 @@ Col. Hank Sterling spent thirty years in uniform, most of them fixing schedules 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -89,3 +89,4 @@ Col. Hank Sterling spent thirty years in uniform, most of them fixing schedules 
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/mw/games/401911338.html <!-- post:401911338:preview -->
 - 2026-11-25: W 88-79 vs (neutral) Army Black Knights. Barometer 51 (steady). <!-- g:401911338 -->
 - 2026-11-25: Social recap posted (W 88-79 vs Army Black Knights): https://hardwoodbricks.com/mw/games/401911338.html <!-- post:401911338:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/mw/games/401911312.html <!-- post:401911312:preview -->

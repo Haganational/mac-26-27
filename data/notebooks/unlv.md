@@ -69,7 +69,7 @@ Vanessa Cruz grew up in North Las Vegas, the daughter of a showroom stagehand, a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 9
+- Social posts on their games: 10
 
 ## Log
 
@@ -90,3 +90,4 @@ Vanessa Cruz grew up in North Las Vegas, the daughter of a showroom stagehand, a
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/mw/games/401920721.html <!-- post:401920721:preview -->
 - 2026-11-24: W 82-61 vs Eastern Washington Eagles. Barometer 49 (steady). <!-- g:401920721 -->
 - 2026-11-24: Social recap posted (W 82-61 vs Eastern Washington Eagles): https://hardwoodbricks.com/mw/games/401920721.html <!-- post:401920721:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/mw/games/401924913.html <!-- post:401924913:preview -->
