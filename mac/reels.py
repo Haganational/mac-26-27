@@ -43,7 +43,7 @@ import requests
 
 from . import alert
 from . import tags as hashtags
-from .youtube import title
+from .youtube import VERTICAL, title
 
 REPO = "Haganational/mac-26-27"
 GRAPH = "https://graph.facebook.com/v21.0"
@@ -56,7 +56,10 @@ SITE = "https://hardwoodbricks.com"
 DISCLOSURE = "Anchors are fictional AI personas, not affiliated with any school."
 BSKY_MAX_SECONDS = 600  # Bluesky's video service refuses anything longer
 POLL_SECONDS, POLL_TRIES = 10, 60  # wait up to ten minutes for a network to finish processing
-SHOW_PAGE = {"midmaxx60": f"{SITE}/midmaxx60.html", "bigmid": f"{SITE}/watch.html"}
+SHOW_PAGE = {"midmaxx60": f"{SITE}/midmaxx60.html", "bigmid": f"{SITE}/watch.html", "lockclip": f"{SITE}/tops.html"}
+LINK_LABEL = {"lockclip": "Full episode"}  # default "Full slate"
+# The Lock Call is a picks show: every post carries the gambling line too.
+SHOW_DISCLOSURE = {"lockclip": "Hosts are fictional AI personas. Picks are entertainment, not advice. 21+. 1-800-GAMBLER."}
 
 
 # ---------- the post text ----------
@@ -66,17 +69,18 @@ def caption(stem: str, description: str, show: str, limit: int = 2200, specific:
     paras = [p.strip() for p in description.split("\n\n") if p.strip()]
     lead = paras[0] if paras else ""
     tags = hashtags.line(specific or [])
-    parts = [title(stem), lead, f"Full slate: {SHOW_PAGE[show]}", tags, DISCLOSURE]
+    link = f"{LINK_LABEL.get(show, 'Full slate')}: {SHOW_PAGE[show]}"
+    parts = [title(stem), lead, link, tags, SHOW_DISCLOSURE.get(show, DISCLOSURE)]
     text = "\n\n".join(p for p in parts if p)
     if len(text) > limit:  # drop the lead before anything else
-        text = "\n\n".join(p for p in [title(stem), f"Full slate: {SHOW_PAGE[show]}", tags] if p)
+        text = "\n\n".join(p for p in [title(stem), link, tags] if p)
     return text[:limit]
 
 
 def short_caption(stem: str, show: str, specific: list[str] | None = None) -> str:
     """For Bluesky's 300-character posts and Threads' 500: title, link, tags, disclosure."""
     tags = hashtags.line((specific or [])[:2])
-    return f"{title(stem)}\n\n{SHOW_PAGE[show]}\n\n{tags}\n{DISCLOSURE}"
+    return f"{title(stem)}\n\n{SHOW_PAGE[show]}\n\n{tags}\n{SHOW_DISCLOSURE.get(show, DISCLOSURE)}"
 
 
 def release_url(stem: str, repo: str = REPO) -> str:
@@ -288,9 +292,9 @@ def networks(show: str, env: dict[str, str] | None = None) -> list[str]:
     out = []
     if e.get("FB_PAGE_ID") and e.get("FB_PAGE_TOKEN"):
         out.append("facebook")
-    if show == "midmaxx60" and (e.get("IG_ACCESS_TOKEN") or (e.get("IG_USER_ID") and e.get("FB_PAGE_TOKEN"))):
+    if show in VERTICAL and (e.get("IG_ACCESS_TOKEN") or (e.get("IG_USER_ID") and e.get("FB_PAGE_TOKEN"))):
         out.append("instagram")
-    if show == "midmaxx60" and e.get("THREADS_ACCESS_TOKEN"):
+    if show in VERTICAL and e.get("THREADS_ACCESS_TOKEN"):
         out.append("threads")
     if e.get("BSKY_HANDLE") and e.get("BSKY_APP_PASSWORD"):
         out.append("bluesky")
@@ -309,7 +313,7 @@ def post_one(net: str, show: str, mp4: Path, description: str) -> str:
         token = page_token(page, e["FB_PAGE_TOKEN"].strip())
         if fb_already(page, token, head):
             return "already posted"
-        vid = fb_reel(page, token, mp4, long_text) if show == "midmaxx60" else fb_video(page, token, mp4, long_text, head)
+        vid = fb_reel(page, token, mp4, long_text) if show in VERTICAL else fb_video(page, token, mp4, long_text, head)
         return f"posted video {vid}"
     if net == "instagram":
         token, user, host = ig_auth(e)
@@ -331,7 +335,7 @@ def post_one(net: str, show: str, mp4: Path, description: str) -> str:
         secs = duration(mp4)
         if secs > BSKY_MAX_SECONDS:
             return f"video is {secs:.0f}s, over Bluesky's {BSKY_MAX_SECONDS}s cap; posted link {bsky_text(sess, short_text)}"
-        size = (1080, 1920) if show == "midmaxx60" else (1920, 1080)
+        size = (1080, 1920) if show in VERTICAL else (1920, 1080)
         return f"posted {bsky_video(sess, mp4, short_text, size)}"
     raise ValueError(net)
 
@@ -354,7 +358,7 @@ def run(out: Path, show: str) -> int:
     if not nets:
         print("reels: no Facebook, Instagram, Threads or Bluesky secrets set, skipped")
         return 0
-    name = "The Big Mid" if show == "bigmid" else "MidMaxx60"
+    name = {"bigmid": "The Big Mid", "lockclip": "The Lock Call clip"}.get(show, "MidMaxx60")
     failed = 0
     for net in nets:
         try:

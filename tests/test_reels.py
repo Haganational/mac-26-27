@@ -120,3 +120,11 @@ def test_bluesky_short_video_still_uploads(tmp_path, monkeypatch):
     monkeypatch.setattr(reels, "duration", lambda p: 60.0)
     monkeypatch.setattr(reels, "bsky_video", lambda *a: "at://v")
     assert reels.post_one("bluesky", "midmaxx60", mp4, "") == "posted at://v"
+
+
+def test_lock_call_clip_is_a_vertical_show_with_the_gambling_line():
+    env = {"FB_PAGE_ID": "1", "FB_PAGE_TOKEN": "t", "IG_USER_ID": "2", "THREADS_ACCESS_TOKEN": "t", "BSKY_HANDLE": "h", "BSKY_APP_PASSWORD": "p"}
+    assert reels.networks("lockclip", env) == ["facebook", "instagram", "threads", "bluesky"]
+    s = reels.short_caption("lockclip-2026-11-26", "lockclip")
+    assert s.startswith("The Lock Call: the day's picks, Nov. 26") and "tops.html" in s and "1-800-GAMBLER" in s and len(s) <= 300
+    assert "Full episode: https://hardwoodbricks.com/tops.html" in reels.caption("lockclip-2026-11-26", "Lead.", "lockclip")

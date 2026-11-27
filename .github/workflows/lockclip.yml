@@ -1,0 +1,95 @@
+name: Lock Call clip
+
+# The daily vertical video (Matthew, Nov 26 2026: option A after MidMaxx60 ended). When a new Lock Call
+# episode lands on main, cut its opening into a Short (mac/lockclip.py) and post it to YouTube Shorts,
+# Facebook Reels, Instagram Reels, Threads (its one automated post a day) and Bluesky.
+#
+# LIVE is "false" until Matthew approves the look: runs then only render the clip as a workflow artifact
+# (no release, so Stories doesn't pick it up either). A by-hand run with post=true posts regardless.
+on:
+  push:
+    branches: [main]
+    paths: ["data/podcast/episodes.json"]
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: "Episode id from data/podcast/episodes.json (blank = newest regular show)"
+        required: false
+      post:
+        description: "Publish and post even while LIVE is false"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: lockclip
+  cancel-in-progress: false
+
+env:
+  LIVE: "false"
+
+jobs:
+  clip:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+      - name: Render the clip
+        id: render
+        env:
+          EPISODE: ${{ inputs.episode }}
+        run: |
+          python -m mac.lockclip --out out --episode "$EPISODE"
+          echo "stem=$(basename out/lockclip-*.mp4 .mp4)" >> "$GITHUB_OUTPUT"
+          if [ "$LIVE" = "true" ] || [ "${{ inputs.post }}" = "true" ]; then echo "post=yes" >> "$GITHUB_OUTPUT"; fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: lockclip
+          path: out/lockclip-*
+      # One clip a day: a release that already exists means today's clip went out, so nothing reposts.
+      - name: Publish as a release
+        id: release
+        if: steps.render.outputs.post == 'yes'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          STEM: ${{ steps.render.outputs.stem }}
+        run: |
+          if gh release view "$STEM" >/dev/null 2>&1; then
+            gh release upload "$STEM" out/$STEM.mp4 out/$STEM-thumb.png out/$STEM.txt --clobber
+          else
+            gh release create "$STEM" out/$STEM.mp4 out/$STEM-thumb.png out/$STEM.txt --title "The Lock Call clip · ${STEM#lockclip-}" --notes-file out/$STEM.txt
+          fi
+      - name: Upload to YouTube
+        if: steps.render.outputs.post == 'yes'
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_PRIVACY: ${{ vars.YT_PRIVACY }}
+          ALERT_SMTP_USER: ${{ secrets.ALERT_SMTP_USER }}
+          ALERT_SMTP_PASSWORD: ${{ secrets.ALERT_SMTP_PASSWORD }}
+          ALERT_TO: ${{ vars.ALERT_TO }}
+        run: python -m mac.youtube --out out --show lockclip
+      - name: Cross-post to Facebook, Instagram, Threads and Bluesky
+        if: ${{ !cancelled() && steps.render.outputs.post == 'yes' }}
+        env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+          ALERT_SMTP_USER: ${{ secrets.ALERT_SMTP_USER }}
+          ALERT_SMTP_PASSWORD: ${{ secrets.ALERT_SMTP_PASSWORD }}
+          ALERT_TO: ${{ vars.ALERT_TO }}
+        run: python -m mac.reels --out out --show lockclip
