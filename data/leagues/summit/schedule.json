@@ -2748,7 +2748,7 @@
     "key": "omaha",
     "name": "Omaha Mavericks",
     "abbr": "OMA",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -2756,13 +2756,13 @@
     "key": null,
     "name": "Pacific Tigers",
     "abbr": "PAC",
-    "score": null,
+    "score": 4,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:17 - 1st"
   },
   {
    "game_id": "401920848",
@@ -8044,5 +8044,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-27T03:36:02+00:00"
 }
