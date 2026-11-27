@@ -4395,7 +4395,7 @@
     "key": null,
     "name": "Fresno State Bulldogs",
     "abbr": "FRES",
-    "score": null,
+    "score": 5,
     "winner": null
    },
    "away": {
@@ -4403,13 +4403,13 @@
     "key": "south-alabama",
     "name": "South Alabama Jaguars",
     "abbr": "USA",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:35 - 1st"
   },
   {
    "game_id": "401928468",
@@ -12606,5 +12606,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-27T19:10:56+00:00"
 }

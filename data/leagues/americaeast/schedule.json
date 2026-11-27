@@ -2936,7 +2936,7 @@
     "key": null,
     "name": "Hampton Pirates",
     "abbr": "HAMP",
-    "score": 25,
+    "score": 33,
     "winner": null
    },
    "away": {
@@ -2944,13 +2944,13 @@
     "key": "umass-lowell",
     "name": "UMass Lowell River Hawks",
     "abbr": "UML",
-    "score": 36,
+    "score": 43,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "14:13 - 2nd"
   },
   {
    "game_id": "401924810",
@@ -2977,7 +2977,7 @@
     "key": "vermont",
     "name": "Vermont Catamounts",
     "abbr": "UVM",
-    "score": 34,
+    "score": 43,
     "winner": null
    },
    "away": {
@@ -2985,13 +2985,13 @@
     "key": null,
     "name": "Merrimack Warriors",
     "abbr": "MRMK",
-    "score": 23,
+    "score": 48,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "11:40 - 2nd"
   },
   {
    "game_id": "401919786",
@@ -3018,7 +3018,7 @@
     "key": null,
     "name": "Le Moyne Dolphins",
     "abbr": "LEM",
-    "score": null,
+    "score": 11,
     "winner": null
    },
    "away": {
@@ -3026,13 +3026,13 @@
     "key": "maine",
     "name": "Maine Black Bears",
     "abbr": "ME",
-    "score": null,
+    "score": 15,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:35 - 1st"
   },
   {
    "game_id": "401911212",
@@ -8806,5 +8806,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-27T18:53:49+00:00"
+ "live_at": "2026-11-27T19:19:18+00:00"
 }

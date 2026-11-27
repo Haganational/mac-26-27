@@ -3396,7 +3396,7 @@
     "key": null,
     "name": "Vanderbilt Commodores",
     "abbr": "VAN",
-    "score": null,
+    "score": 25,
     "winner": null
    },
    "away": {
@@ -3404,13 +3404,13 @@
     "key": "southern-u",
     "name": "Southern Jaguars",
     "abbr": "SOU",
-    "score": null,
+    "score": 8,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:33 - 1st"
   },
   {
    "game_id": "401921818",
@@ -10924,5 +10924,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-27T19:21:57+00:00"
 }

@@ -27,9 +27,9 @@ Caleb Whitfield coached youth soccer and led summer hikes on the Blue Ridge Park
 
 ## Barometer
 
-**50 of 100, steady.** Record 4-3 (0-0 in conference), streak L2, last five WWWLL.
+**56 of 100, steady.** Record 5-3 (0-0 in conference), streak W1, last five WWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Caleb editorializes: 60% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Caleb editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Caleb Whitfield coached youth soccer and led summer hikes on the Blue Ridge Park
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 10
+- Social posts on their games: 11
 
 ## Log
 
@@ -90,3 +90,5 @@ Caleb Whitfield coached youth soccer and led summer hikes on the Blue Ridge Park
 - 2026-11-25: Social recap posted (L 72-79 vs Princeton Tigers): https://hardwoodbricks.com/ivy/games/401924737.html <!-- post:401924737:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/cusa/games/401920848.html <!-- post:401920848:preview -->
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/caa/games/401926796.html <!-- post:401926796:preview -->
+- 2026-11-27: W 76-67 vs (neutral) St. Thomas Tommies. Barometer 56 (steady). <!-- g:401920848 -->
+- 2026-11-27: Social recap posted (W 76-67 vs St. Thomas Tommies): https://hardwoodbricks.com/cusa/games/401920848.html <!-- post:401920848:recap -->

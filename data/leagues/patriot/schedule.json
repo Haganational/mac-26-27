@@ -3031,7 +3031,7 @@
     "key": null,
     "name": "Fairfield Stags",
     "abbr": "FAIR",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -3039,13 +3039,13 @@
     "key": "navy",
     "name": "Navy Midshipmen",
     "abbr": "NAVY",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:52 - 1st"
   },
   {
    "game_id": "401921417",
@@ -9411,5 +9411,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-27T19:19:57+00:00"
 }
