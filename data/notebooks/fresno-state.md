@@ -70,7 +70,7 @@ Vic Ortega grew up in Fresno, the son of a raisin-grape picker and a cannery for
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 6
 
 ## Log
 

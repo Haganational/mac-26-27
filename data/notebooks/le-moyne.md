@@ -68,7 +68,7 @@ Gina Russo edits The Syracuse Courant and believes the most important part of an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 10
+- Social posts on their games: 9
 
 ## Log
 

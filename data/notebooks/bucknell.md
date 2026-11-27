@@ -66,7 +66,7 @@ Pete Lindqvist edits The Lewisburg Ledger and follows the Bison as closely as th
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -84,3 +84,4 @@ Pete Lindqvist edits The Lewisburg Ledger and follows the Bison as closely as th
 - 2026-11-25: L 71-92 at Cornell Big Red. Barometer 28 (despondent). <!-- g:401924723 -->
 - 2026-11-25: Social recap posted (L 71-92 vs Cornell Big Red): https://hardwoodbricks.com/ivy/games/401924723.html <!-- post:401924723:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/a10/games/401921417.html <!-- post:401921417:preview -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/ivy/games/401921186.html <!-- post:401921186:preview -->

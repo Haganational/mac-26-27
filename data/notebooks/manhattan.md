@@ -63,7 +63,7 @@ Siobhan Kelly taught high school English in the Bronx, graded essays on the 1 tr
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 9
+- Social posts on their games: 8
 
 ## Log
 
