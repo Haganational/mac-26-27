@@ -3629,7 +3629,7 @@
     "key": "memphis",
     "name": "Memphis Tigers",
     "abbr": "MEM",
-    "score": null,
+    "score": 0,
     "winner": null
    },
    "away": {
@@ -3637,13 +3637,13 @@
     "key": null,
     "name": "Wake Forest Demon Deacons",
     "abbr": "WAKE",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "19:10 - 1st"
   },
   {
    "game_id": "401919021",
@@ -12291,5 +12291,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-27T18:45:37+00:00"
 }

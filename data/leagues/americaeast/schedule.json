@@ -2936,7 +2936,7 @@
     "key": null,
     "name": "Hampton Pirates",
     "abbr": "HAMP",
-    "score": null,
+    "score": 25,
     "winner": null
    },
    "away": {
@@ -2944,13 +2944,13 @@
     "key": "umass-lowell",
     "name": "UMass Lowell River Hawks",
     "abbr": "UML",
-    "score": null,
+    "score": 36,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "7:37 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401924810",
@@ -2977,7 +2977,7 @@
     "key": "vermont",
     "name": "Vermont Catamounts",
     "abbr": "UVM",
-    "score": null,
+    "score": 34,
     "winner": null
    },
    "away": {
@@ -2985,13 +2985,13 @@
     "key": null,
     "name": "Merrimack Warriors",
     "abbr": "MRMK",
-    "score": null,
+    "score": 23,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "4:41 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401919786",
@@ -8805,5 +8805,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-27T18:53:49+00:00"
 }

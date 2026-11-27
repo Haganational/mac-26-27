@@ -3750,7 +3750,7 @@
     "key": "youngstown-state",
     "name": "Youngstown State Penguins",
     "abbr": "YSU",
-    "score": null,
+    "score": 39,
     "winner": null
    },
    "away": {
@@ -3758,13 +3758,13 @@
     "key": null,
     "name": "Bryant & Stratton (OH) Bobcats",
     "abbr": "B&SO",
-    "score": null,
+    "score": 26,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "4:12 - 1st"
   },
   {
    "game_id": "401925703",
@@ -10644,5 +10644,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-27T18:39:51+00:00"
 }

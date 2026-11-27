@@ -3502,7 +3502,7 @@
     "key": "hampton",
     "name": "Hampton Pirates",
     "abbr": "HAMP",
-    "score": null,
+    "score": 25,
     "winner": null
    },
    "away": {
@@ -3510,13 +3510,13 @@
     "key": null,
     "name": "UMass Lowell River Hawks",
     "abbr": "UML",
-    "score": null,
+    "score": 36,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "13:49 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401924738",
@@ -12107,5 +12107,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-27T18:47:55+00:00"
 }
