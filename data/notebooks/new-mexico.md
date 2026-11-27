@@ -69,7 +69,7 @@ Mateo Sandoval grew up in the South Valley, roasting green chile with his uncles
 ## What we've made about them
 
 - On MIDnight Weave, 2026-11-16: *She's Over There (Pilot)* (https://youtu.be/P8L3A3wDqgM)
-- Social posts on their games: 6
+- Social posts on their games: 5
 
 ## Log
 

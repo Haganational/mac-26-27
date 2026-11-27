@@ -71,7 +71,7 @@ Lance Montgomery spent ten years as the warm-up comic for television game shows 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -91,3 +91,4 @@ Lance Montgomery spent ten years as the warm-up comic for television game shows 
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/wcc/games/401917545.html <!-- post:401917545:preview -->
 - 2026-11-26: W 81-72 vs Eastern Washington Eagles. Barometer 71 (buoyant). <!-- g:401917545 -->
 - 2026-11-26: Social recap posted (W 81-72 vs Eastern Washington Eagles): https://hardwoodbricks.com/wcc/games/401917545.html <!-- post:401917545:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/bigwest/games/401917551.html <!-- post:401917551:preview -->

@@ -67,7 +67,7 @@ Grant Silva grew up in Santa Clara, the son of a Portuguese-American orchard fam
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 9
+- Social posts on their games: 8
 
 ## Log
 

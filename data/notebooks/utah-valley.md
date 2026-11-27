@@ -69,7 +69,7 @@ Whitney Sorenson grew up in Provo, the daughter of a dairy farmer and a seamstre
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 9
+- Social posts on their games: 8
 
 ## Log
 
