@@ -3158,7 +3158,7 @@
     "key": "saint-marys",
     "name": "Saint Mary's Gaels",
     "abbr": "SMC",
-    "score": null,
+    "score": 27,
     "winner": null
    },
    "away": {
@@ -3166,13 +3166,13 @@
     "key": null,
     "name": "Texas Longhorns",
     "abbr": "TEX",
-    "score": null,
+    "score": 18,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "7:37 - 1st"
   },
   {
    "game_id": "401911524",
@@ -9725,5 +9725,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-27T22:46:36+00:00"
 }

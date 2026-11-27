@@ -27,9 +27,9 @@ Sal Rizzuto worked the counter at his family's deli on Long Island for twenty ye
 
 ## Barometer
 
-**42 of 100, testy.** Record 2-3 (0-0 in conference), streak L1, last five WLLWL.
+**35 of 100, testy.** Record 2-4 (0-0 in conference), streak L2, last five LLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Sal editorializes: 65% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Sal editorializes: 69% of stories right now.
 
 ## School and town
 
@@ -67,7 +67,7 @@ Sal Rizzuto worked the counter at his family's deli on Long Island for twenty ye
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -82,3 +82,5 @@ Sal Rizzuto worked the counter at his family's deli on Long Island for twenty ye
 - 2026-11-17: Social recap posted (L 66-82 vs Murray State Racers): https://hardwoodbricks.com/mvc/games/401927381.html <!-- post:401927381:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/caa/games/401920774.html <!-- post:401920774:preview -->
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/metro/games/401924811.html <!-- post:401924811:preview -->
+- 2026-11-27: L 49-75 vs Colgate Raiders. Barometer 35 (testy). <!-- g:401920774 -->
+- 2026-11-27: Social recap posted (L 49-75 vs Colgate Raiders): https://hardwoodbricks.com/caa/games/401920774.html <!-- post:401920774:recap -->

@@ -3664,7 +3664,7 @@
     "key": null,
     "name": "Lafayette Leopards",
     "abbr": "LAF",
-    "score": null,
+    "score": 28,
     "winner": null
    },
    "away": {
@@ -3672,13 +3672,13 @@
     "key": "niagara",
     "name": "Niagara Purple Eagles",
     "abbr": "NIA",
-    "score": null,
+    "score": 24,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "5:27 - 1st"
   },
   {
    "game_id": "401920890",
@@ -11360,5 +11360,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-27T21:04:03+00:00"
+ "live_at": "2026-11-27T22:40:08+00:00"
 }

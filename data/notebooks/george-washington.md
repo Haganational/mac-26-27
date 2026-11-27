@@ -27,9 +27,9 @@ Reginald Chesterfield grew up in Alexandria, Virginia, the son of a history teac
 
 ## Barometer
 
-**56 of 100, steady.** Record 5-2 (0-0 in conference), streak L2, last five WWWLL.
+**63 of 100, steady.** Record 6-2 (0-0 in conference), streak W1, last five WWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Reginald editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Reginald editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Reginald Chesterfield grew up in Alexandria, Virginia, the son of a history teac
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -86,3 +86,5 @@ Reginald Chesterfield grew up in Alexandria, Virginia, the son of a history teac
 - 2026-11-22: L 78-86 vs (neutral) Western Kentucky Hilltoppers. Barometer 56 (steady). <!-- g:401928802 -->
 - 2026-11-22: Social recap posted (L 78-86 vs Western Kentucky Hilltoppers): https://hardwoodbricks.com/a10/games/401928802.html <!-- post:401928802:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/a10/games/401911212.html <!-- post:401911212:preview -->
+- 2026-11-27: W 91-51 vs UMBC Retrievers. Barometer 63 (steady). <!-- g:401911212 -->
+- 2026-11-27: Social recap posted (W 91-51 vs UMBC Retrievers): https://hardwoodbricks.com/a10/games/401911212.html <!-- post:401911212:recap -->

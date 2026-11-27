@@ -27,9 +27,9 @@ Darnell Hughes taught middle school math and coached the chess club in Catonsvil
 
 ## Barometer
 
-**45 of 100, steady.** Record 4-5 (0-0 in conference), streak L1, last five LWLWL.
+**38 of 100, testy.** Record 4-6 (0-0 in conference), streak L2, last five WLWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Darnell editorializes: 63% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Darnell editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -66,7 +66,7 @@ Darnell Hughes taught middle school math and coached the chess club in Catonsvil
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 9
+- Social posts on their games: 10
 
 ## Log
 
@@ -88,3 +88,5 @@ Darnell Hughes taught middle school math and coached the chess club in Catonsvil
 - 2026-11-25: L 48-87 at Iowa Hawkeyes. Barometer 45 (steady). <!-- g:401920727 -->
 - 2026-11-25: Social recap posted (L 48-87 vs Iowa Hawkeyes): https://hardwoodbricks.com/americaeast/games/401920727.html <!-- post:401920727:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/a10/games/401911212.html <!-- post:401911212:preview -->
+- 2026-11-27: L 51-91 at George Washington Revolutionaries. Barometer 38 (testy). <!-- g:401911212 -->
+- 2026-11-27: Social recap posted (L 51-91 vs George Washington Revolutionaries): https://hardwoodbricks.com/a10/games/401911212.html <!-- post:401911212:recap -->

@@ -3588,21 +3588,21 @@
     "key": "hofstra",
     "name": "Hofstra Pride",
     "abbr": "HOF",
-    "score": 44,
-    "winner": null
+    "score": 49,
+    "winner": false
    },
    "away": {
     "espn_id": "2142",
     "key": null,
     "name": "Colgate Raiders",
     "abbr": "COLG",
-    "score": 70,
-    "winner": null
+    "score": 75,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:06 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401921185",
@@ -12108,5 +12108,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-27T22:17:26+00:00"
+ "live_at": "2026-11-27T22:51:42+00:00"
 }

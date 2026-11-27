@@ -4232,7 +4232,7 @@
     "key": null,
     "name": "Bucknell Bison",
     "abbr": "BUCK",
-    "score": 50,
+    "score": 71,
     "winner": null
    },
    "away": {
@@ -4240,13 +4240,13 @@
     "key": "la-salle",
     "name": "La Salle Explorers",
     "abbr": "LAS",
-    "score": 49,
+    "score": 71,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "7:41 - 2nd"
+   "detail": "2:36 - OT"
   },
   {
    "game_id": "401911212",
@@ -4277,21 +4277,21 @@
     "key": "george-washington",
     "name": "George Washington Revolutionaries",
     "abbr": "GW",
-    "score": 64,
-    "winner": null
+    "score": 91,
+    "winner": true
    },
    "away": {
     "espn_id": "2378",
     "key": null,
     "name": "UMBC Retrievers",
     "abbr": "UMBC",
-    "score": 33,
-    "winner": null
+    "score": 51,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "15:08 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911202",
@@ -13018,5 +13018,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-27T22:09:43+00:00"
+ "live_at": "2026-11-27T22:43:52+00:00"
 }
