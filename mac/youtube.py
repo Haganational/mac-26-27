@@ -30,12 +30,19 @@ UPLOAD = "https://www.googleapis.com/upload/youtube/v3"
 SPORTS = "17"  # YouTube category id
 TAGS = ["MidMaxx60", "Midmaxxing", "mid-major basketball", "college basketball", "Hardwood Bricks"]
 SHOWS = {"midmaxx60": ("MidMaxx60: the mid-majors in 60 seconds", ("#Shorts",)),
-         "bigmid": ("The Big Mid: the week in mid-majors", ())}
+         "bigmid": ("The Big Mid: the week in mid-majors", ()),
+         "lockclip": ("The Lock Call: the day's picks", ("#Shorts",))}
+VERTICAL = {"midmaxx60", "lockclip"}  # Shorts
+
+
+def show_of(stem: str) -> str:
+    """midmaxx60-2026-11-12 -> midmaxx60, lockclip-2026-11-27 -> lockclip."""
+    return next((s for s in SHOWS if stem.startswith(s + "-")), "midmaxx60")
 
 
 def title(stem: str) -> str:
     """midmaxx60-2026-11-12 -> 'MidMaxx60: the mid-majors in 60 seconds, Nov. 12'."""
-    show = SHOWS["bigmid" if stem.startswith("bigmid") else "midmaxx60"][0]
+    show = SHOWS[show_of(stem)][0]
     try:
         d = date.fromisoformat(stem[-10:])
         return f"{show}, {d.strftime('%b')}. {d.day}".replace("May.", "May")
@@ -48,7 +55,7 @@ def body(stem: str, description: str, privacy: str, specific: list[str] | None =
     The description ends on five hashtags at most (YouTube shows the first three above the title); the
     day's schools and conferences also go in the search tags, as plain words."""
     text = description.replace("<", "").replace(">", "").strip()
-    first = SHOWS["bigmid" if stem.startswith("bigmid") else "midmaxx60"][1]
+    first = SHOWS[show_of(stem)][1]
     specific = specific or []
     tags = hashtags.line(first=[*first, *specific[:2]])  # school and conference among the three shown
     words = [re.sub(r"(?<=[a-z])(?=[A-Z])", " ", t.lstrip("#")) for t in specific]
@@ -96,7 +103,7 @@ def upload(out: Path, token: str, privacy: str, show: str = "midmaxx60") -> str 
     session = head.get("Location") or head.get("location")
     video = _call(session, token, mp4.read_bytes(), "video/mp4", "PUT")[0]
     vid = video["id"]
-    print(f"youtube: uploaded https://youtube.com/{'shorts/' if show == 'midmaxx60' else 'watch?v='}{vid} ({video.get('status', {}).get('privacyStatus')})")
+    print(f"youtube: uploaded https://youtube.com/{'shorts/' if show in VERTICAL else 'watch?v='}{vid} ({video.get('status', {}).get('privacyStatus')})")
     # Thumbnail and captions are extras: a failure there must not fail the upload.
     for label, path, url, ctype in (
         ("thumbnail", out / f"{stem}-thumb.png", f"{UPLOAD}/thumbnails/set?videoId={vid}&uploadType=media", "image/png"),):
@@ -113,7 +120,7 @@ def main() -> None:
     ap.add_argument("--out", default="out")
     ap.add_argument("--show", default="midmaxx60", choices=sorted(SHOWS))
     a = ap.parse_args()
-    name = "The Big Mid" if a.show == "bigmid" else "MidMaxx60"
+    name = {"bigmid": "The Big Mid", "lockclip": "The Lock Call clip"}.get(a.show, "MidMaxx60")
     cid, secret, refresh = (os.environ.get(k, "").strip() for k in ("YT_CLIENT_ID", "YT_CLIENT_SECRET", "YT_REFRESH_TOKEN"))
     if not (cid and secret and refresh):
         print("::warning::YouTube upload skipped: the YT_CLIENT_ID, YT_CLIENT_SECRET and YT_REFRESH_TOKEN secrets are not set")
