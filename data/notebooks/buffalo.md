@@ -70,7 +70,7 @@ Simone Baptiste grew up on Buffalo's East Side, where her Haitian mother ran a b
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,4 @@ Simone Baptiste grew up on Buffalo's East Side, where her Haitian mother ran a b
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/games/401911025.html <!-- post:401911025:preview -->
 - 2026-11-23: W 93-47 vs RIT Tigers. Barometer 57 (steady). <!-- g:401911025 -->
 - 2026-11-24: Social recap posted (W 93-47 vs RIT Tigers): https://hardwoodbricks.com/games/401911025.html <!-- post:401911025:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/games/401911032.html <!-- post:401911032:preview -->
