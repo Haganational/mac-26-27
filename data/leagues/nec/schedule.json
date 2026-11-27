@@ -2756,21 +2756,21 @@
     "key": "le-moyne",
     "name": "Le Moyne Dolphins",
     "abbr": "LEM",
-    "score": 79,
-    "winner": null
+    "score": 86,
+    "winner": false
    },
    "away": {
     "espn_id": "311",
     "key": null,
     "name": "Maine Black Bears",
     "abbr": "ME",
-    "score": 81,
-    "winner": null
+    "score": 90,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:43 - OT"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/OT"
   },
   {
    "game_id": "401919736",
@@ -8415,5 +8415,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-27T21:17:49+00:00"
+ "live_at": "2026-11-27T21:50:04+00:00"
 }

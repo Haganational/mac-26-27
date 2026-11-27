@@ -27,9 +27,9 @@ Gina Russo edits The Syracuse Courant and believes the most important part of an
 
 ## Barometer
 
-**48 of 100, steady.** Record 3-4 (0-0 in conference), streak W1, last five WWLLW.
+**43 of 100, testy.** Record 3-5 (0-0 in conference), streak L1, last five WLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Gina editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Gina editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Gina Russo edits The Syracuse Courant and believes the most important part of an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 9
+- Social posts on their games: 10
 
 ## Log
 
@@ -89,3 +89,5 @@ Gina Russo edits The Syracuse Courant and believes the most important part of an
 - 2026-11-24: Social recap posted (W 68-58 vs Mansfield Mountaineers): https://hardwoodbricks.com/nec/games/401919785.html <!-- post:401919785:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/americaeast/games/401919786.html <!-- post:401919786:preview -->
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/metro/games/401919787.html <!-- post:401919787:preview -->
+- 2026-11-27: L 86-90 vs (neutral) Maine Black Bears. Barometer 43 (testy). <!-- g:401919786 -->
+- 2026-11-27: Social recap posted (L 86-90 vs Maine Black Bears): https://hardwoodbricks.com/americaeast/games/401919786.html <!-- post:401919786:recap -->

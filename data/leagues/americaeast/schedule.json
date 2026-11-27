@@ -3018,21 +3018,21 @@
     "key": null,
     "name": "Le Moyne Dolphins",
     "abbr": "LEM",
-    "score": 79,
-    "winner": null
+    "score": 86,
+    "winner": false
    },
    "away": {
     "espn_id": "311",
     "key": "maine",
     "name": "Maine Black Bears",
     "abbr": "ME",
-    "score": 79,
-    "winner": null
+    "score": 90,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:57 - OT"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final/OT"
   },
   {
    "game_id": "401911212",
@@ -3063,7 +3063,7 @@
     "key": null,
     "name": "George Washington Revolutionaries",
     "abbr": "GW",
-    "score": 20,
+    "score": 47,
     "winner": null
    },
    "away": {
@@ -3071,13 +3071,13 @@
     "key": "umbc",
     "name": "UMBC Retrievers",
     "abbr": "UMBC",
-    "score": 3,
+    "score": 23,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "12:18 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920775",
@@ -8806,5 +8806,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-27T21:16:37+00:00"
+ "live_at": "2026-11-27T21:48:42+00:00"
 }
