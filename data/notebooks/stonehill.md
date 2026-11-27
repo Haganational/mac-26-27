@@ -66,7 +66,7 @@ Megan Costa edits The Easton Chronicle and grades every Skyhawks performance lik
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -83,3 +83,4 @@ Megan Costa edits The Easton Chronicle and grades every Skyhawks performance lik
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/nec/games/401919850.html <!-- post:401919850:preview -->
 - 2026-11-24: W 112-64 vs Vermont State Randolph Knights. Barometer 51 (steady). <!-- g:401919850 -->
 - 2026-11-24: Social recap posted (W 112-64 vs Vermont State Randolph Knights): https://hardwoodbricks.com/nec/games/401919850.html <!-- post:401919850:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/nec/games/401919851.html <!-- post:401919851:preview -->

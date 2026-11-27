@@ -71,7 +71,7 @@ Connor Briggs grew up in West Sacramento, the son of a state worker and a dental
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 4
 
 ## Log
 
