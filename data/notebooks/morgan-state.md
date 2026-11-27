@@ -66,7 +66,7 @@ Cedric Ward edits The Northwood Clarion and believes in defense, fundamentals an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -84,3 +84,4 @@ Cedric Ward edits The Northwood Clarion and believes in defense, fundamentals an
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/metro/games/401920923.html <!-- post:401920923:preview -->
 - 2026-11-25: L 74-75 vs Mount St. Mary's Mountaineers. Barometer 37 (testy). <!-- g:401920923 -->
 - 2026-11-25: Social recap posted (L 74-75 vs Mount St. Mary's Mountaineers): https://hardwoodbricks.com/metro/games/401920923.html <!-- post:401920923:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/metro/games/401924779.html <!-- post:401924779:preview -->

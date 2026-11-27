@@ -64,7 +64,7 @@ Evan Gallagher wrestled in high school, taught middle school gym for years, and 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -80,3 +80,4 @@ Evan Gallagher wrestled in high school, taught middle school gym for years, and 
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/metro/games/401923271.html <!-- post:401923271:preview -->
 - 2026-11-25: W 58-57 vs Bryant Bulldogs. Barometer 54 (steady). <!-- g:401923271 -->
 - 2026-11-25: Social recap posted (W 58-57 vs Bryant Bulldogs): https://hardwoodbricks.com/metro/games/401923271.html <!-- post:401923271:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/metro/games/401920077.html <!-- post:401920077:preview -->

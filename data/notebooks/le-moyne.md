@@ -68,7 +68,7 @@ Gina Russo edits The Syracuse Courant and believes the most important part of an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 9
+- Social posts on their games: 10
 
 ## Log
 
@@ -88,3 +88,4 @@ Gina Russo edits The Syracuse Courant and believes the most important part of an
 - 2026-11-24: W 68-58 vs Mansfield Mountaineers. Barometer 48 (steady). <!-- g:401919785 -->
 - 2026-11-24: Social recap posted (W 68-58 vs Mansfield Mountaineers): https://hardwoodbricks.com/nec/games/401919785.html <!-- post:401919785:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/americaeast/games/401919786.html <!-- post:401919786:preview -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/metro/games/401919787.html <!-- post:401919787:preview -->

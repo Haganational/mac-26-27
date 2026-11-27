@@ -63,7 +63,7 @@ Siobhan Kelly taught high school English in the Bronx, graded essays on the 1 tr
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -82,3 +82,4 @@ Siobhan Kelly taught high school English in the Bronx, graded essays on the 1 tr
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/metro/games/401920868.html <!-- post:401920868:preview -->
 - 2026-11-25: W 81-70 at NJIT Highlanders. Barometer 40 (testy). <!-- g:401920868 -->
 - 2026-11-25: Social recap posted (W 81-70 vs NJIT Highlanders): https://hardwoodbricks.com/metro/games/401920868.html <!-- post:401920868:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/metro/games/401924779.html <!-- post:401924779:preview -->

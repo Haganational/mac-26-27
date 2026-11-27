@@ -71,7 +71,7 @@ Connor Briggs grew up in West Sacramento, the son of a state worker and a dental
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,4 @@ Connor Briggs grew up in West Sacramento, the son of a state worker and a dental
 - 2026-11-18: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920349.html <!-- post:401920349:preview -->
 - 2026-11-20: L 65-78 at Stanford Cardinal. Barometer 32 (testy). <!-- g:401920349 -->
 - 2026-11-20: Social recap posted (L 65-78 vs Stanford Cardinal): https://hardwoodbricks.com/bigwest/games/401920349.html <!-- post:401920349:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/bigwest/games/401920350.html <!-- post:401920350:preview -->

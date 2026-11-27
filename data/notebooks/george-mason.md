@@ -70,7 +70,7 @@ Zelda Vance grew up in Fairfax, the daughter of a federal accountant and a dance
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -89,3 +89,4 @@ Zelda Vance grew up in Fairfax, the daughter of a federal accountant and a dance
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/a10/games/401920076.html <!-- post:401920076:preview -->
 - 2026-11-26: W 93-58 vs Longwood Lancers. Barometer 77 (buoyant). <!-- g:401920076 -->
 - 2026-11-26: Social recap posted (W 93-58 vs Longwood Lancers): https://hardwoodbricks.com/a10/games/401920076.html <!-- post:401920076:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/metro/games/401920077.html <!-- post:401920077:preview -->
