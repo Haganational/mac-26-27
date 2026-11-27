@@ -69,7 +69,7 @@ Stan Crosswell taught high school biology in Spokane for twenty years and guided
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -87,3 +87,4 @@ Stan Crosswell taught high school biology in Spokane for twenty years and guided
 - 2026-11-25: Social preview posted: https://hardwoodbricks.com/pac12/games/401920540.html <!-- post:401920540:preview -->
 - 2026-11-27: W 72-64 vs (neutral) Baylor Bears. Barometer 74 (buoyant). <!-- g:401920540 -->
 - 2026-11-27: Social recap posted (W 72-64 vs Baylor Bears): https://hardwoodbricks.com/pac12/games/401920540.html <!-- post:401920540:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/pac12/games/401920544.html <!-- post:401920544:preview -->

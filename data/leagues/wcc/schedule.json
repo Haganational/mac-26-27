@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-26T23:13:54+00:00",
+ "fetched_at": "2026-11-27T12:13:44+00:00",
  "season": 2027,
  "games": [
   {
@@ -3063,11 +3063,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/rady-childrens-invitational-tickets-san-diego-jenny-craig-pavilion-11-26-2026/production/6829697?wsUser=717",
-    "low": 55.0,
-    "since": "2026-11-18T23:09:25Z"
-   },
+   "tickets": null,
    "venue": "Jenny Craig Pavilion",
    "venue_city": "San Diego",
    "venue_state": "CA",
@@ -3132,6 +3128,51 @@
    "completed": true,
    "live": false,
    "detail": "Final"
+  },
+  {
+   "game_id": "401921718",
+   "date": "2026-11-27T22:00Z",
+   "name": "Texas Longhorns at Saint Mary's Gaels",
+   "short_name": "TEX VS SMC",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "Fox",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
+   "tickets": {
+    "url": "https://www.vividseats.com/rady-childrens-invitational-tickets-jenny-craig-pavilion-11-27-2026--sports-ncaa-basketball/production/6821061?wsUser=717",
+    "low": 99.0,
+    "since": "2026-11-27T12:13:44Z"
+   },
+   "venue": "Jenny Craig Pavilion",
+   "venue_city": "San Diego",
+   "venue_state": "CA",
+   "home": {
+    "espn_id": "2608",
+    "key": "saint-marys",
+    "name": "Saint Mary's Gaels",
+    "abbr": "SMC",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "251",
+    "key": null,
+    "name": "Texas Longhorns",
+    "abbr": "TEX",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
   },
   {
    "game_id": "401911524",
@@ -3673,7 +3714,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/st-marys-gaels-mens-basketball-tickets-university-credit-union-pavilion-12-1-2026--sports-ncaa-basketball/production/7686821?wsUser=717",
-    "low": 27.0,
+    "low": 30.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "University Credit Union Pavilion",
@@ -6508,7 +6549,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/st-marys-gaels-mens-basketball-tickets-university-credit-union-pavilion-12-29-2026--sports-ncaa-basketball/production/7686926?wsUser=717",
-    "low": 40.0,
+    "low": 127.0,
     "since": "2026-11-18T23:09:25Z"
    },
    "venue": "University Credit Union Pavilion",
@@ -9684,6 +9725,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-27T06:04:39+00:00"
+ ]
 }

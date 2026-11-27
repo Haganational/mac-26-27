@@ -27,9 +27,9 @@ Walter Jennings farmed processing tomatoes outside Woodland for thirty years, th
 
 ## Barometer
 
-**52 of 100, steady.** Record 4-3 (0-0 in conference), streak L1, last five WWLWL.
+**64 of 100, steady.** Record 5-2 (0-0 in conference), streak W2, last five WWLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Walter editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Walter editorializes: 69% of stories right now.
 
 ## School and town
 

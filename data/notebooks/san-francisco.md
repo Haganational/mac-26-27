@@ -67,7 +67,7 @@ Hollis Wexford spent thirty years as maître d' at a grand Nob Hill hotel dining
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -86,3 +86,4 @@ Hollis Wexford spent thirty years as maître d' at a grand Nob Hill hotel dining
 - 2026-11-24: Social recap posted (L 62-71 vs Nevada Wolf Pack): https://hardwoodbricks.com/mw/games/401911457.html <!-- post:401911457:recap -->
 - 2026-11-24: L 73-87 vs (neutral) Oregon State Beavers. Barometer 45 (steady). <!-- g:401917676 -->
 - 2026-11-24: Social recap posted (L 73-87 vs Oregon State Beavers): https://hardwoodbricks.com/pac12/games/401917676.html <!-- post:401917676:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/wcc/games/401921065.html <!-- post:401921065:preview -->

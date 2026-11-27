@@ -70,7 +70,7 @@ Priya Raman spent years as a structural engineer on bridge retrofits in North Je
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 7
 
 ## Log
 

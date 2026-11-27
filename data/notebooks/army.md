@@ -65,7 +65,7 @@ Grant Holloway edits The West Point Dispatch and grades every Black Knights game
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -85,3 +85,4 @@ Grant Holloway edits The West Point Dispatch and grades every Black Knights game
 - 2026-11-25: Social preview posted: https://hardwoodbricks.com/american/games/401912231.html <!-- post:401912231:preview -->
 - 2026-11-26: W 79-61 at UTSA Roadrunners. Barometer 45 (steady). <!-- g:401912231 -->
 - 2026-11-26: Social recap posted (W 79-61 vs UTSA Roadrunners): https://hardwoodbricks.com/american/games/401912231.html <!-- post:401912231:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/metro/games/401912232.html <!-- post:401912232:preview -->

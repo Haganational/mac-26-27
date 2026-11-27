@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-26T23:20:48+00:00",
+ "fetched_at": "2026-11-27T12:19:41+00:00",
  "season": 2027,
  "games": [
   {
@@ -2851,8 +2851,8 @@
   {
    "game_id": "401911523",
    "date": "2026-11-27T01:00Z",
-   "name": "Jacksonville State Gamecocks at UC Davis Aggies",
-   "short_name": "JXST VS UCD",
+   "name": "UC Davis Aggies at Jacksonville State Gamecocks",
+   "short_name": "UCD VS JXST",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2869,18 +2869,18 @@
    "venue_city": "Las Vegas",
    "venue_state": "NV",
    "home": {
-    "espn_id": "302",
-    "key": null,
-    "name": "UC Davis Aggies",
-    "abbr": "UCD",
-    "score": 63,
-    "winner": false
-   },
-   "away": {
     "espn_id": "55",
     "key": "jacksonville-state",
     "name": "Jacksonville State Gamecocks",
     "abbr": "JXST",
+    "score": 63,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "302",
+    "key": null,
+    "name": "UC Davis Aggies",
+    "abbr": "UCD",
     "score": 68,
     "winner": true
    },
@@ -2942,7 +2942,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/illinois-fighting-illini-mens-basketball-tickets-state-farm-center-11-27-2026--sports-ncaa-basketball/production/7466233?wsUser=717",
-    "low": 20.0,
+    "low": 25.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "State Farm Center",
@@ -2992,7 +2992,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/oral-roberts-golden-eagles-mens-basketball-tickets-mabee-center-11-27-2026--sports-ncaa-basketball/production/7529806?wsUser=717",
-    "low": 27.0,
+    "low": 37.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "Mabee Center",
@@ -4528,7 +4528,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/duquesne-dukes-mens-basketball-tickets-upmc-cooper-fieldhouse-12-15-2026--sports-ncaa-basketball/production/7627785?wsUser=717",
-    "low": 292.0,
+    "low": 55.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "UPMC Cooper Fieldhouse",
@@ -4954,7 +4954,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/basketball-hall-of-fame-classic-tickets-t-mobile-center-12-18-2026--sports-ncaa-basketball/production/6944841?wsUser=717",
-    "low": 24.0,
+    "low": 23.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "T-Mobile Center",
@@ -9127,6 +9127,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-27T03:04:15+00:00"
+ ]
 }

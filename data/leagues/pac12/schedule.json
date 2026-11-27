@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-26T23:12:52+00:00",
+ "fetched_at": "2026-11-27T12:12:49+00:00",
  "season": 2027,
  "games": [
   {
@@ -2498,7 +2498,7 @@
   },
   {
    "game_id": "401920540",
-   "date": "2026-11-27T04:30Z",
+   "date": "2026-11-27T04:53Z",
    "name": "Baylor Bears at Gonzaga Bulldogs",
    "short_name": "BAY VS GONZ",
    "season_type": "reg",
@@ -2710,15 +2710,67 @@
    "detail": ""
   },
   {
-   "game_id": "401920535",
-   "date": "2026-11-28T04:30Z",
-   "name": "TBD at San Diego State Aztecs",
-   "short_name": "TBD VS SDSU",
+   "game_id": "401920544",
+   "date": "2026-11-28T04:00Z",
+   "name": "Creighton Bluejays at Gonzaga Bulldogs",
+   "short_name": "CREI VS GONZ",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
    "time_tba": false,
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
+   "tickets": null,
+   "venue": "T-Mobile Arena",
+   "venue_city": "Las Vegas",
+   "venue_state": "NV",
+   "home": {
+    "espn_id": "2250",
+    "key": "gonzaga",
+    "name": "Gonzaga Bulldogs",
+    "abbr": "GONZ",
+    "score": null,
+    "winner": null
+   },
+   "away": {
+    "espn_id": "156",
+    "key": null,
+    "name": "Creighton Bluejays",
+    "abbr": "CREI",
+    "score": null,
+    "winner": null
+   },
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "live": false,
+   "detail": ""
+  },
+  {
+   "game_id": "401920535",
+   "date": "2026-11-28T04:30Z",
+   "name": "Texas Tech Red Raiders at San Diego State Aztecs",
+   "short_name": "TTU VS SDSU",
+   "season_type": "reg",
+   "neutral_site": true,
+   "conference_game": false,
+   "time_tba": false,
+   "broadcasts": [
+    {
+     "name": "ESPN2",
+     "kind": "TV",
+     "market": "National"
+    },
+    {
+     "name": "ESPN",
+     "kind": "TV",
+     "market": "National"
+    }
+   ],
    "tickets": null,
    "venue": "Michelob ULTRA Arena",
    "venue_city": "Las Vegas",
@@ -2732,10 +2784,10 @@
     "winner": null
    },
    "away": {
-    "espn_id": "-2",
+    "espn_id": "2641",
     "key": null,
-    "name": "TBD",
-    "abbr": "TBD",
+    "name": "Texas Tech Red Raiders",
+    "abbr": "TTU",
     "score": null,
     "winner": null
    },
@@ -7845,7 +7897,7 @@
    "broadcasts": [],
    "tickets": {
     "url": "https://www.vividseats.com/texas-state-san-marcos-bobcats-mens-basketball-tickets-strahan-arena-at-the-university-events-center-2-25-2027--sports-ncaa-basketball/production/7633906?wsUser=717",
-    "low": 39.0,
+    "low": 58.0,
     "since": "2026-11-18T23:08:43Z"
    },
    "venue": "Strahan Arena at the University Events Center",
@@ -8410,6 +8462,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-27T06:56:37+00:00"
+ ]
 }

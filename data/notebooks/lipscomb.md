@@ -70,7 +70,7 @@ Susan Whitaker was born in Franklin, Tennessee, and taught high school English f
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 10
+- Social posts on their games: 9
 
 ## Log
 

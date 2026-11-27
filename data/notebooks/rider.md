@@ -85,3 +85,4 @@ Denise Holloway spent a long career balancing state budgets in Trenton, and she 
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/metro/games/401921266.html <!-- post:401921266:preview -->
 - 2026-11-25: L 54-71 at Loyola Maryland Greyhounds. Barometer 35 (testy). <!-- g:401921266 -->
 - 2026-11-25: Social recap posted (L 54-71 vs Loyola Maryland Greyhounds): https://hardwoodbricks.com/metro/games/401921266.html <!-- post:401921266:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/metro/games/401912232.html <!-- post:401912232:preview -->

@@ -1,12 +1,12 @@
 {
  "google:abilene-christian": {
-  "checked_at": "2026-11-26T23:26:54+00:00",
-  "entries": 1,
+  "checked_at": "2026-11-27T12:24:55+00:00",
+  "entries": 2,
   "error": null,
   "fallback": false,
   "kept": 0,
   "kind": "google",
-  "last_ok": "2026-11-26T23:26:54+00:00",
+  "last_ok": "2026-11-27T12:24:55+00:00",
   "ok": true,
   "source": "Google News",
   "team": "abilene-christian",
@@ -15,7 +15,7 @@
   "via_google": false
  },
  "google:austin-peay": {
-  "checked_at": "2026-11-26T23:26:54+00:00",
+  "checked_at": "2026-11-27T12:24:55+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -24,7 +24,7 @@
   "url": "https://news.google.com/rss/search?q=%22Austin+Peay+Governors+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:central-arkansas": {
-  "checked_at": "2026-11-26T23:26:54+00:00",
+  "checked_at": "2026-11-27T12:24:55+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -33,7 +33,7 @@
   "url": "https://news.google.com/rss/search?q=%22Central+Arkansas+Bears+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:eastern-kentucky": {
-  "checked_at": "2026-11-26T23:26:54+00:00",
+  "checked_at": "2026-11-27T12:24:55+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -42,7 +42,7 @@
   "url": "https://news.google.com/rss/search?q=%22Eastern+Kentucky+Colonels+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:little-rock": {
-  "checked_at": "2026-11-26T23:26:54+00:00",
+  "checked_at": "2026-11-27T12:24:55+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -51,7 +51,7 @@
   "url": "https://news.google.com/rss/search?q=%22Little+Rock+Trojans+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:north-alabama": {
-  "checked_at": "2026-11-26T23:26:54+00:00",
+  "checked_at": "2026-11-27T12:24:55+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -60,14 +60,14 @@
   "url": "https://news.google.com/rss/search?q=%22North+Alabama+Lions+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:tarleton-state": {
-  "checked_at": "2026-11-26T23:26:54+00:00",
+  "checked_at": "2026-11-27T12:24:55+00:00",
   "entries": 1,
-  "error": null,
+  "error": "EmptyFeed: no entries",
   "fallback": false,
   "kept": 0,
   "kind": "google",
   "last_ok": "2026-11-26T23:26:54+00:00",
-  "ok": true,
+  "ok": false,
   "source": "Google News",
   "team": "tarleton-state",
   "url": "https://news.google.com/rss/search?q=%22Tarleton+State+Texans+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en",
@@ -75,7 +75,7 @@
   "via_google": false
  },
  "google:ut-arlington": {
-  "checked_at": "2026-11-26T23:26:54+00:00",
+  "checked_at": "2026-11-27T12:24:55+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -84,7 +84,7 @@
   "url": "https://news.google.com/rss/search?q=%22UT+Arlington+Mavericks+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "google:west-georgia": {
-  "checked_at": "2026-11-26T23:26:54+00:00",
+  "checked_at": "2026-11-27T12:24:55+00:00",
   "error": "EmptyFeed: no entries",
   "kind": "google",
   "ok": false,
@@ -93,13 +93,13 @@
   "url": "https://news.google.com/rss/search?q=%22West+Georgia+Wolves+basketball%22+basketball+when%3A14d&hl=en-US&gl=US&ceid=US:en"
  },
  "league:uac": {
-  "checked_at": "2026-11-26T23:26:54+00:00",
+  "checked_at": "2026-11-27T12:24:55+00:00",
   "entries": 10,
   "error": null,
   "fallback": false,
   "kept": 10,
   "kind": "league",
-  "last_ok": "2026-11-26T23:26:54+00:00",
+  "last_ok": "2026-11-27T12:24:55+00:00",
   "ok": true,
   "source": "UAC (uacsports.com)",
   "team": null,

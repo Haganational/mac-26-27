@@ -2,29 +2,40 @@
  "date": "2026-11-27",
  "desk": {
   "anchor": {
-   "alt": "Lowell Grimes, the Charleston Southern AI anchor",
-   "color": "#002855",
-   "color2": "#A89968",
-   "initials": "LG",
+   "alt": "Monique Tate, the Old Dominion AI anchor",
+   "color": "#003057",
+   "color2": "#7C878E",
+   "initials": "MT",
    "ink": "#ffffff",
-   "key": "charleston-southern",
-   "name": "Lowell Grimes",
-   "portrait": "den/anchors/charleston-southern.webp",
-   "school": "Charleston Southern",
+   "key": "old-dominion",
+   "name": "Monique Tate",
+   "portrait": "den/anchors/old-dominion.webp",
+   "school": "Old Dominion",
    "tag": "AI anchor"
   },
-  "max": 200,
+  "max": 262,
   "picks": [
    {
-    "abbr": "CHSO",
-    "game_id": "401911380",
+    "abbr": "ODU",
+    "game_id": "401920382",
     "kind": "homer",
-    "short": "Charleston Southern",
+    "short": "Old Dominion",
     "side": "away",
-    "team_id": "2127",
-    "tip": "2026-11-28T00:00Z",
+    "team_id": "295",
+    "tip": "2026-11-27T22:00Z",
     "why": "Homer pick: the anchor's own school, always.",
-    "worth": 83
+    "worth": 93
+   },
+   {
+    "abbr": "SMC",
+    "game_id": "401921718",
+    "kind": "ratings",
+    "short": "Saint Mary's",
+    "side": "home",
+    "team_id": "2608",
+    "tip": "2026-11-27T22:00Z",
+    "why": "Our ratings 58%, pregame win chance 26%.",
+    "worth": 74
    },
    {
     "abbr": "UML",
@@ -47,17 +58,6 @@
     "tip": "2026-11-27T17:00Z",
     "why": "Our ratings 71%, pregame win chance 49%.",
     "worth": 51
-   },
-   {
-    "abbr": "LAS",
-    "game_id": "401921417",
-    "kind": "ratings",
-    "short": "La Salle",
-    "side": "away",
-    "team_id": "2325",
-    "tip": "2026-11-27T20:30Z",
-    "why": "Our ratings 58%, pregame win chance 78%.",
-    "worth": 22
    }
   ],
   "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the pregame win chance, on our ratings' side."
@@ -217,7 +217,7 @@
    "team_id": "278",
    "tip": "2026-11-27T19:00Z",
    "why": "Homer pick.",
-   "worth": 50
+   "worth": 51
   },
   {
    "abbr": "USA",
@@ -436,6 +436,18 @@
    "worth": 93
   },
   {
+   "abbr": "SMC",
+   "game_id": "401921718",
+   "key": "saint-marys",
+   "kind": "homer",
+   "short": "Saint Mary's",
+   "side": "home",
+   "team_id": "2608",
+   "tip": "2026-11-27T22:00Z",
+   "why": "Homer pick.",
+   "worth": 74
+  },
+  {
    "abbr": "BOIS",
    "game_id": "401927366",
    "key": "boise-state",
@@ -613,7 +625,7 @@
    "team_id": "265",
    "tip": "2026-11-28T01:00Z",
    "why": "Homer pick.",
-   "worth": 15
+   "worth": 16
   },
   {
    "abbr": "IDHO",
@@ -710,6 +722,30 @@
    "tip": "2026-11-28T03:30Z",
    "why": "Homer pick.",
    "worth": 31
+  },
+  {
+   "abbr": "GONZ",
+   "game_id": "401920544",
+   "key": "gonzaga",
+   "kind": "homer",
+   "short": "Gonzaga",
+   "side": "home",
+   "team_id": "2250",
+   "tip": "2026-11-28T04:00Z",
+   "why": "Homer pick.",
+   "worth": 34
+  },
+  {
+   "abbr": "SDSU",
+   "game_id": "401920535",
+   "key": "san-diego-state",
+   "kind": "homer",
+   "short": "San Diego St",
+   "side": "home",
+   "team_id": "21",
+   "tip": "2026-11-28T04:30Z",
+   "why": "Homer pick.",
+   "worth": 71
   }
  ]
 }

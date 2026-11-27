@@ -72,7 +72,7 @@ Kenzie Larsen grew up in St. George watching the college move up a level at a ti
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -89,3 +89,4 @@ Kenzie Larsen grew up in St. George watching the college move up a level at a ti
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/bigsky/games/401925943.html <!-- post:401925943:preview -->
 - 2026-11-25: W 124-54 vs Bethesda Flames. Barometer 44 (testy). <!-- g:401925943 -->
 - 2026-11-25: Social recap posted (W 124-54 vs Bethesda Flames): https://hardwoodbricks.com/bigsky/games/401925943.html <!-- post:401925943:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/wcc/games/401917550.html <!-- post:401917550:preview -->

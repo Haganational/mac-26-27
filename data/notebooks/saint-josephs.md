@@ -68,7 +68,7 @@ Paco Mendoza grew up in North Philadelphia, the son of a Puerto Rican barber and
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -87,3 +87,4 @@ Paco Mendoza grew up in North Philadelphia, the son of a Puerto Rican barber and
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/a10/games/401920196.html <!-- post:401920196:preview -->
 - 2026-11-25: W 104-48 vs Penn State Abington Nittany Lions. Barometer 67 (buoyant). <!-- g:401920196 -->
 - 2026-11-25: Social recap posted (W 104-48 vs Penn State Abington Nittany Lions): https://hardwoodbricks.com/a10/games/401920196.html <!-- post:401920196:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/a10/games/401920197.html <!-- post:401920197:preview -->

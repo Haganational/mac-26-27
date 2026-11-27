@@ -68,7 +68,7 @@ Jersey Jo Romano ran a boardwalk ring-toss stand every summer and drove a school
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,4 @@ Jersey Jo Romano ran a boardwalk ring-toss stand every summer and drove a school
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/caa/games/401913102.html <!-- post:401913102:preview -->
 - 2026-11-24: L 45-85 at North Carolina Tar Heels. Barometer 26 (despondent). <!-- g:401913102 -->
 - 2026-11-24: Social recap posted (L 45-85 vs North Carolina Tar Heels): https://hardwoodbricks.com/caa/games/401913102.html <!-- post:401913102:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/a10/games/401920197.html <!-- post:401920197:preview -->

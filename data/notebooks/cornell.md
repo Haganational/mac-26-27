@@ -69,7 +69,7 @@ Libby Hartwell grew up on a dairy farm outside Ithaca and spent years planning s
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,4 @@ Libby Hartwell grew up on a dairy farm outside Ithaca and spent years planning s
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/ivy/games/401924723.html <!-- post:401924723:preview -->
 - 2026-11-25: W 92-71 vs Bucknell Bison. Barometer 59 (steady). <!-- g:401924723 -->
 - 2026-11-25: Social recap posted (W 92-71 vs Bucknell Bison): https://hardwoodbricks.com/ivy/games/401924723.html <!-- post:401924723:recap -->
+- 2026-11-27: Social preview posted: https://hardwoodbricks.com/ivy/games/401924724.html <!-- post:401924724:preview -->

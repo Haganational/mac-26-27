@@ -63,7 +63,7 @@ Olivia Romano grew up in Stratford, spent a few years keeping architects on sche
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 6
 
 ## Log
 

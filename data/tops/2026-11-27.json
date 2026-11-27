@@ -1,0 +1,142 @@
+{
+ "date": "2026-11-27",
+ "locked_at": "2026-11-27T12:32+00:00",
+ "board": 35,
+ "picks": {
+  "merv": [
+   {
+    "kind": "total",
+    "game": "401920535",
+    "tip": "2026-11-28T04:30Z",
+    "matchup": "Texas Tech Red Raiders vs. San Diego State Aztecs",
+    "side": "under",
+    "line": 143.0,
+    "label": "Under 143",
+    "why": "Model has it 10.9 under the total."
+   },
+   {
+    "kind": "side",
+    "game": "401921827",
+    "tip": "2026-11-27T19:00Z",
+    "matchup": "Southern Jaguars at Vanderbilt Commodores",
+    "side": "home",
+    "team": "Vanderbilt Commodores",
+    "abbr": "VAN",
+    "line": -37.0,
+    "label": "Vanderbilt Commodores -37",
+    "why": "Third-stingiest defense on the board: 61.6 allowed a game."
+   }
+  ],
+  "leslie": [
+   {
+    "kind": "total",
+    "game": "401911030",
+    "tip": "2026-11-27T23:00Z",
+    "matchup": "Bowling Green Falcons at Indiana Hoosiers",
+    "side": "over",
+    "line": 152.0,
+    "label": "Over 152",
+    "why": "Model has it 8.9 over the total."
+   },
+   {
+    "kind": "side",
+    "game": "401927366",
+    "tip": "2026-11-27T22:30Z",
+    "matchup": "Drake Bulldogs vs. Boise State Broncos",
+    "side": "home",
+    "team": "Boise State Broncos",
+    "abbr": "BOIS",
+    "line": -5.5,
+    "label": "Boise State Broncos -5.5",
+    "why": "Second-highest scoring team on the board: 95.8 a game."
+   }
+  ],
+  "brett": [
+   {
+    "kind": "side",
+    "game": "401921718",
+    "tip": "2026-11-27T22:00Z",
+    "matchup": "Texas Longhorns vs. Saint Mary's Gaels",
+    "side": "home",
+    "team": "Saint Mary's Gaels",
+    "abbr": "SMC",
+    "line": 7.5,
+    "label": "Saint Mary's Gaels +7.5",
+    "why": "Model is 6.2 points off the number."
+   },
+   {
+    "kind": "side",
+    "game": "401920382",
+    "tip": "2026-11-27T22:00Z",
+    "matchup": "Old Dominion Monarchs at Virginia Tech Hokies",
+    "side": "away",
+    "team": "Old Dominion Monarchs",
+    "abbr": "ODU",
+    "line": 18.5,
+    "label": "Old Dominion Monarchs +18.5",
+    "why": "Model is 6.1 points off the number."
+   }
+  ],
+  "shark": [
+   {
+    "kind": "side",
+    "game": "401928468",
+    "tip": "2026-11-27T20:00Z",
+    "matchup": "Texas State Bobcats at Louisiana Tech Bulldogs",
+    "side": "home",
+    "team": "Louisiana Tech Bulldogs",
+    "abbr": "LT",
+    "line": 5.0,
+    "label": "Louisiana Tech Bulldogs +5",
+    "why": "Home dog in the window. I like a building that owes me money."
+   },
+   {
+    "kind": "total",
+    "game": "401928468",
+    "tip": "2026-11-27T20:00Z",
+    "matchup": "Texas State Bobcats at Louisiana Tech Bulldogs",
+    "side": "under",
+    "line": 139.0,
+    "label": "Under 139",
+    "why": "The organ player at the ice rink hasn't missed a note in nine years. Tonight he's out sick. Under. That's all I can say."
+   }
+  ]
+ },
+ "column": {
+  "byline": "shark",
+  "by": "Edwin \u201cThe Shark\u201d Sinclair",
+  "head": "Tops: Brett. Bottoms: The Shark.",
+  "paras": [
+   "Morning. Don't use my name on the phone.",
+   "Top of the night: Brett, 2-0, +1.82 units. Somebody frame it.",
+   "Bottom of the barrel: The Shark, 0-2, -2.00 units.",
+   "I'm not going to talk about my night. I'm going to talk about tonight.",
+   "Brett went 2-0. A clean sweep.",
+   "Bad beat for Merv: UC Davis Aggies +2 was cashing until Jalen Stokes's free throw with 28 seconds left.",
+   "Brett got Jacksonville State Gamecocks -2 home with 28 seconds left, on Jalen Stokes's free throw."
+  ],
+  "lines": [
+   {
+    "key": "merv",
+    "who": "Merv",
+    "text": "Under 143. Model has it 10.9 under the total. Nobody's scoring on anybody in my world. Vanderbilt Commodores -37. Third-stingiest defense on the board: 61.6 allowed a game. Defense travels."
+   },
+   {
+    "key": "leslie",
+    "who": "Leslie",
+    "text": "Over 152. Model has it 8.9 over the total. Turn the scoreboard up, honey. Boise State Broncos -5.5. Second-highest scoring team on the board: 95.8 a game. Let 'em cook."
+   },
+   {
+    "key": "brett",
+    "who": "Brett",
+    "text": "Saint Mary's Gaels +7.5. Model is 6.2 points off the number. The spreadsheet has spoken. Old Dominion Monarchs +18.5. Model is 6.1 points off the number. Big number, big hair, big night."
+   },
+   {
+    "key": "shark",
+    "who": "The Shark",
+    "text": "Louisiana Tech Bulldogs +5. Home dog in the window. I like a building that owes me money. Under 139. The organ player at the ice rink hasn't missed a note in nine years. Tonight he's out sick. Under. That's all I can say."
+   }
+  ],
+  "close": "Season ledger: Brett leads at 10-5-1, +4.10 units."
+ }
+}
