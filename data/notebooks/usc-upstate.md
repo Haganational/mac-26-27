@@ -70,7 +70,7 @@ Darius Lyles edits The Spartanburg Observer and calls Spartanburg the Hub City a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -91,3 +91,4 @@ Darius Lyles edits The Spartanburg Observer and calls Spartanburg the Hub City a
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/bigsouth/games/401933055.html <!-- post:401933055:preview -->
 - 2026-11-27: W 87-78 vs Southern Wesleyan Warriors. Barometer 37 (testy). <!-- g:401933055 -->
 - 2026-11-28: Social recap posted (W 87-78 vs Southern Wesleyan Warriors): https://hardwoodbricks.com/bigsouth/games/401933055.html <!-- post:401933055:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/uac/games/401917905.html <!-- post:401917905:preview -->

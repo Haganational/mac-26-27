@@ -68,7 +68,7 @@ Imani Brooks worked as a recording engineer at a Macon studio, where she learned
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,4 @@ Imani Brooks worked as a recording engineer at a Macon studio, where she learned
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/american/games/401923262.html <!-- post:401923262:preview -->
 - 2026-11-24: L 84-95 at Florida Atlantic Owls. Barometer 40 (testy). <!-- g:401923262 -->
 - 2026-11-25: Social recap posted (L 84-95 vs Florida Atlantic Owls): https://hardwoodbricks.com/american/games/401923262.html <!-- post:401923262:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/socon/games/401929389.html <!-- post:401929389:preview -->

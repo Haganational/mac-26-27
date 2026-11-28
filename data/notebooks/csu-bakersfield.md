@@ -66,7 +66,7 @@ Ramon Cisneros grew up in East Bakersfield, the son of farmworkers, and spent tw
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 6
 
 ## Log
 

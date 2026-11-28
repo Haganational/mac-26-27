@@ -68,7 +68,7 @@ Bea Beauregard grew up on James Island in a Gullah Geechee family and ran one of
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -87,3 +87,4 @@ Bea Beauregard grew up on James Island in a Gullah Geechee family and ran one of
 - 2026-11-25: Social preview posted: https://hardwoodbricks.com/caa/games/401920549.html <!-- post:401920549:preview -->
 - 2026-11-25: W 91-77 vs (neutral) Kennesaw State Owls. Barometer 59 (steady). <!-- g:401920549 -->
 - 2026-11-26: Social recap posted (W 91-77 vs Kennesaw State Owls): https://hardwoodbricks.com/caa/games/401920549.html <!-- post:401920549:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/caa/games/401926815.html <!-- post:401926815:preview -->

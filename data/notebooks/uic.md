@@ -69,7 +69,7 @@ Enzo Moretti grew up on Taylor Street in Chicago's Little Italy, a few blocks fr
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,4 @@ Enzo Moretti grew up on Taylor Street in Chicago's Little Italy, a few blocks fr
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/mvc/games/401928859.html <!-- post:401928859:preview -->
 - 2026-11-24: L 67-68 vs (neutral) Rice Owls. Barometer 47 (steady). <!-- g:401928859 -->
 - 2026-11-24: Social recap posted (L 67-68 vs Rice Owls): https://hardwoodbricks.com/mvc/games/401928859.html <!-- post:401928859:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/metro/games/401920280.html <!-- post:401920280:preview -->
