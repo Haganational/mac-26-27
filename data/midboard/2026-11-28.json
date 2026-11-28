@@ -1,0 +1,211 @@
+{
+ "date": "2026-11-28",
+ "picked_at": "2026-11-28T08:06-05:00",
+ "ratings_as_of": "2026-11-28T12:01:46+00:00",
+ "base": {
+  "median_em": -2.24,
+  "sd_em": 13.269729533077466,
+  "avg_total": 149.95949367088608,
+  "teams": 365
+ },
+ "bigmid": {
+  "game_id": "401920197",
+  "tip": "2026-11-29T00:00Z",
+  "neutral": false,
+  "matchup": "Saint Joseph's at Monmouth",
+  "home": {
+   "name": "Monmouth",
+   "rank": 211,
+   "adj_em": -4.09,
+   "conf": "10"
+  },
+  "away": {
+   "name": "Saint Joseph's",
+   "rank": 130,
+   "adj_em": 3.57,
+   "conf": "3"
+  },
+  "home_spread": 2.5,
+  "total": 147.5,
+  "from": "line",
+  "model": {
+   "home_margin": -1.6,
+   "total": 140.7
+  },
+  "mid": 0.72,
+  "parts": {
+   "home": -0.14,
+   "away": 0.44,
+   "spread": 0.5,
+   "total": -0.25
+  },
+  "mid_rank": 1
+ },
+ "board": [
+  {
+   "game_id": "401920197",
+   "tip": "2026-11-29T00:00Z",
+   "neutral": false,
+   "matchup": "Saint Joseph's at Monmouth",
+   "home": {
+    "name": "Monmouth",
+    "rank": 211,
+    "adj_em": -4.09,
+    "conf": "10"
+   },
+   "away": {
+    "name": "Saint Joseph's",
+    "rank": 130,
+    "adj_em": 3.57,
+    "conf": "3"
+   },
+   "home_spread": 2.5,
+   "total": 147.5,
+   "from": "line",
+   "model": {
+    "home_margin": -1.6,
+    "total": 140.7
+   },
+   "mid": 0.72,
+   "parts": {
+    "home": -0.14,
+    "away": 0.44,
+    "spread": 0.5,
+    "total": -0.25
+   },
+   "mid_rank": 1
+  },
+  {
+   "game_id": "401926212",
+   "tip": "2026-11-28T18:00Z",
+   "neutral": false,
+   "matchup": "Wofford at Purdue FW",
+   "home": {
+    "name": "Purdue FW",
+    "rank": 207,
+    "adj_em": -3.82,
+    "conf": "45"
+   },
+   "away": {
+    "name": "Wofford",
+    "rank": 246,
+    "adj_em": -7.54,
+    "conf": "24"
+   },
+   "home_spread": -2.5,
+   "total": 154.5,
+   "from": "line",
+   "model": {
+    "home_margin": 6.3,
+    "total": 162.9
+   },
+   "mid": 0.79,
+   "parts": {
+    "home": -0.12,
+    "away": -0.4,
+    "spread": 0.5,
+    "total": 0.45
+   },
+   "mid_rank": 2
+  },
+  {
+   "game_id": "401928848",
+   "tip": "2026-11-28T20:00Z",
+   "neutral": false,
+   "matchup": "Toledo at Valparaiso",
+   "home": {
+    "name": "Valparaiso",
+    "rank": 139,
+    "adj_em": 1.97,
+    "conf": "18"
+   },
+   "away": {
+    "name": "Toledo",
+    "rank": 156,
+    "adj_em": 0.01,
+    "conf": "14"
+   },
+   "home_spread": -3.5,
+   "total": 151.5,
+   "from": "line",
+   "model": {
+    "home_margin": 5.2,
+    "total": 151.8
+   },
+   "mid": 0.8,
+   "parts": {
+    "home": 0.32,
+    "away": 0.17,
+    "spread": 0.7,
+    "total": 0.15
+   },
+   "mid_rank": 3
+  },
+  {
+   "game_id": "401917551",
+   "tip": "2026-11-29T03:00Z",
+   "neutral": false,
+   "matchup": "LMU at UC San Diego",
+   "home": {
+    "name": "UC San Diego",
+    "rank": 276,
+    "adj_em": -10.0,
+    "conf": "9"
+   },
+   "away": {
+    "name": "LMU",
+    "rank": 170,
+    "adj_em": -1.07,
+    "conf": "29"
+   },
+   "home_spread": -1.5,
+   "total": 154.5,
+   "from": "line",
+   "model": {
+    "home_margin": -2.5,
+    "total": 159.0
+   },
+   "mid": 0.8,
+   "parts": {
+    "home": -0.58,
+    "away": 0.09,
+    "spread": 0.3,
+    "total": 0.45
+   },
+   "mid_rank": 4
+  },
+  {
+   "game_id": "401920775",
+   "tip": "2026-11-28T18:00Z",
+   "neutral": true,
+   "matchup": "Vermont vs Colgate",
+   "home": {
+    "name": "Colgate",
+    "rank": 140,
+    "adj_em": 1.86,
+    "conf": "22"
+   },
+   "away": {
+    "name": "Vermont",
+    "rank": 227,
+    "adj_em": -5.55,
+    "conf": "1"
+   },
+   "home_spread": -2.5,
+   "total": 142.5,
+   "from": "line",
+   "model": {
+    "home_margin": 4.7,
+    "total": 147.4
+   },
+   "mid": 0.98,
+   "parts": {
+    "home": 0.31,
+    "away": -0.25,
+    "spread": 0.5,
+    "total": -0.75
+   },
+   "mid_rank": 5
+  }
+ ]
+}
