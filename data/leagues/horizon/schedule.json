@@ -3791,7 +3791,7 @@
     "key": null,
     "name": "Houston Cougars",
     "abbr": "HOU",
-    "score": null,
+    "score": 7,
     "winner": null
    },
    "away": {
@@ -3799,13 +3799,13 @@
     "key": "oakland",
     "name": "Oakland Golden Grizzlies",
     "abbr": "OAK",
-    "score": null,
+    "score": 0,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:04 - 1st"
   },
   {
    "game_id": "401926212",
@@ -10640,5 +10640,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-28T00:39:41+00:00"
 }

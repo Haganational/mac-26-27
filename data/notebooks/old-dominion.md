@@ -27,9 +27,9 @@ Monique Tate spent eighteen years as a Navy officer and another ten as a harbor 
 
 ## Barometer
 
-**66 of 100, buoyant.** Record 6-1 (0-0 in conference), streak W1, last five WWWLW.
+**56 of 100, steady.** Record 6-2 (0-0 in conference), streak L1, last five WWLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Monique editorializes: 70% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Monique editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -72,7 +72,7 @@ Monique Tate spent eighteen years as a Navy officer and another ten as a harbor 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -88,3 +88,5 @@ Monique Tate spent eighteen years as a Navy officer and another ten as a harbor 
 - 2026-11-25: W 71-59 vs Hampton Pirates. Barometer 66 (buoyant). <!-- g:401926827 -->
 - 2026-11-25: Social recap posted (W 71-59 vs Hampton Pirates): https://hardwoodbricks.com/sunbelt/games/401926827.html <!-- post:401926827:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401920382.html <!-- post:401920382:preview -->
+- 2026-11-27: L 61-70 at Virginia Tech Hokies. Barometer 56 (steady). <!-- g:401920382 -->
+- 2026-11-28: Social recap posted (L 61-70 vs Virginia Tech Hokies): https://hardwoodbricks.com/sunbelt/games/401920382.html <!-- post:401920382:recap -->

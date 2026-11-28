@@ -3715,7 +3715,7 @@
     "key": "east-carolina",
     "name": "East Carolina Pirates",
     "abbr": "ECU",
-    "score": null,
+    "score": 45,
     "winner": null
    },
    "away": {
@@ -3723,13 +3723,13 @@
     "key": null,
     "name": "North Carolina Wesleyan Battling Bishops",
     "abbr": "NCW",
-    "score": null,
+    "score": 22,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_HALFTIME",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "Halftime"
   },
   {
    "game_id": "401925829",
@@ -12287,5 +12287,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-28T00:47:31+00:00"
 }

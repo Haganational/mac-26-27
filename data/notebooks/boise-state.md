@@ -27,9 +27,9 @@ Boone Rourke spent ten summers as a seasonal ranger in the Idaho backcountry, wh
 
 ## Barometer
 
-**57 of 100, steady.** Record 4-2 (0-0 in conference), streak W1, last five WWLLW.
+**63 of 100, steady.** Record 5-2 (0-0 in conference), streak W2, last five WLLWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Boone editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Boone editorializes: 68% of stories right now.
 
 ## School and town
 
@@ -73,7 +73,7 @@ Boone Rourke spent ten summers as a seasonal ranger in the Idaho backcountry, wh
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -92,3 +92,5 @@ Boone Rourke spent ten summers as a seasonal ranger in the Idaho backcountry, wh
 - 2026-11-25: Social recap posted (W 88-71 vs Idaho State Bengals): https://hardwoodbricks.com/pac12/games/401922023.html <!-- post:401922023:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/mvc/games/401927366.html <!-- post:401927366:preview -->
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/pac12/games/401929172.html <!-- post:401929172:preview -->
+- 2026-11-27: W 88-71 vs (neutral) Drake Bulldogs. Barometer 63 (steady). <!-- g:401927366 -->
+- 2026-11-28: Social recap posted (W 88-71 vs Drake Bulldogs): https://hardwoodbricks.com/mvc/games/401927366.html <!-- post:401927366:recap -->

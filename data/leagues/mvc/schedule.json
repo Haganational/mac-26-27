@@ -3227,21 +3227,21 @@
     "key": null,
     "name": "Boise State Broncos",
     "abbr": "BOIS",
-    "score": 40,
-    "winner": null
+    "score": 88,
+    "winner": true
    },
    "away": {
     "espn_id": "2181",
     "key": "drake",
     "name": "Drake Bulldogs",
     "abbr": "DRKE",
-    "score": 40,
-    "winner": null
+    "score": 71,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "16:45 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401927379",
@@ -9828,5 +9828,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-27T23:46:48+00:00"
+ "live_at": "2026-11-28T00:43:32+00:00"
 }
