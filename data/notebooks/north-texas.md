@@ -27,9 +27,9 @@ Wade Kittredge spent twelve years holding a stop-slow sign on I-35 and has opini
 
 ## Barometer
 
-**51 of 100, steady.** Record 3-2 (0-0 in conference), streak L1, last five WWLWL.
+**56 of 100, steady.** Record 4-2 (0-0 in conference), streak W1, last five WLWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Wade editorializes: 61% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Wade editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Wade Kittredge spent twelve years holding a stop-slow sign on I-35 and has opini
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -83,3 +83,5 @@ Wade Kittredge spent twelve years holding a stop-slow sign on I-35 and has opini
 - 2026-11-21: Social recap posted (L 75-81 vs App State Mountaineers): https://hardwoodbricks.com/american/games/401925828.html <!-- post:401925828:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/american/games/401925829.html <!-- post:401925829:preview -->
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/pac12/games/401929172.html <!-- post:401929172:preview -->
+- 2026-11-28: W 75-73 vs (neutral) North Dakota State Bison. Barometer 56 (steady). <!-- g:401925829 -->
+- 2026-11-28: Social recap posted (W 75-73 vs North Dakota State Bison): https://hardwoodbricks.com/american/games/401925829.html <!-- post:401925829:recap -->

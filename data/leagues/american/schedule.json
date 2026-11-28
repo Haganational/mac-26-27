@@ -3756,21 +3756,21 @@
     "key": "north-texas",
     "name": "North Texas Mean Green",
     "abbr": "UNT",
-    "score": 62,
-    "winner": null
+    "score": 75,
+    "winner": true
    },
    "away": {
     "espn_id": "2449",
     "key": null,
     "name": "North Dakota State Bison",
     "abbr": "NDSU",
-    "score": 64,
-    "winner": null
+    "score": 73,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:23 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401919033",
@@ -3801,7 +3801,7 @@
     "key": null,
     "name": "Kentucky Wildcats",
     "abbr": "UK",
-    "score": 36,
+    "score": 45,
     "winner": null
    },
    "away": {
@@ -3809,13 +3809,13 @@
     "key": "wichita-state",
     "name": "Wichita State Shockers",
     "abbr": "WICH",
-    "score": 33,
+    "score": 51,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "16:43 - 2nd"
+   "detail": "10:11 - 2nd"
   },
   {
    "game_id": "401929172",
@@ -12288,5 +12288,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-28T03:19:02+00:00"
+ "live_at": "2026-11-28T03:45:24+00:00"
 }

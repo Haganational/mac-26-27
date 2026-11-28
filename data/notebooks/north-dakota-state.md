@@ -27,9 +27,9 @@ Lars Haugen has had football season tickets since he was eight and still measure
 
 ## Barometer
 
-**47 of 100, steady.** Record 3-5 (0-0 in conference), streak W1, last five LWLLW.
+**43 of 100, testy.** Record 3-6 (0-0 in conference), streak L1, last five WLLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Lars editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Lars editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -68,7 +68,7 @@ Lars Haugen has had football season tickets since he was eight and still measure
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -88,3 +88,5 @@ Lars Haugen has had football season tickets since he was eight and still measure
 - 2026-11-24: Social recap posted (W 84-49 vs Wisconsin Stout Blue Devils): https://hardwoodbricks.com/summit/games/401929392.html <!-- post:401929392:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/american/games/401925829.html <!-- post:401925829:preview -->
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/mvc/games/401927367.html <!-- post:401927367:preview -->
+- 2026-11-28: L 73-75 vs (neutral) North Texas Mean Green. Barometer 43 (testy). <!-- g:401925829 -->
+- 2026-11-28: Social recap posted (L 73-75 vs North Texas Mean Green): https://hardwoodbricks.com/american/games/401925829.html <!-- post:401925829:recap -->

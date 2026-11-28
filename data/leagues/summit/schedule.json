@@ -2870,21 +2870,21 @@
     "key": null,
     "name": "North Texas Mean Green",
     "abbr": "UNT",
-    "score": 68,
-    "winner": null
+    "score": 75,
+    "winner": true
    },
    "away": {
     "espn_id": "2449",
     "key": "north-dakota-state",
     "name": "North Dakota State Bison",
     "abbr": "NDSU",
-    "score": 70,
-    "winner": null
+    "score": 73,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "1:46 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928624",
@@ -2961,7 +2961,7 @@
     "key": "omaha",
     "name": "Omaha Mavericks",
     "abbr": "OMA",
-    "score": null,
+    "score": 15,
     "winner": null
    },
    "away": {
@@ -2969,13 +2969,13 @@
     "key": null,
     "name": "Jacksonville State Gamecocks",
     "abbr": "JXST",
-    "score": null,
+    "score": 17,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "10:28 - 1st"
   },
   {
    "game_id": "401920849",
@@ -8045,5 +8045,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-28T03:27:06+00:00"
+ "live_at": "2026-11-28T03:52:29+00:00"
 }
