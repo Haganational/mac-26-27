@@ -65,7 +65,7 @@ Ainsley MacRae edits The Radford Register and covers Highlanders basketball with
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -83,3 +83,4 @@ Ainsley MacRae edits The Radford Register and covers Highlanders basketball with
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/caa/games/401921414.html <!-- post:401921414:preview -->
 - 2026-11-27: L 62-64 at American University Eagles. Barometer 42 (testy). <!-- g:401912213 -->
 - 2026-11-28: Social recap posted (L 62-64 vs American University Eagles): https://hardwoodbricks.com/bigsouth/games/401912213.html <!-- post:401912213:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/bigsouth/games/401921415.html <!-- post:401921415:preview -->

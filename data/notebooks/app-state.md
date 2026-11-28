@@ -70,7 +70,7 @@ Ruthie Calloway spent sixteen winters on ski patrol in the High Country and is t
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -90,3 +90,4 @@ Ruthie Calloway spent sixteen winters on ski patrol in the High Country and is t
 - 2026-11-24: Social recap posted (L 50-57 vs Yale Bulldogs): https://hardwoodbricks.com/sunbelt/games/401929285.html <!-- post:401929285:recap -->
 - 2026-11-25: W 76-66 vs (neutral) Akron Zips. Barometer 54 (steady). <!-- g:401928836 -->
 - 2026-11-25: Social recap posted (W 76-66 vs Akron Zips): https://hardwoodbricks.com/games/401928836.html <!-- post:401928836:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401920238.html <!-- post:401920238:preview -->

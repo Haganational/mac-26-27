@@ -67,7 +67,7 @@ Joe Pawlowski edits The New Britain Gazette and believes Central Connecticut is 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 4
 
 ## Log
 

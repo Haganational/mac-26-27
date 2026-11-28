@@ -69,7 +69,7 @@ Kerry Flanagan grew up in Lowell's Acre neighborhood, the granddaughter of mill 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -88,3 +88,4 @@ Kerry Flanagan grew up in Lowell's Acre neighborhood, the granddaughter of mill 
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/americaeast/games/401912214.html <!-- post:401912214:preview -->
 - 2026-11-27: W 72-55 vs (neutral) Hampton Pirates. Barometer 60 (steady). <!-- g:401921416 -->
 - 2026-11-27: Social recap posted (W 72-55 vs Hampton Pirates): https://hardwoodbricks.com/caa/games/401921416.html <!-- post:401921416:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/bigsouth/games/401921415.html <!-- post:401921415:preview -->

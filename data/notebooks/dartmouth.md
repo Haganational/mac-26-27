@@ -69,7 +69,7 @@ Winnie Hollis taught skiing and led trail crews around Hanover before she ever p
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,4 @@ Winnie Hollis taught skiing and led trail crews around Hanover before she ever p
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/ivy/games/401920237.html <!-- post:401920237:preview -->
 - 2026-11-25: L 65-67 vs Holy Cross Crusaders. Barometer 52 (steady). <!-- g:401920237 -->
 - 2026-11-26: Social recap posted (L 65-67 vs Holy Cross Crusaders): https://hardwoodbricks.com/ivy/games/401920237.html <!-- post:401920237:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401920238.html <!-- post:401920238:preview -->
