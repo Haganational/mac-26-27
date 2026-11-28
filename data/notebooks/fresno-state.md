@@ -70,7 +70,7 @@ Vic Ortega grew up in Fresno, the son of a raisin-grape picker and a cannery for
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -89,3 +89,4 @@ Vic Ortega grew up in Fresno, the son of a raisin-grape picker and a cannery for
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/pac12/games/401929181.html <!-- post:401929181:preview -->
 - 2026-11-27: L 61-81 vs (neutral) South Alabama Jaguars. Barometer 48 (steady). <!-- g:401929181 -->
 - 2026-11-27: Social recap posted (L 61-81 vs South Alabama Jaguars): https://hardwoodbricks.com/pac12/games/401929181.html <!-- post:401929181:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/pac12/games/401929182.html <!-- post:401929182:preview -->

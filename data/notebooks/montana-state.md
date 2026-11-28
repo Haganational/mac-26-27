@@ -73,7 +73,7 @@ Brody Kessler moved to Bozeman for one ski season eight years ago and never left
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 7
 
 ## Log
 
