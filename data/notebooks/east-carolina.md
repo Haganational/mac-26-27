@@ -27,9 +27,9 @@ Tamsin Whitley grew up in Pitt County in a family that has argued about vinegar 
 
 ## Barometer
 
-**38 of 100, testy.** Record 3-4 (0-0 in conference), streak L3, last five WWLLL.
+**51 of 100, steady.** Record 4-4 (0-0 in conference), streak W1, last five WLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Tamsin editorializes: 68% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Tamsin editorializes: 61% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Tamsin Whitley grew up in Pitt County in a family that has argued about vinegar 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -88,3 +88,5 @@ Tamsin Whitley grew up in Pitt County in a family that has argued about vinegar 
 - 2026-11-23: L 76-77 vs (neutral) Indiana State Sycamores. Barometer 38 (testy). <!-- g:401921209 -->
 - 2026-11-23: Social recap posted (L 76-77 vs Indiana State Sycamores): https://hardwoodbricks.com/mvc/games/401921209.html <!-- post:401921209:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/american/games/401918980.html <!-- post:401918980:preview -->
+- 2026-11-28: W 92-43 vs North Carolina Wesleyan Battling Bishops. Barometer 51 (steady). <!-- g:401918980 -->
+- 2026-11-28: Social recap posted (W 92-43 vs North Carolina Wesleyan Battling Bishops): https://hardwoodbricks.com/american/games/401918980.html <!-- post:401918980:recap -->

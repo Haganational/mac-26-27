@@ -27,9 +27,9 @@ Lowell Grimes edits The North Charleston Compass and covers Charleston Southern 
 
 ## Barometer
 
-**32 of 100, testy.** Record 2-5 (0-0 in conference), streak L3, last five LWLLL.
+**45 of 100, steady.** Record 3-5 (0-0 in conference), streak W1, last five WLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Lowell editorializes: 71% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Lowell editorializes: 63% of stories right now.
 
 ## School and town
 
@@ -64,7 +64,7 @@ Lowell Grimes edits The North Charleston Compass and covers Charleston Southern 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -83,3 +83,5 @@ Lowell Grimes edits The North Charleston Compass and covers Charleston Southern 
 - 2026-11-25: Social recap posted (L 58-82 vs James Madison Dukes): https://hardwoodbricks.com/sunbelt/games/401911379.html <!-- post:401911379:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/socon/games/401911380.html <!-- post:401911380:preview -->
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/bigsouth/games/401911381.html <!-- post:401911381:preview -->
+- 2026-11-28: W 76-67 at East Tennessee State Buccaneers. Barometer 45 (steady). <!-- g:401911380 -->
+- 2026-11-28: Social recap posted (W 76-67 vs East Tennessee State Buccaneers): https://hardwoodbricks.com/socon/games/401911380.html <!-- post:401911380:recap -->

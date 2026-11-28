@@ -69,7 +69,7 @@ Tiger Priya earned her nickname as a high school point guard who pressed full co
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -87,3 +87,4 @@ Tiger Priya earned her nickname as a high school point guard who pressed full co
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/ivy/games/401921185.html <!-- post:401921185:preview -->
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/games/401911032.html <!-- post:401911032:preview -->
 - 2026-11-27: W 72-61 at Pennsylvania Quakers. Barometer 53 (steady). <!-- g:401921185 -->
+- 2026-11-28: Social recap posted (W 72-61 vs Pennsylvania Quakers): https://hardwoodbricks.com/ivy/games/401921185.html <!-- post:401921185:recap -->

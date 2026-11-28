@@ -70,7 +70,7 @@ Ray Abernathy was born in Nelsonville, rolled into Athens in the fall of 1985 wi
 
 - Film: *South Bridge* (https://youtu.be/H6GUKT38RN0). Our film on Athens, Ohio, its river, its bricks and its Bobcats.
 - Fight song: *Stand Up and Cheer* (https://youtu.be/Zc_R-kJrtxo)
-- Social posts on their games: 7
+- Social posts on their games: 6
 
 ## Log
 

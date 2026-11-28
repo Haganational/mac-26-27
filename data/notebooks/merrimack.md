@@ -63,7 +63,7 @@ Brooke Tremblay talks fast, roots hard, and has not taken off her headset since 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 5
 
 ## Log
 

@@ -2729,21 +2729,21 @@
     "key": null,
     "name": "East Tennessee State Buccaneers",
     "abbr": "ETSU",
-    "score": 66,
-    "winner": null
+    "score": 67,
+    "winner": false
    },
    "away": {
     "espn_id": "2127",
     "key": "charleston-southern",
     "name": "Charleston Southern Buccaneers",
     "abbr": "CHSO",
-    "score": 69,
-    "winner": null
+    "score": 76,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "2:14 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911395",
@@ -8834,5 +8834,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-28T01:52:05+00:00"
+ "live_at": "2026-11-28T02:25:08+00:00"
 }

@@ -87,3 +87,4 @@ Carl Brenner edits The Bethlehem Mercury and compares every Mountain Hawks team 
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/bigwest/games/401926756.html <!-- post:401926756:preview -->
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/wcc/games/401926757.html <!-- post:401926757:preview -->
 - 2026-11-28: L 43-75 vs (neutral) UC Santa Barbara Gauchos. Barometer 47 (steady). <!-- g:401926756 -->
+- 2026-11-28: Social recap posted (L 43-75 vs UC Santa Barbara Gauchos): https://hardwoodbricks.com/bigwest/games/401926756.html <!-- post:401926756:recap -->

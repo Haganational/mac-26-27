@@ -64,7 +64,7 @@ Father Greg Connolly spent years as a high school chaplain and JV coach before p
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 7
 
 ## Log
 

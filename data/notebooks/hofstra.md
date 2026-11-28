@@ -67,7 +67,7 @@ Sal Rizzuto worked the counter at his family's deli on Long Island for twenty ye
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 5
 
 ## Log
 

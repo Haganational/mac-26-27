@@ -69,7 +69,7 @@ Elena Navarro grew up in Cape Coral, the daughter of a Cuban-American charter bo
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 9
+- Social posts on their games: 8
 
 ## Log
 

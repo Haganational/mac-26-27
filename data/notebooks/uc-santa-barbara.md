@@ -27,9 +27,9 @@ Caleb Thornton grew up in Isla Vista and spent twenty years as a surf instructor
 
 ## Barometer
 
-**88 of 100, giddy.** Record 6-0 (0-0 in conference), streak W6, last five WWWWW.
+**90 of 100, giddy.** Record 7-0 (0-0 in conference), streak W7, last five WWWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Caleb editorializes: 84% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Caleb editorializes: 85% of stories right now.
 
 ## School and town
 
@@ -69,7 +69,7 @@ Caleb Thornton grew up in Isla Vista and spent twenty years as a surf instructor
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -87,3 +87,5 @@ Caleb Thornton grew up in Isla Vista and spent twenty years as a surf instructor
 - 2026-11-25: W 85-65 vs UNC Greensboro Spartans. Barometer 88 (giddy). <!-- g:401926184 -->
 - 2026-11-25: Social recap posted (W 85-65 vs UNC Greensboro Spartans): https://hardwoodbricks.com/bigwest/games/401926184.html <!-- post:401926184:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/bigwest/games/401926756.html <!-- post:401926756:preview -->
+- 2026-11-28: W 75-43 vs (neutral) Lehigh Mountain Hawks. Barometer 90 (giddy). <!-- g:401926756 -->
+- 2026-11-28: Social recap posted (W 75-43 vs Lehigh Mountain Hawks): https://hardwoodbricks.com/bigwest/games/401926756.html <!-- post:401926756:recap -->

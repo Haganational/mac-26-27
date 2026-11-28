@@ -27,9 +27,9 @@ Benjamin Quill spent years as a historical reenactor and tour guide in Old City,
 
 ## Barometer
 
-**66 of 100, buoyant.** Record 4-3 (0-0 in conference), streak W3, last five LLWWW.
+**53 of 100, steady.** Record 4-4 (0-0 in conference), streak L1, last five LWWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Benjamin editorializes: 70% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Benjamin editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Benjamin Quill spent years as a historical reenactor and tour guide in Old City,
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 10
+- Social posts on their games: 11
 
 ## Log
 
@@ -91,3 +91,5 @@ Benjamin Quill spent years as a historical reenactor and tour guide in Old City,
 - 2026-11-25: Social recap posted (W 89-74 vs Drexel Dragons): https://hardwoodbricks.com/ivy/games/401921184.html <!-- post:401921184:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/ivy/games/401921185.html <!-- post:401921185:preview -->
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/ivy/games/401921186.html <!-- post:401921186:preview -->
+- 2026-11-27: L 61-72 vs Towson Tigers. Barometer 53 (steady). <!-- g:401921185 -->
+- 2026-11-28: Social recap posted (L 61-72 vs Towson Tigers): https://hardwoodbricks.com/ivy/games/401921185.html <!-- post:401921185:recap -->
