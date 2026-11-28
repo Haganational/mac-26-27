@@ -1,0 +1,212 @@
+{
+ "date": "2026-11-27",
+ "picked_at": "2026-11-27T19:39-05:00",
+ "ratings_as_of": "2026-11-27T23:39:26+00:00",
+ "base": {
+  "median_em": -1.9,
+  "sd_em": 13.21074138443563,
+  "avg_total": 150.0857142857143,
+  "teams": 365
+ },
+ "note": "Matthew named Towson at Penn the Big Mid on Nov 27, 2026 (the game that started it). It ranked in the top three on the night's board; Fresno St vs South Alabama, ranked first, had already finished when he asked.",
+ "bigmid": {
+  "game_id": "401921185",
+  "tip": "2026-11-27T23:40Z",
+  "neutral": false,
+  "matchup": "Towson at Penn",
+  "home": {
+   "name": "Penn",
+   "rank": 144,
+   "adj_em": 1.64,
+   "conf": "12"
+  },
+  "away": {
+   "name": "Towson",
+   "rank": 167,
+   "adj_em": -0.56,
+   "conf": "10"
+  },
+  "home_spread": -3.5,
+  "total": 143.5,
+  "from": "line",
+  "model": {
+   "home_margin": 5.3,
+   "total": 140.9
+  },
+  "mid": 1.0,
+  "parts": {
+   "home": 0.27,
+   "away": 0.1,
+   "spread": 0.7,
+   "total": -0.66
+  },
+  "mid_rank": 2
+ },
+ "board": [
+  {
+   "game_id": "401929181",
+   "tip": "2026-11-27T19:00Z",
+   "neutral": true,
+   "matchup": "Fresno St vs South Alabama",
+   "home": {
+    "name": "South Alabama",
+    "rank": 211,
+    "adj_em": -3.93,
+    "conf": "27"
+   },
+   "away": {
+    "name": "Fresno St",
+    "rank": 264,
+    "adj_em": -8.94,
+    "conf": "21"
+   },
+   "home_spread": -1.5,
+   "total": 144.5,
+   "from": "line",
+   "model": {
+    "home_margin": 3.3,
+    "total": 150.9
+   },
+   "mid": 0.84,
+   "parts": {
+    "home": -0.15,
+    "away": -0.53,
+    "spread": 0.3,
+    "total": -0.56
+   },
+   "mid_rank": 1
+  },
+  {
+   "game_id": "401921185",
+   "tip": "2026-11-27T23:40Z",
+   "neutral": false,
+   "matchup": "Towson at Penn",
+   "home": {
+    "name": "Penn",
+    "rank": 144,
+    "adj_em": 1.64,
+    "conf": "12"
+   },
+   "away": {
+    "name": "Towson",
+    "rank": 167,
+    "adj_em": -0.56,
+    "conf": "10"
+   },
+   "home_spread": -3.5,
+   "total": 143.5,
+   "from": "line",
+   "model": {
+    "home_margin": 5.3,
+    "total": 140.9
+   },
+   "mid": 1.0,
+   "parts": {
+    "home": 0.27,
+    "away": 0.1,
+    "spread": 0.7,
+    "total": -0.66
+   },
+   "mid_rank": 2
+  },
+  {
+   "game_id": "401920848",
+   "tip": "2026-11-27T17:00Z",
+   "neutral": true,
+   "matchup": "St Thomas vs Liberty",
+   "home": {
+    "name": "Liberty",
+    "rank": 129,
+    "adj_em": 3.85,
+    "conf": "11"
+   },
+   "away": {
+    "name": "St Thomas",
+    "rank": 122,
+    "adj_em": 5.07,
+    "conf": "49"
+   },
+   "home_spread": 1.5,
+   "total": 143.5,
+   "from": "line",
+   "model": {
+    "home_margin": -0.8,
+    "total": 152.9
+   },
+   "mid": 1.0,
+   "parts": {
+    "home": 0.44,
+    "away": 0.53,
+    "spread": 0.3,
+    "total": -0.66
+   },
+   "mid_rank": 3
+  },
+  {
+   "game_id": "401928624",
+   "tip": "2026-11-28T01:00Z",
+   "neutral": false,
+   "matchup": "Missouri St at Oral Roberts",
+   "home": {
+    "name": "Oral Roberts",
+    "rank": 191,
+    "adj_em": -2.66,
+    "conf": "49"
+   },
+   "away": {
+    "name": "Missouri St",
+    "rank": 243,
+    "adj_em": -7.21,
+    "conf": "11"
+   },
+   "home_spread": -4.5,
+   "total": 142.5,
+   "from": "line",
+   "model": {
+    "home_margin": 6.6,
+    "total": 138.6
+   },
+   "mid": 1.25,
+   "parts": {
+    "home": -0.06,
+    "away": -0.4,
+    "spread": 0.9,
+    "total": -0.76
+   },
+   "mid_rank": 4
+  },
+  {
+   "game_id": "401920774",
+   "tip": "2026-11-27T20:30Z",
+   "neutral": false,
+   "matchup": "Colgate at Hofstra",
+   "home": {
+    "name": "Hofstra",
+    "rank": 262,
+    "adj_em": -8.9,
+    "conf": "10"
+   },
+   "away": {
+    "name": "Colgate",
+    "rank": 142,
+    "adj_em": 1.84,
+    "conf": "22"
+   },
+   "home_spread": -1.5,
+   "total": 137.5,
+   "from": "line",
+   "model": {
+    "home_margin": -3.4,
+    "total": 134.7
+   },
+   "mid": 1.43,
+   "parts": {
+    "home": -0.53,
+    "away": 0.28,
+    "spread": 0.3,
+    "total": -1.26
+   },
+   "mid_rank": 5
+  }
+ ]
+}
