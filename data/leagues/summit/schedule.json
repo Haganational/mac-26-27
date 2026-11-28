@@ -2962,20 +2962,20 @@
     "name": "Omaha Mavericks",
     "abbr": "OMA",
     "score": 69,
-    "winner": null
+    "winner": false
    },
    "away": {
     "espn_id": "55",
     "key": null,
     "name": "Jacksonville State Gamecocks",
     "abbr": "JXST",
-    "score": 76,
-    "winner": null
+    "score": 78,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "0:40 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401920849",
@@ -8045,5 +8045,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-28T05:20:11+00:00"
+ "live_at": "2026-11-28T05:44:27+00:00"
 }
