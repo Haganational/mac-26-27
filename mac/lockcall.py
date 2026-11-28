@@ -31,6 +31,11 @@ POD_DIR = Path(__file__).resolve().parent.parent / "data" / "podcast"
 VOICES = POD_DIR / "voices.json"
 PARTS = ("hook", "open", "picks", "board", "close")  # the cold-open hook, then Matthew's four-part format, in order
 TARGET_CHARS = (1300, 2000)  # about two minutes at ~14 characters a second
+# The Big Mid (Matthew, Nov 27 2026): from the Nov 28 show on, a segment after the picks recaps last night's Big Mid
+# and its upsets and previews tonight's (mac/midboard.py). "This will make the pod slightly longer, understood."
+BIGMID_FROM = "2026-11-28"
+PARTS_BIGMID = ("hook", "open", "picks", "bigmid", "board", "close")
+TARGET_CHARS_BIGMID = (1700, 2600)  # about two and a half to three minutes
 API = "https://api.elevenlabs.io/v1/text-to-dialogue"
 EPISODES = POD_DIR / "episodes.json"  # what has been posted, newest last; the page and the feed both read this
 FEED_PATH = "podcast/feed.xml"  # the RSS feed every podcast app reads (live Nov 23 2026)
@@ -40,9 +45,9 @@ SHOW = {
     "title": "Tops and Bottoms: The Lock Call",
     "author": "Hardwood Bricks",
     "email": "press@hardwoodbricks.com",  # directories send their ownership check here
-    "summary": ("Two minutes, every morning, from The Window at Hardwood Bricks. Leslie Phyllis and Brett Busberger "
-                "read the day's eight picks with Merv Crutch and Edwin \"The Shark\" Sinclair, check the board, and "
-                "take one swing at the news. The hosts are fictional AI personas. Picks are entertainment, not advice. "
+    "summary": ("A few minutes, every morning, from The Window at Hardwood Bricks. Leslie Phyllis and Brett Busberger "
+                "read the day's eight picks with Merv Crutch and Edwin \"The Shark\" Sinclair, recap and preview the Big Mid, "
+                "check the board, and take one swing at the news. The hosts are fictional AI personas. Picks are entertainment, not advice. "
                 "21+. If gambling is a problem, call 1-800-GAMBLER."),
     "cover": "static/podcast/cover.jpg",
     "page": "tops.html",
@@ -77,6 +82,12 @@ def facts(day: str | None = None) -> dict[str, Any]:
                             "picks": [_short(p) for p in ps]}
                         for k, ps in last.get("picks", {}).items()},
         }
+    if out["date"] >= BIGMID_FROM:
+        from . import midboard
+        try:
+            out["bigmid"] = midboard.facts(out["date"])
+        except Exception as e:  # noqa: BLE001 - a feed outage drops the segment, never the show
+            out["bigmid"] = {"error": f"{type(e).__name__}: {e}"}
     return out
 
 
@@ -145,14 +156,17 @@ def check(script: dict[str, Any]) -> list[str]:
     bad = []
     seen = [ln.get("part") for ln in lines]
     order = [p for i, p in enumerate(seen) if i == 0 or p != seen[i - 1]]
-    if order != list(PARTS):
-        bad.append(f"parts must run {' > '.join(PARTS)}; got {' > '.join(map(str, order))}")
+    # The Big Mid runs from BIGMID_FROM on; notes.bigmid = "none" drops it for a day with no D-I slate or a feed outage.
+    mid = str(script.get("date", "")) >= BIGMID_FROM and script.get("notes", {}).get("bigmid") != "none"
+    parts, (lo, hi) = (PARTS_BIGMID, TARGET_CHARS_BIGMID) if mid else (PARTS, TARGET_CHARS)
+    if order != list(parts):
+        bad.append(f"parts must run {' > '.join(parts)}; got {' > '.join(map(str, order))}")
     for ln in lines:
         if ln.get("who") not in cast:
             bad.append(f"unknown speaker: {ln.get('who')}")
     n = sum(len(ln.get("text", "")) for ln in lines)
-    if not TARGET_CHARS[0] <= n <= TARGET_CHARS[1]:
-        bad.append(f"{n} characters; aim for {TARGET_CHARS[0]}-{TARGET_CHARS[1]} (about two minutes)")
+    if not lo <= n <= hi:
+        bad.append(f"{n} characters; aim for {lo}-{hi} ({'two and a half to three minutes' if mid else 'about two minutes'})")
     talk: dict[str, int] = {}
     for ln in lines:
         talk[ln.get("who")] = talk.get(ln.get("who"), 0) + len(ln.get("text", ""))
