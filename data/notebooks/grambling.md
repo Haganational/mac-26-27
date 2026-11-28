@@ -62,7 +62,7 @@ Keisha Robinson grew up in Grambling, where the band is not an activity but a we
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -80,3 +80,4 @@ Keisha Robinson grew up in Grambling, where the band is not an activity but a we
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/southland/games/401925050.html <!-- post:401925050:preview -->
 - 2026-11-25: W 81-80 at LSU New Orleans Privateers. Barometer 52 (steady). <!-- g:401925050 -->
 - 2026-11-25: Social recap posted (W 81-80 vs LSU New Orleans Privateers): https://hardwoodbricks.com/southland/games/401925050.html <!-- post:401925050:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/sunbelt/games/401928390.html <!-- post:401928390:preview -->

@@ -68,7 +68,7 @@ Lars Haugen has had football season tickets since he was eight and still measure
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -90,3 +90,4 @@ Lars Haugen has had football season tickets since he was eight and still measure
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/mvc/games/401927367.html <!-- post:401927367:preview -->
 - 2026-11-28: L 73-75 vs (neutral) North Texas Mean Green. Barometer 43 (testy). <!-- g:401925829 -->
 - 2026-11-28: Social recap posted (L 73-75 vs North Texas Mean Green): https://hardwoodbricks.com/american/games/401925829.html <!-- post:401925829:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/pac12/games/401925831.html <!-- post:401925831:preview -->

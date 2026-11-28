@@ -68,7 +68,7 @@ Andre Whitlow edits The Edwardsville Observer and covers the Cougars with a lapt
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,4 @@ Andre Whitlow edits The Edwardsville Observer and covers the Cougars with a lapt
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/horizon/games/401920916.html <!-- post:401920916:preview -->
 - 2026-11-26: L 65-68 vs Northern Illinois Huskies. Barometer 42 (testy). <!-- g:401920916 -->
 - 2026-11-26: Social recap posted (L 65-68 vs Northern Illinois Huskies): https://hardwoodbricks.com/horizon/games/401920916.html <!-- post:401920916:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/american/games/401926145.html <!-- post:401926145:preview -->

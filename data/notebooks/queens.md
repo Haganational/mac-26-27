@@ -70,7 +70,7 @@ Monica Cho grew up in Charlotte's South End, the daughter of Korean immigrants w
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -87,3 +87,4 @@ Monica Cho grew up in Charlotte's South End, the daughter of Korean immigrants w
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/asun/games/401922231.html <!-- post:401922231:preview -->
 - 2026-11-24: L 77-86 at Wofford Terriers. Barometer 37 (testy). <!-- g:401922231 -->
 - 2026-11-25: Social recap posted (L 77-86 vs Wofford Terriers): https://hardwoodbricks.com/asun/games/401922231.html <!-- post:401922231:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/asun/games/401922232.html <!-- post:401922232:preview -->

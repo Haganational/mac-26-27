@@ -63,7 +63,7 @@ Vinnie Moretti sold restaurant supplies across Westchester for decades and calle
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -83,3 +83,4 @@ Vinnie Moretti sold restaurant supplies across Westchester for decades and calle
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/metro/games/401919761.html <!-- post:401919761:preview -->
 - 2026-11-24: L 46-49 vs Fairleigh Dickinson Knights. Barometer 40 (testy). <!-- g:401919761 -->
 - 2026-11-24: Social recap posted (L 46-49 vs Fairleigh Dickinson Knights): https://hardwoodbricks.com/metro/games/401919761.html <!-- post:401919761:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/metro/games/401921192.html <!-- post:401921192:preview -->

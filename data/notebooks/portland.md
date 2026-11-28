@@ -72,7 +72,7 @@ Wendell Ashby piloted cargo ships up the Columbia and the Willamette for twenty-
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -90,3 +90,4 @@ Wendell Ashby piloted cargo ships up the Columbia and the Willamette for twenty-
 - 2026-11-21: Social recap posted (L 69-87 vs Fordham Rams): https://hardwoodbricks.com/a10/games/401911199.html <!-- post:401911199:recap -->
 - 2026-11-23: W 79-71 vs (neutral) California Baptist Lancers. Barometer 56 (steady). <!-- g:401917541 -->
 - 2026-11-23: Social recap posted (W 79-71 vs California Baptist Lancers): https://hardwoodbricks.com/bigwest/games/401917541.html <!-- post:401917541:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/wcc/games/401917552.html <!-- post:401917552:preview -->

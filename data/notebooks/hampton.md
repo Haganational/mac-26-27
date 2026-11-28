@@ -68,7 +68,7 @@ Capt. Kendra Shaw earned her title on the water, working as a merchant deck offi
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -83,3 +83,4 @@ Capt. Kendra Shaw earned her title on the water, working as a merchant deck offi
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/caa/games/401921414.html <!-- post:401921414:preview -->
 - 2026-11-27: L 55-72 vs (neutral) UMass Lowell River Hawks. Barometer 27 (despondent). <!-- g:401921416 -->
 - 2026-11-27: Social recap posted (L 55-72 vs UMass Lowell River Hawks): https://hardwoodbricks.com/caa/games/401921416.html <!-- post:401921416:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/caa/games/401912215.html <!-- post:401912215:preview -->
