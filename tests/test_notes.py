@@ -149,11 +149,11 @@ def test_a_dispatch_push_renders_only_its_own_editions(tmp_path):
 
 
 def test_dispatch_runs_have_their_own_lane_and_never_post_or_commit():
-    import yaml
+    import re
     from pathlib import Path
-    wf = yaml.safe_load((Path(__file__).resolve().parents[1] / ".github/workflows/collect.yml").read_text())
-    assert "collect-notes" in wf["concurrency"]["group"]
-    steps = {s.get("name", ""): s for s in wf["jobs"]["collect"]["steps"]}
+    wf = (Path(__file__).resolve().parents[1] / ".github/workflows/collect.yml").read_text()
+    assert "'collect-notes'" in wf
     for name in ("Commit new data", "Post new recaps and previews to Bluesky and Threads"):
-        assert steps[name]["if"] == "github.event_name != 'push'"
-    assert "Dispatches that landed mid-run" in steps
+        step = re.search(r"- name: " + re.escape(name) + r"\n(.*?)\n      - ", wf, re.S).group(1)
+        assert "if: github.event_name != 'push'" in step
+    assert "- name: Dispatches that landed mid-run" in wf
