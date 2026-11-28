@@ -2644,7 +2644,7 @@
     "key": "little-rock",
     "name": "Little Rock Trojans",
     "abbr": "LR",
-    "score": null,
+    "score": 23,
     "winner": null
    },
    "away": {
@@ -2652,13 +2652,13 @@
     "key": null,
     "name": "Lane College Dragons",
     "abbr": "LANE",
-    "score": null,
+    "score": 14,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "9:54 - 1st"
   },
   {
    "game_id": "401917920",
@@ -8944,5 +8944,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-28T01:23:42+00:00"
 }

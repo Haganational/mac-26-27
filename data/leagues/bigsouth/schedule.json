@@ -2684,21 +2684,21 @@
     "key": "usc-upstate",
     "name": "South Carolina Upstate Spartans",
     "abbr": "UPST",
-    "score": 80,
-    "winner": null
+    "score": 87,
+    "winner": true
    },
    "away": {
     "espn_id": "2576",
     "key": null,
     "name": "Southern Wesleyan Warriors",
     "abbr": "SWES",
-    "score": 68,
-    "winner": null
+    "score": 78,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:54 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911380",
@@ -2729,7 +2729,7 @@
     "key": null,
     "name": "East Tennessee State Buccaneers",
     "abbr": "ETSU",
-    "score": 27,
+    "score": 45,
     "winner": null
    },
    "away": {
@@ -2737,13 +2737,13 @@
     "key": "charleston-southern",
     "name": "Charleston Southern Buccaneers",
     "abbr": "CHSO",
-    "score": 43,
+    "score": 58,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "11:53 - 2nd"
   },
   {
    "game_id": "401911395",
@@ -8834,5 +8834,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-28T00:57:02+00:00"
+ "live_at": "2026-11-28T01:24:27+00:00"
 }

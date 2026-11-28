@@ -3629,7 +3629,7 @@
     "key": null,
     "name": "Pennsylvania Quakers",
     "abbr": "PENN",
-    "score": 34,
+    "score": 49,
     "winner": null
    },
    "away": {
@@ -3637,13 +3637,13 @@
     "key": "towson",
     "name": "Towson Tigers",
     "abbr": "TOW",
-    "score": 34,
+    "score": 55,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "19:44 - 2nd"
+   "detail": "7:30 - 2nd"
   },
   {
    "game_id": "401920737",
@@ -3674,7 +3674,7 @@
     "key": null,
     "name": "Northwestern Wildcats",
     "abbr": "NU",
-    "score": null,
+    "score": 7,
     "winner": null
    },
    "away": {
@@ -3682,13 +3682,13 @@
     "key": "northeastern",
     "name": "Northeastern Huskies",
     "abbr": "NE",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:42 - 1st"
   },
   {
    "game_id": "401918961",
@@ -12104,5 +12104,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-28T00:50:42+00:00"
+ "live_at": "2026-11-28T01:18:11+00:00"
 }

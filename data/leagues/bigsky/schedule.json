@@ -3215,7 +3215,7 @@
     "key": null,
     "name": "Washington State Cougars",
     "abbr": "WSU",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -3223,13 +3223,13 @@
     "key": "idaho",
     "name": "Idaho Vandals",
     "abbr": "IDHO",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "10:54 - 1st"
   },
   {
    "game_id": "401922024",
@@ -9779,5 +9779,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-28T01:21:04+00:00"
 }

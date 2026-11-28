@@ -3715,7 +3715,7 @@
     "key": "east-carolina",
     "name": "East Carolina Pirates",
     "abbr": "ECU",
-    "score": 45,
+    "score": 65,
     "winner": null
    },
    "away": {
@@ -3723,13 +3723,13 @@
     "key": null,
     "name": "North Carolina Wesleyan Battling Bishops",
     "abbr": "NCW",
-    "score": 22,
+    "score": 36,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "10:53 - 2nd"
   },
   {
    "game_id": "401925829",
@@ -3756,7 +3756,7 @@
     "key": "north-texas",
     "name": "North Texas Mean Green",
     "abbr": "UNT",
-    "score": null,
+    "score": 2,
     "winner": null
    },
    "away": {
@@ -3764,13 +3764,13 @@
     "key": null,
     "name": "North Dakota State Bison",
     "abbr": "NDSU",
-    "score": null,
+    "score": 7,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "15:57 - 1st"
   },
   {
    "game_id": "401919033",
@@ -12288,5 +12288,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-28T00:47:31+00:00"
+ "live_at": "2026-11-28T01:15:05+00:00"
 }

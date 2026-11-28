@@ -2953,21 +2953,21 @@
     "key": null,
     "name": "Illinois Fighting Illini",
     "abbr": "ILL",
-    "score": 105,
-    "winner": null
+    "score": 116,
+    "winner": true
    },
    "away": {
     "espn_id": "98",
     "key": "western-kentucky",
     "name": "Western Kentucky Hilltoppers",
     "abbr": "WKU",
-    "score": 70,
-    "winner": null
+    "score": 76,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "4:48 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401928624",
@@ -3003,7 +3003,7 @@
     "key": null,
     "name": "Oral Roberts Golden Eagles",
     "abbr": "ORU",
-    "score": null,
+    "score": 12,
     "winner": null
    },
    "away": {
@@ -3011,13 +3011,13 @@
     "key": "missouri-state",
     "name": "Missouri State Bears",
     "abbr": "MOST",
-    "score": null,
+    "score": 9,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "14:26 - 1st"
   },
   {
    "game_id": "401926783",
@@ -9128,5 +9128,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-28T00:51:47+00:00"
+ "live_at": "2026-11-28T01:19:15+00:00"
 }
