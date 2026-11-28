@@ -27,9 +27,9 @@ Tiger Priya earned her nickname as a high school point guard who pressed full co
 
 ## Barometer
 
-**45 of 100, steady.** Record 3-4 (0-0 in conference), streak L2, last five WWWLL.
+**53 of 100, steady.** Record 4-4 (0-0 in conference), streak W1, last five WWLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Tiger editorializes: 63% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Tiger editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -86,3 +86,4 @@ Tiger Priya earned her nickname as a high school point guard who pressed full co
 - 2026-11-22: Social recap posted (L 75-86 vs American University Eagles): https://hardwoodbricks.com/caa/games/401912212.html <!-- post:401912212:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/ivy/games/401921185.html <!-- post:401921185:preview -->
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/games/401911032.html <!-- post:401911032:preview -->
+- 2026-11-27: W 72-61 at Pennsylvania Quakers. Barometer 53 (steady). <!-- g:401921185 -->

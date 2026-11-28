@@ -27,9 +27,9 @@ Carl Brenner edits The Bethlehem Mercury and compares every Mountain Hawks team 
 
 ## Barometer
 
-**56 of 100, steady.** Record 4-3 (0-0 in conference), streak L1, last five LWWWL.
+**47 of 100, steady.** Record 4-4 (0-0 in conference), streak L2, last five WWWLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Carl editorializes: 64% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Carl editorializes: 62% of stories right now.
 
 ## School and town
 
@@ -86,3 +86,4 @@ Carl Brenner edits The Bethlehem Mercury and compares every Mountain Hawks team 
 - 2026-11-25: Social recap posted (L 83-90 vs Binghamton Bearcats): https://hardwoodbricks.com/americaeast/games/401911279.html <!-- post:401911279:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/bigwest/games/401926756.html <!-- post:401926756:preview -->
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/wcc/games/401926757.html <!-- post:401926757:preview -->
+- 2026-11-28: L 43-75 vs (neutral) UC Santa Barbara Gauchos. Barometer 47 (steady). <!-- g:401926756 -->
