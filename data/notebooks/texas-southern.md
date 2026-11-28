@@ -69,7 +69,7 @@ Simone Okafor grew up in Houston's Third Ward, the daughter of Nigerian-born par
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,4 @@ Simone Okafor grew up in Houston's Third Ward, the daughter of Nigerian-born par
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/southland/games/401925049.html <!-- post:401925049:preview -->
 - 2026-11-22: L 70-75 vs LSU New Orleans Privateers. Barometer 22 (despondent). <!-- g:401925049 -->
 - 2026-11-22: Social recap posted (L 70-75 vs LSU New Orleans Privateers): https://hardwoodbricks.com/southland/games/401925049.html <!-- post:401925049:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/uac/games/401929368.html <!-- post:401929368:preview -->

@@ -70,7 +70,7 @@ Opal Caudill edits The Morehead Ledger from a desk that faces the hills she grew
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -90,3 +90,4 @@ Opal Caudill edits The Morehead Ledger from a desk that faces the hills she grew
 - 2026-11-22: L 61-84 at Elon Phoenix. Barometer 41 (testy). <!-- g:401920964 -->
 - 2026-11-22: Social recap posted (L 61-84 vs Elon Phoenix): https://hardwoodbricks.com/caa/games/401920964.html <!-- post:401920964:recap -->
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/bigsouth/games/401911381.html <!-- post:401911381:preview -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/socon/games/401920965.html <!-- post:401920965:preview -->
