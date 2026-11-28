@@ -321,3 +321,30 @@ def by_game(dispatches: list[dict[str, Any]]) -> dict[str, list[dict[str, Any]]]
 
 
 NEW_URL = f"https://github.com/{REPO}/new/{BRANCH}"
+
+
+def editions_for(paths: list[str], notes_dir: Path | None = None) -> set[str] | None:
+    """Which editions (league keys) a set of changed dispatch files belong to, so a dispatch push can
+    re-render only those (Nov 27 2026: re-rendering all 27 took ~16 minutes and queued behind game-night runs).
+    None means "can't tell, render them all": a dispatch was deleted, or no dispatch file is in the list."""
+    notes_dir = notes_dir or NOTES_DIR
+    out: set[str] = set()
+    for raw in paths:
+        name = Path(raw).name
+        if not raw.startswith("notes/dispatches/") or not name.endswith(".md") or name.lower() == "readme.md":
+            continue  # photos ride along with their dispatch
+        path = notes_dir / name
+        if not path.exists():
+            return None
+        meta, _ = parse(path.read_text(encoding="utf-8"))
+        out.add((meta.get("league") or "mac").strip().lower())
+    return out or None  # only photos or the README changed: can't tell which edition, so all
+
+
+if __name__ == "__main__":  # python -m mac.notes editions <changed paths...>: prints league keys, or ALL
+    import sys
+    if sys.argv[1:2] == ["editions"]:
+        keys = editions_for(sys.argv[2:])
+        print("ALL" if keys is None else " ".join(sorted(keys)))
+    else:
+        print(__doc__)

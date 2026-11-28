@@ -22,9 +22,13 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  actions: read  # a dispatch run starts from the last published site (gh run download)
 
 concurrency:
-  group: collect
+  # A dispatch gets its own lane (Nov 27 2026): in the shared lane it waited behind 40-minute game-night runs
+  # and was cancelled twice by the heartbeat's queued runs, so Matthew's Palestra notes sat unpublished ~35 min.
+  # Its run re-renders only the dispatch's own edition on top of the live site, so it finishes in a few minutes.
+  group: ${{ github.event_name == 'push' && 'collect-notes' || 'collect' }}
   cancel-in-progress: false
 
 jobs:
@@ -37,13 +41,36 @@ jobs:
           # once the run ahead of it pushes its snapshot; its own snapshot then can't rebase onto main and the
           # deploy is skipped (Nov 20 2026: runs 799 and 801). Take main's tip when the job actually starts.
           ref: main
+      - name: Remember where this run started (for dispatches that land mid-run)
+        run: echo "START_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      - name: Dispatch run starts from the live site, renders only the dispatch's edition(s)
+        # Download the site the last successful run published, then diff notes/ since that run's commit.
+        # Anything unexpected (no artifact, a deleted dispatch, only photos changed) falls back to all editions.
+        if: github.event_name == 'push'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "EDITIONS=ALL" >> "$GITHUB_ENV"
+          read -r RUN BASE <<< "$(gh run list -R "$GITHUB_REPOSITORY" --workflow collect.yml --status success --limit 1 --json databaseId,headSha -q '.[0] | "\(.databaseId) \(.headSha)"')" || exit 0
+          [ -n "$RUN" ] && [ -n "$BASE" ] || exit 0
+          mkdir -p "$RUNNER_TEMP/live" site
+          gh run download "$RUN" -R "$GITHUB_REPOSITORY" -n github-pages -D "$RUNNER_TEMP/live" || exit 0
+          tar -xf "$RUNNER_TEMP/live/artifact.tar" -C site || { rm -rf site; exit 0; }
+          git fetch -q --depth=1 origin "$BASE" || exit 0
+          CHANGED=$(git diff --name-only "$BASE" HEAD -- notes/)
+          echo "Changed since run $RUN ($BASE):"; echo "$CHANGED"
+          ED=$(python -m mac.notes editions $CHANGED)
+          echo "Editions to render: $ED"
+          echo "EDITIONS=$ED" >> "$GITHUB_ENV"
       - name: Tops and Bottoms (lock today's picks from 7:30 AM ET, grade finals)
         # Early, so the lock rides this run's deploy instead of waiting out the edition loop. Once a day; a no-op otherwise.
+        if: github.event_name != 'push'
         continue-on-error: true
         run: python -m mac.tops
       - name: Refresh schedule, snapshot lines, render site
@@ -82,8 +109,12 @@ jobs:
           else
             CMD=edition
           fi
+          LIST=$(python -m mac.leagues editions)
+          if [ "${{ github.event_name }}" = "push" ] && [ "${EDITIONS:-ALL}" != "ALL" ]; then
+            LIST=$(for L in $EDITIONS; do [ "$L" != "mac" ] && echo "$L"; done)
+          fi
           failed=""
-          for L in $(python -m mac.leagues editions); do
+          for L in $LIST; do
             echo "::group::$L ($CMD)"
             LEAGUE=$L python -m mac.collect $CMD || { failed="$failed $L"; echo "::warning::$L edition failed"; }
             echo "::endgroup::"
@@ -91,6 +122,7 @@ jobs:
           if [ -n "$failed" ]; then echo "Editions that failed:$failed"; exit 1; fi
       - name: NCAA NET rankings for the At-Large Watch
         # Once a day (the 12 UTC run, after the NCAA's morning update). Ignored until this season's NET is out.
+        if: github.event_name != 'push'
         continue-on-error: true
         run: |
           if [ "$(date -u +%H)" = "12" ] || [ ! -f data/atlarge/net.json ]; then python -m mac.atlarge net; fi
@@ -104,6 +136,7 @@ jobs:
         run: python -m mac.collect hub
       - name: Tell Bing and friends what's new (IndexNow; last run's pages, live by now)
         # Free, no account. Google doesn't read IndexNow; it reads our sitemaps. INDEXNOW=0 (repo variable) turns it off.
+        if: github.event_name != 'push'
         continue-on-error: true
         env:
           SITE_URL: ${{ vars.SITE_URL }}
@@ -112,6 +145,8 @@ jobs:
         run: python -m mac.indexnow
       - name: Post new recaps and previews to Bluesky and Threads
         # Each network posts once its secrets are set (BSKY_*, THREADS_*); none set = no-op.
+        # Not in a dispatch run: it runs beside the main lane now, and two posters at once could double-post.
+        if: github.event_name != 'push'
         continue-on-error: true
         env:
           SITE_URL: ${{ vars.SITE_URL }}
@@ -125,9 +160,12 @@ jobs:
           ALERT_TO: ${{ vars.ALERT_TO }}
         run: python -m mac.collect social
       - name: Anchor notebooks (data/notebooks/<key>.md, one growing file per anchor)
+        if: github.event_name != 'push'
         continue-on-error: true
         run: python -m mac.notebook
       - name: Commit new data
+        # A dispatch run commits nothing: it only re-renders, and the main lane owns data/.
+        if: github.event_name != 'push'
         run: |
           git config user.name "mac-collector"
           git config user.email "mac-collector@users.noreply.github.com"
@@ -135,6 +173,27 @@ jobs:
           git diff --cached --quiet && echo "no data changes" || git commit -m "data: snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
           # A merge or a Notes dispatch can land on main mid-run; replay the data commit on top instead of failing the deploy.
           git push || { git pull --rebase origin main && git push; }
+      - name: Dispatches that landed mid-run
+        # The main lane checked out main before a dispatch merged; without this its deploy would publish a site
+        # without the dispatch, after the dispatch run had already put it up. Re-render just those editions.
+        if: github.event_name != 'push'
+        continue-on-error: true
+        env:
+          ACCESS_CODE: ${{ secrets.ACCESS_CODE }}
+          SITE_URL: ${{ vars.SITE_URL }}
+          SITE_NOINDEX: ${{ vars.SITE_NOINDEX }}
+        run: |
+          git fetch -q --depth=1 origin main
+          CHANGED=$(git diff --name-only "$START_SHA" FETCH_HEAD -- notes/)
+          [ -z "$CHANGED" ] && { echo "no new dispatches"; exit 0; }
+          echo "$CHANGED"
+          git checkout FETCH_HEAD -- notes/
+          ED=$(python -m mac.notes editions $CHANGED)
+          [ "$ED" = "ALL" ] && ED="mac $(python -m mac.leagues editions)"
+          for L in $ED; do
+            if [ "$L" = "mac" ]; then python -m mac.collect site; else LEAGUE=$L python -m mac.collect site; fi || echo "::warning::$L re-render failed"
+          done
+          python -m mac.collect hub
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
