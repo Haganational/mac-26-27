@@ -3791,21 +3791,21 @@
     "key": null,
     "name": "Houston Cougars",
     "abbr": "HOU",
-    "score": 58,
-    "winner": null
+    "score": 77,
+    "winner": true
    },
    "away": {
     "espn_id": "2473",
     "key": "oakland",
     "name": "Oakland Golden Grizzlies",
     "abbr": "OAK",
-    "score": 26,
-    "winner": null
+    "score": 46,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "10:10 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926212",
@@ -10641,5 +10641,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-28T02:02:50+00:00"
+ "live_at": "2026-11-28T02:37:37+00:00"
 }

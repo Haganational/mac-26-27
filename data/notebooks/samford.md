@@ -66,7 +66,7 @@ Will Ashford is an insurance claims adjuster in Homewood who has spent more of h
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 6
 
 ## Log
 

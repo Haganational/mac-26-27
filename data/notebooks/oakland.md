@@ -27,9 +27,9 @@ Brenda Whitfield grew up in Pontiac and spent thirty years as a school cafeteria
 
 ## Barometer
 
-**27 of 100, despondent.** Record 1-7 (0-0 in conference), streak L2, last five LLWLL.
+**21 of 100, despondent.** Record 1-8 (0-0 in conference), streak L3, last five LWLLL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Brenda editorializes: 74% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Brenda editorializes: 78% of stories right now.
 
 ## School and town
 
@@ -67,7 +67,7 @@ Brenda Whitfield grew up in Pontiac and spent thirty years as a school cafeteria
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -87,3 +87,5 @@ Brenda Whitfield grew up in Pontiac and spent thirty years as a school cafeteria
 - 2026-11-21: L 49-95 at Purdue Boilermakers. Barometer 27 (despondent). <!-- g:401926134 -->
 - 2026-11-21: Social recap posted (L 49-95 vs Purdue Boilermakers): https://hardwoodbricks.com/horizon/games/401926134.html <!-- post:401926134:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/horizon/games/401925703.html <!-- post:401925703:preview -->
+- 2026-11-28: L 46-77 at Houston Cougars. Barometer 21 (despondent). <!-- g:401925703 -->
+- 2026-11-28: Social recap posted (L 46-77 vs Houston Cougars): https://hardwoodbricks.com/horizon/games/401925703.html <!-- post:401925703:recap -->
