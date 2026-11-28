@@ -71,7 +71,7 @@ Wes Talbot grew up in Logan, scooped ice cream at the campus creamery through co
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -90,3 +90,4 @@ Wes Talbot grew up in Logan, scooped ice cream at the campus creamery through co
 - 2026-11-26: Social recap posted (W 93-59 vs SMU Mustangs): https://hardwoodbricks.com/pac12/games/401918971.html <!-- post:401918971:recap -->
 - 2026-11-26: W 78-74 vs (neutral) USC Trojans. Barometer 89 (giddy). <!-- g:401921673 -->
 - 2026-11-27: Social recap posted (W 78-74 vs USC Trojans): https://hardwoodbricks.com/pac12/games/401921673.html <!-- post:401921673:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/mw/games/401924898.html <!-- post:401924898:preview -->

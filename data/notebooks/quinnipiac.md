@@ -66,7 +66,7 @@ Jared Goldstein was an insurance data analyst in Hartford until his weekly unsol
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -85,3 +85,4 @@ Jared Goldstein was an insurance data analyst in Hartford until his weekly unsol
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/metro/games/401924859.html <!-- post:401924859:preview -->
 - 2026-11-24: W 85-57 vs Emerson Lions. Barometer 50 (steady). <!-- g:401924859 -->
 - 2026-11-25: Social recap posted (W 85-57 vs Emerson Lions): https://hardwoodbricks.com/metro/games/401924859.html <!-- post:401924859:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/metro/games/401924745.html <!-- post:401924745:preview -->

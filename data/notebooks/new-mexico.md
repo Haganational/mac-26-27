@@ -69,7 +69,7 @@ Mateo Sandoval grew up in the South Valley, roasting green chile with his uncles
 ## What we've made about them
 
 - On MIDnight Weave, 2026-11-16: *She's Over There (Pilot)* (https://youtu.be/P8L3A3wDqgM)
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -86,3 +86,4 @@ Mateo Sandoval grew up in the South Valley, roasting green chile with his uncles
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/mw/games/401924897.html <!-- post:401924897:preview -->
 - 2026-11-26: W 100-77 vs Mississippi Valley State Delta Devils. Barometer 59 (steady). <!-- g:401924897 -->
 - 2026-11-26: Social recap posted (W 100-77 vs Mississippi Valley State Delta Devils): https://hardwoodbricks.com/mw/games/401924897.html <!-- post:401924897:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/mw/games/401924898.html <!-- post:401924898:preview -->

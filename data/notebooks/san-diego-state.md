@@ -27,9 +27,9 @@ Carlos Varga grew up in Chula Vista and spent twenty-five years as an interpreti
 
 ## Barometer
 
-**66 of 100, buoyant.** Record 6-1 (0-0 in conference), streak W1, last five WWWLW.
+**57 of 100, steady.** Record 6-2 (0-0 in conference), streak L1, last five WWLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Carlos editorializes: 70% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Carlos editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -70,7 +70,7 @@ Carlos Varga grew up in Chula Vista and spent twenty-five years as an interpreti
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 9
+- Social posts on their games: 10
 
 ## Log
 
@@ -90,3 +90,5 @@ Carlos Varga grew up in Chula Vista and spent twenty-five years as an interpreti
 - 2026-11-26: W 75-71 vs (neutral) Maryland Terrapins. Barometer 66 (buoyant). <!-- g:401920528 -->
 - 2026-11-26: Social recap posted (W 75-71 vs Maryland Terrapins): https://hardwoodbricks.com/pac12/games/401920528.html <!-- post:401920528:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/pac12/games/401920535.html <!-- post:401920535:preview -->
+- 2026-11-28: L 75-78 vs (neutral) Texas Tech Red Raiders. Barometer 57 (steady). <!-- g:401920535 -->
+- 2026-11-28: Social recap posted (L 75-78 vs Texas Tech Red Raiders): https://hardwoodbricks.com/pac12/games/401920535.html <!-- post:401920535:recap -->

@@ -69,7 +69,7 @@ Kendra Brooks grew up in Indianapolis's Irvington neighborhood, the daughter of 
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -89,3 +89,4 @@ Kendra Brooks grew up in Indianapolis's Irvington neighborhood, the daughter of 
 - 2026-11-22: Social recap posted (W 81-61 vs Maryland Eastern Shore Hawks): https://hardwoodbricks.com/horizon/games/401921176.html <!-- post:401921176:recap -->
 - 2026-11-23: L 82-87 vs (neutral) William & Mary Tribe. Barometer 50 (steady). <!-- g:401921177 -->
 - 2026-11-23: Social recap posted (L 82-87 vs William & Mary Tribe): https://hardwoodbricks.com/horizon/games/401921177.html <!-- post:401921177:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/horizon/games/401925866.html <!-- post:401925866:preview -->

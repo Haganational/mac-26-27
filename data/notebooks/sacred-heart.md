@@ -65,7 +65,7 @@ Tommy DiNapoli was a personal trainer in Bridgeport who posted Sacred Heart reac
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -81,3 +81,4 @@ Tommy DiNapoli was a personal trainer in Bridgeport who posted Sacred Heart reac
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/metro/games/401924877.html <!-- post:401924877:preview -->
 - 2026-11-24: L 73-106 at Rutgers Scarlet Knights. Barometer 32 (testy). <!-- g:401924877 -->
 - 2026-11-25: Social recap posted (L 73-106 vs Rutgers Scarlet Knights): https://hardwoodbricks.com/metro/games/401924877.html <!-- post:401924877:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/metro/games/401920869.html <!-- post:401920869:preview -->

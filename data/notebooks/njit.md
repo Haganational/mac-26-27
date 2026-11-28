@@ -70,7 +70,7 @@ Priya Raman spent years as a structural engineer on bridge retrofits in North Je
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -91,3 +91,4 @@ Priya Raman spent years as a structural engineer on bridge retrofits in North Je
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/metro/games/401920868.html <!-- post:401920868:preview -->
 - 2026-11-25: L 70-81 vs Manhattan Jaspers. Barometer 14 (despondent). <!-- g:401920868 -->
 - 2026-11-25: Social recap posted (L 70-81 vs Manhattan Jaspers): https://hardwoodbricks.com/metro/games/401920868.html <!-- post:401920868:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/metro/games/401920869.html <!-- post:401920869:preview -->
