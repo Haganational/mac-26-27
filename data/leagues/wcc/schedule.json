@@ -3154,7 +3154,7 @@
     "key": "saint-marys",
     "name": "Saint Mary's Gaels",
     "abbr": "SMC",
-    "score": 35,
+    "score": 47,
     "winner": null
    },
    "away": {
@@ -3162,13 +3162,13 @@
     "key": null,
     "name": "Texas Longhorns",
     "abbr": "TEX",
-    "score": 27,
+    "score": 42,
     "winner": null
    },
-   "status": "STATUS_HALFTIME",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "Halftime"
+   "detail": "11:34 - 2nd"
   },
   {
    "game_id": "401911524",
@@ -9721,5 +9721,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-27T23:50:39+00:00"
 }

@@ -1,6 +1,6 @@
 # Monica Ruiz, The Tenleytown Mercury
 
-_American (Patriot). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-27._
+_American (Patriot). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-28._
 
 ## Who they are
 
@@ -68,7 +68,7 @@ Monica Ruiz edits The Tenleytown Mercury and covers the Eagles as the hardest-wo
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -87,3 +87,4 @@ Monica Ruiz edits The Tenleytown Mercury and covers the Eagles as the hardest-wo
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/bigsouth/games/401912213.html <!-- post:401912213:preview -->
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/americaeast/games/401912214.html <!-- post:401912214:preview -->
 - 2026-11-27: W 64-62 vs Radford Highlanders. Barometer 76 (buoyant). <!-- g:401912213 -->
+- 2026-11-28: Social recap posted (W 64-62 vs Radford Highlanders): https://hardwoodbricks.com/bigsouth/games/401912213.html <!-- post:401912213:recap -->

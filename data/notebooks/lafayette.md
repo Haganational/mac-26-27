@@ -1,6 +1,6 @@
 # Nadia Brooks, The Easton Register
 
-_Lafayette (Patriot). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-27._
+_Lafayette (Patriot). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-28._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Nadia Brooks edits The Easton Register and counts the days until the next Lehigh
 
 ## Barometer
 
-**47 of 100, steady.** Record 3-4 (0-0 in conference), streak L1, last five LWLWL.
+**56 of 100, steady.** Record 4-4 (0-0 in conference), streak W1, last five WLWLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Nadia editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Nadia editorializes: 64% of stories right now.
 
 ## School and town
 
@@ -86,3 +86,4 @@ Nadia Brooks edits The Easton Register and counts the days until the next Lehigh
 - 2026-11-21: Social recap posted (L 81-84 vs Syracuse Orange): https://hardwoodbricks.com/patriot/games/401909719.html <!-- post:401909719:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/metro/games/401924845.html <!-- post:401924845:preview -->
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/americaeast/games/401923305.html <!-- post:401923305:preview -->
+- 2026-11-27: W 82-54 vs Niagara Purple Eagles. Barometer 56 (steady). <!-- g:401924845 -->

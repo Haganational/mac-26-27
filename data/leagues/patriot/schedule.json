@@ -3191,21 +3191,21 @@
     "key": "lafayette",
     "name": "Lafayette Leopards",
     "abbr": "LAF",
-    "score": null,
-    "winner": null
+    "score": 82,
+    "winner": true
    },
    "away": {
     "espn_id": "315",
     "key": null,
     "name": "Niagara Purple Eagles",
     "abbr": "NIA",
-    "score": null,
-    "winner": null
+    "score": 54,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "10:13 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401926756",
@@ -3232,7 +3232,7 @@
     "key": null,
     "name": "UC Santa Barbara Gauchos",
     "abbr": "UCSB",
-    "score": null,
+    "score": 6,
     "winner": null
    },
    "away": {
@@ -3240,13 +3240,13 @@
     "key": "lehigh",
     "name": "Lehigh Mountain Hawks",
     "abbr": "LEH",
-    "score": null,
+    "score": 2,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "17:07 - 1st"
   },
   {
    "game_id": "401920775",
@@ -9403,5 +9403,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-28T00:06:27+00:00"
 }

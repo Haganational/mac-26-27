@@ -2953,7 +2953,7 @@
     "key": null,
     "name": "Illinois Fighting Illini",
     "abbr": "ILL",
-    "score": null,
+    "score": 56,
     "winner": null
    },
    "away": {
@@ -2961,13 +2961,13 @@
     "key": "western-kentucky",
     "name": "Western Kentucky Hilltoppers",
     "abbr": "WKU",
-    "score": null,
+    "score": 43,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "11:48 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401928624",
@@ -9127,5 +9127,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-27T23:57:03+00:00"
 }

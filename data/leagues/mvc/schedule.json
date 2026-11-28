@@ -3227,7 +3227,7 @@
     "key": null,
     "name": "Boise State Broncos",
     "abbr": "BOIS",
-    "score": null,
+    "score": 40,
     "winner": null
    },
    "away": {
@@ -3235,13 +3235,13 @@
     "key": "drake",
     "name": "Drake Bulldogs",
     "abbr": "DRKE",
-    "score": null,
+    "score": 40,
     "winner": null
    },
    "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "live": true,
-   "detail": "3:50 - 1st"
+   "detail": "16:45 - 2nd"
   },
   {
    "game_id": "401927379",
@@ -9827,5 +9827,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-27T23:46:48+00:00"
 }

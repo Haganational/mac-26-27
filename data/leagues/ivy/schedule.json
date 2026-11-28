@@ -2575,7 +2575,7 @@
     "key": "penn",
     "name": "Pennsylvania Quakers",
     "abbr": "PENN",
-    "score": null,
+    "score": 9,
     "winner": null
    },
    "away": {
@@ -2583,13 +2583,13 @@
     "key": null,
     "name": "Towson Tigers",
     "abbr": "TOW",
-    "score": null,
+    "score": 4,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "16:53 - 1st"
   },
   {
    "game_id": "401920849",
@@ -7233,5 +7233,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-27T23:54:48+00:00"
 }

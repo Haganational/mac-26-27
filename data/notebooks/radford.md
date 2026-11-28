@@ -1,6 +1,6 @@
 # Ainsley MacRae, The Radford Register
 
-_Radford (Big South). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-27._
+_Radford (Big South). Anchors are fictional AI personas, not affiliated with any school. This file grows: everything above the log is refreshed each run, and the log keeps every entry. Last refreshed 2026-11-28._
 
 ## Who they are
 
@@ -27,9 +27,9 @@ Ainsley MacRae edits The Radford Register and covers Highlanders basketball with
 
 ## Barometer
 
-**47 of 100, steady.** Record 2-4 (0-0 in conference), streak W1, last five LLWLW.
+**42 of 100, testy.** Record 2-5 (0-0 in conference), streak L1, last five LWLWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Ainsley editorializes: 62% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Ainsley editorializes: 65% of stories right now.
 
 ## School and town
 
@@ -65,7 +65,7 @@ Ainsley MacRae edits The Radford Register and covers Highlanders basketball with
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -81,3 +81,5 @@ Ainsley MacRae edits The Radford Register and covers Highlanders basketball with
 - 2026-11-22: Social recap posted (W 73-65 vs Chattanooga Mocs): https://hardwoodbricks.com/socon/games/401920975.html <!-- post:401920975:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/bigsouth/games/401912213.html <!-- post:401912213:preview -->
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/caa/games/401921414.html <!-- post:401921414:preview -->
+- 2026-11-27: L 62-64 at American University Eagles. Barometer 42 (testy). <!-- g:401912213 -->
+- 2026-11-28: Social recap posted (L 62-64 vs American University Eagles): https://hardwoodbricks.com/bigsouth/games/401912213.html <!-- post:401912213:recap -->

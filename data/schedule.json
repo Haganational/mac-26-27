@@ -3127,7 +3127,7 @@
     "key": null,
     "name": "Indiana Hoosiers",
     "abbr": "IU",
-    "score": null,
+    "score": 33,
     "winner": null
    },
    "away": {
@@ -3135,13 +3135,13 @@
     "key": "bowling-green",
     "name": "Bowling Green Falcons",
     "abbr": "BGSU",
-    "score": null,
+    "score": 19,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "3:08 - 1st"
   },
   {
    "game_id": "401911031",
@@ -9695,5 +9695,6 @@
    "live": false,
    "detail": ""
   }
- ]
+ ],
+ "live_at": "2026-11-27T23:39:26+00:00"
 }
