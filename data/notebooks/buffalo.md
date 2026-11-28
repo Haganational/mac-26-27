@@ -70,7 +70,7 @@ Simone Baptiste grew up on Buffalo's East Side, where her Haitian mother ran a b
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 6
 
 ## Log
 
