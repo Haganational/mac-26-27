@@ -134,3 +134,26 @@ def test_pin_until_absolute_and_relative():
     assert notes.pin_until({"pin": "12", "date": "2026-11-21"}, "2026-11-21-1120") == "2026-11-22T04:20:00+00:00"
     assert notes.pin_until({"pin": "500"}, "2026-11-21-1120") is None
     assert notes.pin_until({}, "2026-11-21-1120") is None and notes.pin_until({"pin_until": "soon"}, "x") is None
+
+
+def test_a_dispatch_push_renders_only_its_own_editions(tmp_path):
+    _write(tmp_path, "2026-11-27-1-1850.md", "---\nleague: ivy\n---\nFrom the Cathedral.")
+    _write(tmp_path, "2026-11-27-1-1901.md", "---\nleague: CAA\n---\nPhilly specials.")
+    _write(tmp_path, "2026-11-27-2-2000.md", "---\ntitle: MAC note\n---\nNo league means the MAC.")
+    d = "notes/dispatches/"
+    assert notes.editions_for([d + "2026-11-27-1-1850.md", d + "2026-11-27-1-1901.md", "notes/photos/a.jpg"], tmp_path) == {"ivy", "caa"}
+    assert notes.editions_for([d + "2026-11-27-2-2000.md"], tmp_path) == {"mac"}
+    # A deleted dispatch, or only photos changed: can't tell, so every edition.
+    assert notes.editions_for([d + "gone.md"], tmp_path) is None
+    assert notes.editions_for(["notes/photos/a.jpg"], tmp_path) is None
+
+
+def test_dispatch_runs_have_their_own_lane_and_never_post_or_commit():
+    import re
+    from pathlib import Path
+    wf = (Path(__file__).resolve().parents[1] / ".github/workflows/collect.yml").read_text()
+    assert "'collect-notes'" in wf
+    for name in ("Commit new data", "Post new recaps and previews to Bluesky and Threads"):
+        step = re.search(r"- name: " + re.escape(name) + r"\n(.*?)\n      - ", wf, re.S).group(1)
+        assert "if: github.event_name != 'push'" in step
+    assert "- name: Dispatches that landed mid-run" in wf
