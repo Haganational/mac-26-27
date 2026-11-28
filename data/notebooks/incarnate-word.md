@@ -70,7 +70,7 @@ Rudy Salinas grew up in San Antonio's North Side, worked fifteen years as a phar
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -87,3 +87,4 @@ Rudy Salinas grew up in San Antonio's North Side, worked fifteen years as a phar
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/mw/games/401929005.html <!-- post:401929005:preview -->
 - 2026-11-26: L 81-83 at Hawai'i Rainbow Warriors. Barometer 35 (testy). <!-- g:401929005 -->
 - 2026-11-26: Social recap posted (L 81-83 vs Hawai'i Rainbow Warriors): https://hardwoodbricks.com/mw/games/401929005.html <!-- post:401929005:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/mw/games/401911348.html <!-- post:401911348:preview -->

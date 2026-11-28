@@ -69,7 +69,7 @@ Chloe Alverez grew up in Maryvale, danced on every competition team that would t
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -86,3 +86,4 @@ Chloe Alverez grew up in Maryvale, danced on every competition team that would t
 - 2026-11-25: Social preview posted: https://hardwoodbricks.com/mw/games/401921671.html <!-- post:401921671:preview -->
 - 2026-11-26: W 79-73 vs (neutral) Colorado Buffaloes. Barometer 86 (giddy). <!-- g:401921671 -->
 - 2026-11-26: Social recap posted (W 79-73 vs Colorado Buffaloes): https://hardwoodbricks.com/mw/games/401921671.html <!-- post:401921671:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/mw/games/401911348.html <!-- post:401911348:preview -->
