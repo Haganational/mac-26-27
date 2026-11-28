@@ -68,7 +68,7 @@ Gina Russo edits The Syracuse Courant and believes the most important part of an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 10
+- Social posts on their games: 11
 
 ## Log
 
@@ -91,3 +91,4 @@ Gina Russo edits The Syracuse Courant and believes the most important part of an
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/metro/games/401919787.html <!-- post:401919787:preview -->
 - 2026-11-27: L 86-90 vs (neutral) Maine Black Bears. Barometer 43 (testy). <!-- g:401919786 -->
 - 2026-11-27: Social recap posted (L 86-90 vs Maine Black Bears): https://hardwoodbricks.com/americaeast/games/401919786.html <!-- post:401919786:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/patriot/games/401919788.html <!-- post:401919788:preview -->

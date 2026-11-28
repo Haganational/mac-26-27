@@ -69,7 +69,7 @@ Eleanor Pryce taught AP English in Houston for eighteen years and never once gav
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -89,3 +89,4 @@ Eleanor Pryce taught AP English in Houston for eighteen years and never once gav
 - 2026-11-24: Social recap posted (W 68-67 vs UIC Flames): https://hardwoodbricks.com/mvc/games/401928859.html <!-- post:401928859:recap -->
 - 2026-11-25: W 82-74 vs (neutral) Ohio Bobcats. Barometer 76 (buoyant). <!-- g:401928845 -->
 - 2026-11-25: Social recap posted (W 82-74 vs Ohio Bobcats): https://hardwoodbricks.com/games/401928845.html <!-- post:401928845:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/american/games/401921098.html <!-- post:401921098:preview -->

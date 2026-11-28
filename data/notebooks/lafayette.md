@@ -67,7 +67,7 @@ Nadia Brooks edits The Easton Register and counts the days until the next Lehigh
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 9
+- Social posts on their games: 10
 
 ## Log
 
@@ -88,3 +88,4 @@ Nadia Brooks edits The Easton Register and counts the days until the next Lehigh
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/americaeast/games/401923305.html <!-- post:401923305:preview -->
 - 2026-11-27: W 82-54 vs Niagara Purple Eagles. Barometer 56 (steady). <!-- g:401924845 -->
 - 2026-11-28: Social recap posted (W 82-54 vs Niagara Purple Eagles): https://hardwoodbricks.com/metro/games/401924845.html <!-- post:401924845:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/patriot/games/401919788.html <!-- post:401919788:preview -->

@@ -71,7 +71,7 @@ Boyd Henley farms rice in the Delta outside Jonesboro and guides duck hunters be
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -91,3 +91,4 @@ Boyd Henley farms rice in the Delta outside Jonesboro and guides duck hunters be
 - 2026-11-24: Social recap posted (W 106-81 vs Long Beach State Beach): https://hardwoodbricks.com/bigwest/games/401924267.html <!-- post:401924267:recap -->
 - 2026-11-25: W 92-88 at Florida International Panthers. Barometer 78 (buoyant). <!-- g:401928359 -->
 - 2026-11-25: Social recap posted (W 92-88 vs Florida International Panthers): https://hardwoodbricks.com/sunbelt/games/401928359.html <!-- post:401928359:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/american/games/401921098.html <!-- post:401921098:preview -->

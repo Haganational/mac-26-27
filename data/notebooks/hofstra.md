@@ -67,7 +67,7 @@ Sal Rizzuto worked the counter at his family's deli on Long Island for twenty ye
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 5
+- Social posts on their games: 6
 
 ## Log
 
@@ -84,3 +84,4 @@ Sal Rizzuto worked the counter at his family's deli on Long Island for twenty ye
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/metro/games/401924811.html <!-- post:401924811:preview -->
 - 2026-11-27: L 49-75 vs Colgate Raiders. Barometer 35 (testy). <!-- g:401920774 -->
 - 2026-11-27: Social recap posted (L 49-75 vs Colgate Raiders): https://hardwoodbricks.com/caa/games/401920774.html <!-- post:401920774:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/caa/games/401924823.html <!-- post:401924823:preview -->
