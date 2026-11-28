@@ -66,7 +66,7 @@ Hollis Grant plowed roads for the state and ran a hardware store in Old Town, an
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -85,3 +85,4 @@ Hollis Grant plowed roads for the state and ran a hardware store in Old Town, an
 - 2026-11-27: Social preview posted: https://hardwoodbricks.com/americaeast/games/401923305.html <!-- post:401923305:preview -->
 - 2026-11-27: W 90-86 vs (neutral) Le Moyne Dolphins. Barometer 45 (steady). <!-- g:401919786 -->
 - 2026-11-27: Social recap posted (W 90-86 vs Le Moyne Dolphins): https://hardwoodbricks.com/americaeast/games/401919786.html <!-- post:401919786:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/metro/games/401923306.html <!-- post:401923306:preview -->

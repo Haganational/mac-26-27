@@ -2730,7 +2730,7 @@
     "key": "gonzaga",
     "name": "Gonzaga Bulldogs",
     "abbr": "GONZ",
-    "score": 16,
+    "score": 39,
     "winner": null
    },
    "away": {
@@ -2738,13 +2738,13 @@
     "key": null,
     "name": "Creighton Bluejays",
     "abbr": "CREI",
-    "score": 16,
+    "score": 34,
     "winner": null
    },
-   "status": "STATUS_IN_PROGRESS",
+   "status": "STATUS_HALFTIME",
    "completed": false,
    "live": true,
-   "detail": "8:24 - 1st"
+   "detail": "Halftime"
   },
   {
    "game_id": "401920535",
@@ -2771,7 +2771,7 @@
     "key": null,
     "name": "Texas Tech Red Raiders",
     "abbr": "TTU",
-    "score": null,
+    "score": 21,
     "winner": null
    },
    "away": {
@@ -2779,13 +2779,13 @@
     "key": "san-diego-state",
     "name": "San Diego State Aztecs",
     "abbr": "SDSU",
-    "score": null,
+    "score": 13,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "11:23 - 1st"
   },
   {
    "game_id": "401929172",
@@ -8454,5 +8454,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-28T04:41:08+00:00"
+ "live_at": "2026-11-28T05:09:16+00:00"
 }
