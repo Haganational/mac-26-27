@@ -68,7 +68,7 @@ Anastasia Volkov grew up in St. Louis's Tower Grove, the daughter of a Russian-b
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -87,3 +87,4 @@ Anastasia Volkov grew up in St. Louis's Tower Grove, the daughter of a Russian-b
 - 2026-11-25: Social preview posted: https://hardwoodbricks.com/a10/games/401921672.html <!-- post:401921672:preview -->
 - 2026-11-26: W 66-64 vs (neutral) Stanford Cardinal. Barometer 50 (steady). <!-- g:401921672 -->
 - 2026-11-26: Social recap posted (W 66-64 vs Stanford Cardinal): https://hardwoodbricks.com/a10/games/401921672.html <!-- post:401921672:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/a10/games/401911255.html <!-- post:401911255:preview -->

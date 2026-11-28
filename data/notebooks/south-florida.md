@@ -69,7 +69,7 @@ Nico Albrecht grew up in Seminole Heights and spent his early twenties renting k
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -86,3 +86,4 @@ Nico Albrecht grew up in Seminole Heights and spent his early twenties renting k
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/asun/games/401918996.html <!-- post:401918996:preview -->
 - 2026-11-25: W 100-67 vs Stetson Hatters. Barometer 60 (steady). <!-- g:401918996 -->
 - 2026-11-25: Social recap posted (W 100-67 vs Stetson Hatters): https://hardwoodbricks.com/asun/games/401918996.html <!-- post:401918996:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/a10/games/401911255.html <!-- post:401911255:preview -->

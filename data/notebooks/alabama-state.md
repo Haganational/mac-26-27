@@ -70,7 +70,7 @@ Curtis Mayes spent thirty years as an aircraft mechanic at the Air Force base in
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -89,3 +89,4 @@ Curtis Mayes spent thirty years as an aircraft mechanic at the Air Force base in
 - 2026-11-22: Social preview posted: https://hardwoodbricks.com/swac/games/401918057.html <!-- post:401918057:preview -->
 - 2026-11-24: L 54-96 at California Golden Bears. Barometer 35 (testy). <!-- g:401918057 -->
 - 2026-11-24: Social recap posted (L 54-96 vs California Golden Bears): https://hardwoodbricks.com/swac/games/401918057.html <!-- post:401918057:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/swac/games/401925665.html <!-- post:401925665:preview -->
