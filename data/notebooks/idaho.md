@@ -27,9 +27,9 @@ Josie Carver grew up in Moscow, worked summers on Forest Service trail crews and
 
 ## Barometer
 
-**58 of 100, steady.** Record 4-3 (0-0 in conference), streak W2, last five WLLWW.
+**50 of 100, steady.** Record 4-4 (0-0 in conference), streak L1, last five LLWWL.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Josie editorializes: 65% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Josie editorializes: 60% of stories right now.
 
 ## School and town
 
@@ -72,7 +72,7 @@ Josie Carver grew up in Moscow, worked summers on Forest Service trail crews and
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -92,3 +92,5 @@ Josie Carver grew up in Moscow, worked summers on Forest Service trail crews and
 - 2026-11-24: W 88-47 vs Dickinson State Blue Hawks. Barometer 58 (steady). <!-- g:401922263 -->
 - 2026-11-24: Social recap posted (W 88-47 vs Dickinson State Blue Hawks): https://hardwoodbricks.com/bigsky/games/401922263.html <!-- post:401922263:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/pac12/games/401922264.html <!-- post:401922264:preview -->
+- 2026-11-28: L 61-69 at Washington State Cougars. Barometer 50 (steady). <!-- g:401922264 -->
+- 2026-11-28: Social recap posted (L 61-69 vs Washington State Cougars): https://hardwoodbricks.com/pac12/games/401922264.html <!-- post:401922264:recap -->

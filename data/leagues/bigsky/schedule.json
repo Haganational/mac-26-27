@@ -3215,21 +3215,21 @@
     "key": null,
     "name": "Washington State Cougars",
     "abbr": "WSU",
-    "score": 58,
-    "winner": null
+    "score": 69,
+    "winner": true
    },
    "away": {
     "espn_id": "70",
     "key": "idaho",
     "name": "Idaho Vandals",
     "abbr": "IDHO",
-    "score": 54,
-    "winner": null
+    "score": 61,
+    "winner": false
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:39 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401922024",
@@ -9780,5 +9780,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-28T02:54:53+00:00"
+ "live_at": "2026-11-28T03:25:12+00:00"
 }

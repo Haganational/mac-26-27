@@ -2803,21 +2803,21 @@
     "key": "uc-davis",
     "name": "UC Davis Aggies",
     "abbr": "UCD",
-    "score": 57,
-    "winner": null
+    "score": 61,
+    "winner": false
    },
    "away": {
     "espn_id": "279",
     "key": null,
     "name": "Pacific Tigers",
     "abbr": "PAC",
-    "score": 74,
-    "winner": null
+    "score": 78,
+    "winner": true
    },
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
-   "live": true,
-   "detail": "3:17 - 2nd"
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "live": false,
+   "detail": "Final"
   },
   {
    "game_id": "401911312",
@@ -9180,5 +9180,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-28T02:38:55+00:00"
+ "live_at": "2026-11-28T03:12:03+00:00"
 }

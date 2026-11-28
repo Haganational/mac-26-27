@@ -27,9 +27,9 @@ Hal Brennan drove a delivery truck along old Route 66 for thirty years and remem
 
 ## Barometer
 
-**59 of 100, steady.** Record 4-3 (0-0 in conference), streak W2, last five LWLWW.
+**66 of 100, buoyant.** Record 5-3 (0-0 in conference), streak W3, last five WLWWW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Hal editorializes: 66% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Hal editorializes: 70% of stories right now.
 
 ## School and town
 
@@ -72,7 +72,7 @@ Hal Brennan drove a delivery truck along old Route 66 for thirty years and remem
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -90,3 +90,5 @@ Hal Brennan drove a delivery truck along old Route 66 for thirty years and remem
 - 2026-11-25: W 84-80 at UT Arlington Mavericks. Barometer 59 (steady). <!-- g:401929359 -->
 - 2026-11-25: Social recap posted (W 84-80 vs UT Arlington Mavericks): https://hardwoodbricks.com/summit/games/401929359.html <!-- post:401929359:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/cusa/games/401928624.html <!-- post:401928624:preview -->
+- 2026-11-28: W 72-66 vs Missouri State Bears. Barometer 66 (buoyant). <!-- g:401928624 -->
+- 2026-11-28: Social recap posted (W 72-66 vs Missouri State Bears): https://hardwoodbricks.com/cusa/games/401928624.html <!-- post:401928624:recap -->
