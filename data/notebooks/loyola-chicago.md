@@ -68,7 +68,7 @@ Father Dante Russo grew up in Chicago's Taylor Street neighborhood, the son of a
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -88,3 +88,4 @@ Father Dante Russo grew up in Chicago's Taylor Street neighborhood, the son of a
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/a10/games/401921663.html <!-- post:401921663:preview -->
 - 2026-11-24: L 63-76 vs (neutral) Seattle U Redhawks. Barometer 50 (steady). <!-- g:401921663 -->
 - 2026-11-24: Social recap posted (L 63-76 vs Seattle U Redhawks): https://hardwoodbricks.com/a10/games/401921663.html <!-- post:401921663:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/games/401927392.html <!-- post:401927392:preview -->

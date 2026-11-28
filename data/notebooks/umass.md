@@ -61,7 +61,7 @@ Kevin Donahue is a Worcester kid, son of a Boston firefighter, and a UMass dropo
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 4
+- Social posts on their games: 5
 
 ## Log
 
@@ -75,3 +75,4 @@ Kevin Donahue is a Worcester kid, son of a Boston firefighter, and a UMass dropo
 - 2026-11-20: Social preview posted: https://hardwoodbricks.com/games/401911023.html <!-- post:401911023:preview -->
 - 2026-11-21: W 76-44 vs Maine Black Bears. Barometer 57 (steady). <!-- g:401911023 -->
 - 2026-11-22: Social recap posted (W 76-44 vs Maine Black Bears): https://hardwoodbricks.com/games/401911023.html <!-- post:401911023:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/games/401927392.html <!-- post:401927392:preview -->

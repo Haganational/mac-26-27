@@ -38,17 +38,6 @@
     "worth": 51
    },
    {
-    "abbr": "CHSO",
-    "game_id": "401911381",
-    "kind": "ratings",
-    "short": "Charleston Southern",
-    "side": "home",
-    "team_id": "2127",
-    "tip": "2026-11-29T00:00Z",
-    "why": "Our ratings 78%, pregame win chance 55%.",
-    "worth": 45
-   },
-   {
     "abbr": "COLG",
     "game_id": "401920775",
     "kind": "ratings",
@@ -58,6 +47,17 @@
     "tip": "2026-11-28T18:00Z",
     "why": "Our ratings 75%, pregame win chance 52%.",
     "worth": 48
+   },
+   {
+    "abbr": "CHSO",
+    "game_id": "401911381",
+    "kind": "ratings",
+    "short": "Charleston Southern",
+    "side": "home",
+    "team_id": "2127",
+    "tip": "2026-11-29T00:00Z",
+    "why": "Our ratings 78%, pregame win chance 55%.",
+    "worth": 45
    }
   ],
   "rule": "Pick 1 is the anchor's own school. Picks 2 to 4 are where our ratings disagree most with the pregame win chance, on our ratings' side."

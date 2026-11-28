@@ -73,7 +73,7 @@ Calvin Booker played bass in Midtown bar bands for twenty years and tuned pianos
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -92,3 +92,4 @@ Calvin Booker played bass in Midtown bar bands for twenty years and tuned pianos
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/american/games/401929288.html <!-- post:401929288:preview -->
 - 2026-11-27: L 85-88 vs (neutral) Wake Forest Demon Deacons. Barometer 60 (steady). <!-- g:401929288 -->
 - 2026-11-27: Social recap posted (L 85-88 vs Wake Forest Demon Deacons): https://hardwoodbricks.com/american/games/401929288.html <!-- post:401929288:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/a10/games/401911189.html <!-- post:401911189:preview -->
