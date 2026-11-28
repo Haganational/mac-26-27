@@ -66,7 +66,7 @@ Will Ashford is an insurance claims adjuster in Homewood who has spent more of h
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -84,3 +84,4 @@ Will Ashford is an insurance claims adjuster in Homewood who has spent more of h
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/socon/games/401920309.html <!-- post:401920309:preview -->
 - 2026-11-25: W 92-81 at Georgia Tech Yellow Jackets. Barometer 65 (buoyant). <!-- g:401920309 -->
 - 2026-11-25: Social recap posted (W 92-81 vs Georgia Tech Yellow Jackets): https://hardwoodbricks.com/socon/games/401920309.html <!-- post:401920309:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/socon/games/401926754.html <!-- post:401926754:preview -->

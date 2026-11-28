@@ -67,7 +67,7 @@ Tamika Batiste played trumpet in a high school marching band, taught music in Ge
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -83,3 +83,4 @@ Tamika Batiste played trumpet in a high school marching band, taught music in Ge
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/southland/games/401925050.html <!-- post:401925050:preview -->
 - 2026-11-25: L 80-81 vs Grambling Tigers. Barometer 49 (steady). <!-- g:401925050 -->
 - 2026-11-25: Social recap posted (L 80-81 vs Grambling Tigers): https://hardwoodbricks.com/southland/games/401925050.html <!-- post:401925050:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/asun/games/401922213.html <!-- post:401922213:preview -->
