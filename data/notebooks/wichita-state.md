@@ -27,7 +27,7 @@ Hank Dreiling sold combines and grain carts across south-central Kansas for twen
 
 ## Barometer
 
-**84 of 100, giddy.** Record 6-1 (0-0 in conference), streak W5, last five WWWWW.
+**84 of 100, giddy.** Record 7-1 (0-0 in conference), streak W6, last five WWWWW.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Hank editorializes: 81% of stories right now.
 
@@ -72,7 +72,7 @@ Hank Dreiling sold combines and grain carts across south-central Kansas for twen
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -90,3 +90,5 @@ Hank Dreiling sold combines and grain carts across south-central Kansas for twen
 - 2026-11-24: W 91-73 vs Texas A&M-Corpus Christi Islanders. Barometer 84 (giddy). <!-- g:401919032 -->
 - 2026-11-24: Social recap posted (W 91-73 vs Texas A&M-Corpus Christi Islanders): https://hardwoodbricks.com/american/games/401919032.html <!-- post:401919032:recap -->
 - 2026-11-26: Social preview posted: https://hardwoodbricks.com/american/games/401919033.html <!-- post:401919033:preview -->
+- 2026-11-28: W 73-71 at Kentucky Wildcats. Barometer 84 (giddy). <!-- g:401919033 -->
+- 2026-11-28: Social recap posted (W 73-71 vs Kentucky Wildcats): https://hardwoodbricks.com/american/games/401919033.html <!-- post:401919033:recap -->

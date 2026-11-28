@@ -71,7 +71,7 @@ Hannah Lindqvist grew up in a Muncie apartment over a tire shop, keeping a color
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 5
 
 ## Log
 

@@ -2730,7 +2730,7 @@
     "key": "gonzaga",
     "name": "Gonzaga Bulldogs",
     "abbr": "GONZ",
-    "score": null,
+    "score": 16,
     "winner": null
    },
    "away": {
@@ -2738,13 +2738,13 @@
     "key": null,
     "name": "Creighton Bluejays",
     "abbr": "CREI",
-    "score": null,
+    "score": 16,
     "winner": null
    },
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
-   "live": false,
-   "detail": ""
+   "live": true,
+   "detail": "8:24 - 1st"
   },
   {
    "game_id": "401920535",
@@ -8454,5 +8454,5 @@
    "detail": ""
   }
  ],
- "live_at": "2026-11-28T03:17:16+00:00"
+ "live_at": "2026-11-28T04:41:08+00:00"
 }
