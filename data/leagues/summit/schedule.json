@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27T23:28:56+00:00",
+ "fetched_at": "2026-11-28T12:23:29+00:00",
  "season": 2027,
  "games": [
   {
@@ -2907,11 +2907,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/oral-roberts-golden-eagles-mens-basketball-tickets-mabee-center-11-27-2026--sports-ncaa-basketball/production/7529806?wsUser=717",
-    "low": 37.0,
-    "since": "2026-11-18T23:17:16Z"
-   },
+   "tickets": null,
    "venue": "Mabee Center",
    "venue_city": "Tulsa",
    "venue_state": "OK",
@@ -2939,8 +2935,8 @@
   {
    "game_id": "401926783",
    "date": "2026-11-28T03:30Z",
-   "name": "Jacksonville State Gamecocks at Omaha Mavericks",
-   "short_name": "JXST VS OMA",
+   "name": "Omaha Mavericks at Jacksonville State Gamecocks",
+   "short_name": "OMA VS JXST",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -2957,18 +2953,18 @@
    "venue_city": "Las Vegas",
    "venue_state": "NV",
    "home": {
-    "espn_id": "2437",
-    "key": "omaha",
-    "name": "Omaha Mavericks",
-    "abbr": "OMA",
-    "score": 69,
-    "winner": false
-   },
-   "away": {
     "espn_id": "55",
     "key": null,
     "name": "Jacksonville State Gamecocks",
     "abbr": "JXST",
+    "score": 69,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "2437",
+    "key": "omaha",
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
     "score": 78,
     "winner": true
    },
@@ -8044,6 +8040,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-28T05:44:27+00:00"
+ ]
 }

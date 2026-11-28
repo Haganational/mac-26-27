@@ -27,9 +27,9 @@ Tess Kowalczyk grew up in South Omaha and worked her way through college as an u
 
 ## Barometer
 
-**28 of 100, despondent.** Record 3-6 (0-0 in conference), streak L4, last five WLLLL.
+**46 of 100, steady.** Record 4-5 (0-0 in conference), streak W1, last five WLLLW.
 
-50 is level. Recent games count most and big margins count more. The mood sets how often Tess editorializes: 74% of stories right now.
+50 is level. Recent games count most and big margins count more. The mood sets how often Tess editorializes: 62% of stories right now.
 
 ## School and town
 

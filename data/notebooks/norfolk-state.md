@@ -69,7 +69,7 @@ Terrence Boyd edits The Norfolk Spectator and reads Spartans games like tides, w
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -89,3 +89,4 @@ Terrence Boyd edits The Norfolk Spectator and reads Spartans games like tides, w
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/meac/games/401918960.html <!-- post:401918960:preview -->
 - 2026-11-26: L 49-80 at NC State Wolfpack. Barometer 17 (despondent). <!-- g:401918960 -->
 - 2026-11-26: Social recap posted (L 49-80 vs NC State Wolfpack): https://hardwoodbricks.com/meac/games/401918960.html <!-- post:401918960:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/meac/games/401925898.html <!-- post:401925898:preview -->

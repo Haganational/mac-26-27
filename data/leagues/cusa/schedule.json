@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27T23:24:52+00:00",
+ "fetched_at": "2026-11-28T12:18:59+00:00",
  "season": 2027,
  "games": [
   {
@@ -2940,11 +2940,7 @@
      "market": "National"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/illinois-fighting-illini-mens-basketball-tickets-state-farm-center-11-27-2026--sports-ncaa-basketball/production/7466233?wsUser=717",
-    "low": 42.0,
-    "since": "2026-11-18T23:13:59Z"
-   },
+   "tickets": null,
    "venue": "State Farm Center",
    "venue_city": "Champaign",
    "venue_state": "IL",
@@ -2990,11 +2986,7 @@
      "market": "Home"
     }
    ],
-   "tickets": {
-    "url": "https://www.vividseats.com/oral-roberts-golden-eagles-mens-basketball-tickets-mabee-center-11-27-2026--sports-ncaa-basketball/production/7529806?wsUser=717",
-    "low": 37.0,
-    "since": "2026-11-18T23:13:59Z"
-   },
+   "tickets": null,
    "venue": "Mabee Center",
    "venue_city": "Tulsa",
    "venue_state": "OK",
@@ -3022,8 +3014,8 @@
   {
    "game_id": "401926783",
    "date": "2026-11-28T03:30Z",
-   "name": "Jacksonville State Gamecocks at Omaha Mavericks",
-   "short_name": "JXST VS OMA",
+   "name": "Omaha Mavericks at Jacksonville State Gamecocks",
+   "short_name": "OMA VS JXST",
    "season_type": "reg",
    "neutral_site": true,
    "conference_game": false,
@@ -3040,18 +3032,18 @@
    "venue_city": "Las Vegas",
    "venue_state": "NV",
    "home": {
-    "espn_id": "2437",
-    "key": null,
-    "name": "Omaha Mavericks",
-    "abbr": "OMA",
-    "score": 69,
-    "winner": false
-   },
-   "away": {
     "espn_id": "55",
     "key": "jacksonville-state",
     "name": "Jacksonville State Gamecocks",
     "abbr": "JXST",
+    "score": 69,
+    "winner": false
+   },
+   "away": {
+    "espn_id": "2437",
+    "key": null,
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
     "score": 78,
     "winner": true
    },
@@ -4954,7 +4946,7 @@
    ],
    "tickets": {
     "url": "https://www.vividseats.com/basketball-hall-of-fame-classic-tickets-t-mobile-center-12-18-2026--sports-ncaa-basketball/production/6944841?wsUser=717",
-    "low": 24.0,
+    "low": 23.0,
     "since": "2026-11-18T23:13:59Z"
    },
    "venue": "T-Mobile Center",
@@ -9127,6 +9119,5 @@
    "live": false,
    "detail": ""
   }
- ],
- "live_at": "2026-11-28T05:41:37+00:00"
+ ]
 }

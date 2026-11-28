@@ -27,7 +27,7 @@ Beau Tillman is a diesel mechanic who has sat at the same counter seat at the di
 
 ## Barometer
 
-**56 of 100, steady.** Record 5-4 (0-0 in conference), streak W1, last five LWWLW.
+**44 of 100, testy.** Record 4-5 (0-0 in conference), streak L2, last five LWWLL.
 
 50 is level. Recent games count most and big margins count more. The mood sets how often Beau editorializes: 64% of stories right now.
 
