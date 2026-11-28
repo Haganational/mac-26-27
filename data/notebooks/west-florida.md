@@ -69,7 +69,7 @@ Brianna Jenkins grew up in Pensacola's Belmont-DeVilliers neighborhood, the daug
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -90,3 +90,4 @@ Brianna Jenkins grew up in Pensacola's Belmont-DeVilliers neighborhood, the daug
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/asun/games/401922253.html <!-- post:401922253:preview -->
 - 2026-11-25: L 57-71 at Northwestern State Demons. Barometer 40 (testy). <!-- g:401922253 -->
 - 2026-11-26: Social recap posted (L 57-71 vs Northwestern State Demons): https://hardwoodbricks.com/asun/games/401922253.html <!-- post:401922253:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/asun/games/401922254.html <!-- post:401922254:preview -->

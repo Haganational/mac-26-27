@@ -69,7 +69,7 @@ Vivian Earl edits The North Nashville Beacon and treats a Tigers win like homeco
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 2
+- Social posts on their games: 3
 
 ## Log
 
@@ -80,3 +80,4 @@ Vivian Earl edits The North Nashville Beacon and treats a Tigers win like homeco
 - 2026-11-16: Social preview posted: https://hardwoodbricks.com/american/games/401918994.html <!-- post:401918994:preview -->
 - 2026-11-18: L 71-98 at South Florida Bulls. Barometer 43 (testy). <!-- g:401918994 -->
 - 2026-11-18: Social recap posted (L 71-98 vs South Florida Bulls): https://hardwoodbricks.com/american/games/401918994.html <!-- post:401918994:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/ovc/games/401919043.html <!-- post:401919043:preview -->

@@ -66,7 +66,7 @@ Shanice Hall edits The Princess Anne Chronicle and is shamelessly loyal to the S
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 8
+- Social posts on their games: 9
 
 ## Log
 
@@ -87,3 +87,4 @@ Shanice Hall edits The Princess Anne Chronicle and is shamelessly loyal to the S
 - 2026-11-22: Social recap posted (L 61-81 vs IU Indianapolis Jaguars): https://hardwoodbricks.com/horizon/games/401921176.html <!-- post:401921176:recap -->
 - 2026-11-23: L 65-69 at Youngstown State Penguins. Barometer 32 (testy). <!-- g:401920752 -->
 - 2026-11-24: Social recap posted (L 65-69 vs Youngstown State Penguins): https://hardwoodbricks.com/horizon/games/401920752.html <!-- post:401920752:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/bigsouth/games/401922049.html <!-- post:401922049:preview -->

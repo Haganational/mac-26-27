@@ -65,7 +65,7 @@ Laurel Queen was a county librarian in Jackson County for fifteen years and stil
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 7
+- Social posts on their games: 8
 
 ## Log
 
@@ -84,3 +84,4 @@ Laurel Queen was a county librarian in Jackson County for fifteen years and stil
 - 2026-11-24: Social preview posted: https://hardwoodbricks.com/socon/games/401926207.html <!-- post:401926207:preview -->
 - 2026-11-25: W 100-42 vs Montreat Cavaliers. Barometer 47 (steady). <!-- g:401926207 -->
 - 2026-11-25: Social recap posted (W 100-42 vs Montreat Cavaliers): https://hardwoodbricks.com/socon/games/401926207.html <!-- post:401926207:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/american/games/401925821.html <!-- post:401925821:preview -->

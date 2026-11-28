@@ -69,7 +69,7 @@ Samir Patel grew up in Fort Wayne's southwest side, the son of Gujarati motel ow
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 9
+- Social posts on their games: 8
 
 ## Log
 

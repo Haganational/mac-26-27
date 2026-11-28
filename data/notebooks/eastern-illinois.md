@@ -72,7 +72,7 @@ Dana Kohler grew up in the bleachers of a Coles County gym where her father coac
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 9
+- Social posts on their games: 8
 
 ## Log
 

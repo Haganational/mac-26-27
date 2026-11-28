@@ -68,7 +68,7 @@ Nick DeLuca grew up in Ravenna, played D-III ball, and sold cars in Cuyahoga Fal
 ## What we've made about them
 
 - No film or fight song yet.
-- Social posts on their games: 6
+- Social posts on their games: 7
 
 ## Log
 
@@ -85,3 +85,4 @@ Nick DeLuca grew up in Ravenna, played D-III ball, and sold cars in Cuyahoga Fal
 - 2026-11-23: Social preview posted: https://hardwoodbricks.com/games/401921707.html <!-- post:401921707:preview -->
 - 2026-11-24: W 78-75 vs (neutral) Wyoming Cowboys. Barometer 53 (steady). <!-- g:401921707 -->
 - 2026-11-25: Social recap posted (W 78-75 vs Wyoming Cowboys): https://hardwoodbricks.com/games/401921707.html <!-- post:401921707:recap -->
+- 2026-11-28: Social preview posted: https://hardwoodbricks.com/games/401928842.html <!-- post:401928842:preview -->
